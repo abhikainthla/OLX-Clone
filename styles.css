@@ -206,3 +206,18 @@ fieldset{
     font-weight: 400;
     font-size: 14px;
 }
+/* made button invisible */
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.sub-header .all-categories span{
+    font-weight: 700;
+    font-size: 16px;
+    color: #002f34;
+}
+.sub-header .all-categories{
+    display: flex;
+    gap: .5rem;
+}
