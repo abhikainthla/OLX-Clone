@@ -10,13 +10,13 @@ nav{
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #eff1f3;
     margin-left: auto;
     margin-right: auto;
     max-width: 1280px;
     position: relative;
+    gap: 1rem;
 }
 header{
     display: block;
@@ -65,13 +65,13 @@ header{
     fill-rule: evenodd;
 }
 .location-select{
-    width: 220px;
+    width: 200px;
 }
 .search{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: 16px;
+    margin-left: 0;
     padding-right: 0;
     margin-right: 0;
     height: 48px;
@@ -107,16 +107,17 @@ header{
 }
 .search-svg svg{
     overflow: hidden;
-    max-width: 70%;
+    max-width: 60%;
     width:100%;
     height: 100%;
     fill-rule: evenodd;
     
 }
 fieldset{
-    width: 40%;
+    width: 48%;
     border: none;
     outline: none;
+    margin: 0;
 }
 .lang{
     display: flex;
@@ -220,4 +221,112 @@ button{
 .sub-header .all-categories{
     display: flex;
     gap: .5rem;
+}
+.login a{
+    text-decoration: none;
+}
+.login .login-1{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.login-span{
+    margin-left: -7px;
+}
+.sell-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.selling {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+.selling h3{
+    font-size: 16px;
+}
+.selling-text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.selling-text span{
+    font-size: 14px;
+}
+.sell-main{
+    background-color: #3a77ff;
+    color: white;
+}
+.selling-button button{
+    width: 100%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 40px;
+}
+.selling-button button:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.img label{
+    position: relative;
+    top: -150px;
+    left: 0px;
+    text-transform: uppercase;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    z-index: 2;
+    font-size: 10px;
+    background-color: #ffce32;
+    width: 35%;
+    border-radius: 3px;
+    letter-spacing: .5504px;
+    font-weight: 400;
+    color: #002f34;
+}
+.mainbar .img>label>div>span>img{
+    margin-right: 8px;
+    width: 10px;
+    height: auto;
+    border-style: none;
+}
+.mainbar .img img{
+   max-height: 100%;
+   width: auto;
+   max-width: 100%;
+}
+.img svg{
+    position: relative;
+    left: 225px;
+    top: -160px;
+    z-index: 2;
+}
+.img .wishlist{
+    position: relative;
+    left: 225px;
+    top: -185px;
+    z-index: 2;
+}
+.mainbar .img svg{
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    width: 35px;
+    height: auto;
+    padding: 5px;
+}
+.img svg:hover{
+    fill: red;
+    transform: scale(1.15);
+}
+.featured-list .text{
+    border-left: 5px solid #ffce32;
 }
