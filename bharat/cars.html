@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+            <div class="logo">
+                <svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
+            </div>
+            <div class="location">
+                <div>
+                <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                </div>
+            <div class="location-select">
+                <select name="location" id="nav-location">
+                    <option value="India">India</option>
+                    <option class="location-map" value="Use current location">Use current location</option>
+                    <hr>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                </select>
+            </div>
+            <div>
+                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+            </div>
+            </div>
+            <fieldset>
+            <div class="search">
+                <div class="search-input">
+                <input type="text" id="search" placeholder="Find Cars, Mobile Phone and more...">
+            </div>
+                <div class="search-svg">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path fill="#fff" class="rui-o3KKi" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                </div>
+            </div>
+            </fieldset>
+            <div class="lang">
+                <select name="lang" id="lang">
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="हिंदी">हिंदी</option>
+                </select>
+                <div>
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+                </div>
+            </div>
+            <div class="login">
+                <span>
+                <a href="#">Login</a>
+            </span>
+                <svg width="104" height="48" viewBox="0 0 1603 768" class="_20oLV"><g><path class="_32cGm _3Vwmt" d="M434.442 16.944h718.82c202.72 0 367.057 164.337 367.057 367.058s-164.337 367.057-367.057 367.057h-718.82c-202.721 0-367.058-164.337-367.058-367.058s164.337-367.058 367.058-367.058z"></path><path class="_32cGm _3XfCS" d="M427.241 669.489c-80.917 0-158.59-25.926-218.705-73.004l-0.016-0.014c-69.113-54.119-108.754-131.557-108.754-212.474 0-41.070 9.776-80.712 29.081-117.797 25.058-48.139 64.933-89.278 115.333-118.966l-52.379-67.581c-64.73 38.122-115.955 90.98-148.159 152.845-24.842 47.745-37.441 98.726-37.441 151.499 0 104.027 50.962 203.61 139.799 273.175h0.016c77.312 60.535 177.193 93.887 281.22 93.887h299.699l25.138-40.783-25.138-40.783h-299.698z"></path><path class="_32cGm _1DrSr" d="M1318.522 38.596v0c-45.72-14.369-93.752-21.658-142.762-21.658h-748.511c-84.346 0-165.764 21.683-235.441 62.713l3.118 51.726 49.245 15.865c54.16-31.895 117.452-48.739 183.073-48.739h748.511c38.159 0 75.52 5.657 111.029 16.829v0c44.91 14.111 86.594 37.205 120.526 66.792l66.163-57.68c-43.616-38.010-97.197-67.703-154.957-85.852z"></path><path class="_32cGm HKswn" d="M1473.479 124.453l-55.855 9.91-10.307 47.76c61.844 53.929 95.92 125.617 95.92 201.88 0 25.235-3.772 50.26-11.214 74.363-38.348 124.311-168.398 211.129-316.262 211.129h-448.812l25.121 40.783-25.121 40.783h448.812c190.107 0 357.303-111.638 406.613-271.498 9.572-31.009 14.423-63.162 14.423-95.559 0-98.044-43.805-190.216-123.317-259.551z"></path></g></svg>
+                <div class="plus">
+                    <span class="sell">
+                <svg width="16px" height="16px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-lquEm" d="M414.898 123.739v291.218h-291.218l-97.014 97.014 97.014 97.131h291.218v291.16l97.073 97.071 97.073-97.071v-291.16h291.16l97.131-97.131-97.131-97.014h-291.16v-291.218l-97.073-97.073z"></path></svg>
+                </div>
+            </span>
+            <span>
+                SELL
+            </span>
+            </div>
+            </div>
+        </nav>
+    
+        <!-- ---------------------sub nav bar -------------------------->
+        <div class="sub-navbar">
+            <div class="inside-sub-nav">
+                <div class="all-category">
+                    <a href="#">
+                        <span>All Categories</span>
+                        <i class="fa-solid fa-chevron-down" style="color: #4c5057;"></i>
+                        </a>
+                </div>
+                    <ul>
+                        <li><a href="">Cars</a></li>
+                        <li><a href="">Motocycles</a></li>
+                        <li><a href="">Mobile Phone</a></li>
+                        <li><a href="">For Sale: Houses & Apartments </a></li>
+                        <li><a href="">Scooter</a></li>
+                        <li><a href="">Commercial & Other Vechile</a></li>
+                        <li><a href="">For Rent: Houses & Aopartment</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+        <main>
+            <div class="in-main">
+                <!-- -----------section upper main------------------------>
+                <section class="upper-main">
+                    <div class="popular-search">
+                        <h5>Popular Search:</h5>
+                        <ul>
+                            <li><a href="#">shift dzire</a></li>
+                            <li>-</li>
+                            <li><a href="#">scorpio</a></li>
+                            <li>-</li>
+                            <li><a href="#">innova</a></li>
+                            <li>-</li>
+                            <li><a href="#">honda city</a></li>
+                            <li>-</li>
+                            <li><a href="#">ertiga</a></li>
+                            <li>-</li>
+                            <li><a href="#">bolero</a></li>
+                            <li>-</li>
+                            <li><a href="#">tavera</a></li>
+                            <li>-</li>
+                            <li><a href="#">fortuneer</a></li>
+                            <li>-</li>
+                            <li><a href="#">wagon r</a></li>
+                            <li>-</li>
+                            <li><a href="#">omni</a></li>
+                            
+                        </ul>
+                    </div>
+                    <p class="home-cars">Home \ Cars</p>
+                    <h1>Buy & Sell Used Cars in India</h1>
+                </section>
+                <section class="main-content">
+                    <!--------------------aside---------------------------->
+                    <aside>
+                        <!-- ----------------categories------- -->
+                        <div class="categories">
+                            <div class="aside-heading">
+                                <h3>Categories</h3>
+                            <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="row">
+                                <div class="each-row first-row">
+                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                    <h5>All Categories</h5>
+                                </div>
+                                <div class="each-row col-green">
+                                    <p>Cars (3,28,229)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <hr> -->
+                        <div class="locations">
+                            <div class="aside-heading">
+                                <h3>Locations</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="aside-subheading col-green">
+                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                    <h5>India</h5>
+                            </div>
+                            <ul class="location-list">
+                                <li><a href="">Maharashtra</a></li>
+                                <li><a href="#">Kerala(33,847)</a></li>
+                                <li><a href="#">Tmail Nadu (31,078)</a></li>
+                                <li><a href="#">Delhi (29,536)</a></li>
+                                <li><a href="#">Uttar Pradesh (27,564)</a></li>
+                                <li><a href="#">Karnataka (24,327)</a></li>
+                                <li><a href="#">Gujarat(18,715)</a></li>
+                                <li><a href="#">Telangana (14,419)</a></li>
+                                <li><a href="#">Punjab (14,419)</a></li>
+                                <li><a href="#">Harayana (11,602)</a></li>
+                                <li><a href="#">Andhra Pradesh (10,233)</a></li>
+                                <li><a href="#">Rajasthan (10,043)</a></li>
+                                <li><a href="#">Madhya Pardesh (9,6400)</a></li>
+                                <li><a href="#">West Bengal (8,669)</a></li>
+                                <li><a href="#">Assam (5,840)</a></li>
+                                <li><a href="#">Chandigarh (4,860)</a></li>
+                                <li><a href="#">Chhattisgarh (4,555)</a></li>
+                                <li><a href="#">Bihar (4,184)</a></li>
+                                <li><a href="#">Jammu & Kashmir (3,960)</a></li>
+                                <li><a href="#">Uttrakhand (3,834)</a></li>
+                            </ul>
+                        </div>
+                        <hr class="hr-line">
+                        <div class="filter">
+                            <p>Filters</p>
+                        </div>
+                        <div class="brand-filter">
+                            <div class="aside-heading">
+                                <h3>Brand and model</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="aside-search">
+                                <input type="text" name="search" id="search" placeholder="Search brand or model">
+                                <button><i class="fa-solid fa-magnifying-glass" style="color: #002f34a3;"></i></button>
+                            </div>
+                            <div class="popular-brands">
+                                <h4>popular brands</h4>
+                                <div class="logo-popular-brands">
+                                    <div class="each-logo">
+                                        <img src="img/toyota_3x.webp" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="img/tata_3x.webp" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="img/maruti-suzuki-logo.webp" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="img/mahindra_3x.webp" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="img/hyundai_logo.webp" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="img/honda_3x.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="all-brand">
+                                <h4>All Brands</h4>
+                                    <ul class="list-all-brands">
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Maruti Suzuki (1,05,361)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Hyundai (56,434)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Mahindra (26,252)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="honda" />Honda (21,505)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="toyota" />Toyota (21,191)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="tata" />Tata (19,168)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ford" />Ford (11,667)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="volkswagen" />Volkswagen (9,030)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="renault" />Renault (8,653)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mercedes" />Mercedes-Benz (7,080)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="chevrolet" />Chevrolet (6,248)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="skoda" />Skoda (5,392)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw" />BMW (5,295)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi" />Audi (4,558)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="kia" />Kia (3,423)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="nissan" />Nissan (3,299)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mg" />MG (1,717)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="jeep" />Jeep (1,600)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="datsun" />Datsun (1,426)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="fiat" />Fiat (1,375)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="land-rover" />Land Rover (1,314)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="volvo" />Volvo (778)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="jaguar" />Jaguar (722)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mitsubishi" />Mitsubishi (660)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mini" />Mini (452)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="force-motors" />Force Motors (406)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="porsche" />Porsche (333)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="isuzu" />Isuzu (271)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Ambassador (239)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="eicher-polaris" />Eicher Polaris (111)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ssangyong" />Ssangyong (102)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="lexus" />Lexus (100)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra-renault" />Mahindra Renault (100)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland" />Ashok Leyland (88)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj" />Bajaj (80)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley" />Bentley (44)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="opel" />Opel (38)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok" />Ashok (30)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="lamborghini" />Lamborghini (30)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="rolls-royce" />Rolls-Royce (28)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mazda" />Mazda (26)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin" />Aston Martin (21)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="smart" />Smart (21)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="subaru" />Subaru (3)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="dodge" />Dodge (2)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="infiniti" />Infiniti (2)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="caterham" />Caterham (1)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="citroen" />Citroen</label></li>
+                                      </ul>
+                            </div>
+                            <hr>
+                            <div class="all-model">
+                                <h4>All Models</h4>
+                                    <ul class="list-all-models">
+                                        
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="a8l" />A8l</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Ambassador Ambassador</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland-stile" />Ashok Leyland Stile</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db11" />Aston Martin DB11</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db9" />Aston Martin DB9</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-dbs" />Aston Martin DBS</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-one-77" />Aston Martin One 77</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-rapide" />Aston Martin Rapide</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Aston Martin V8 Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Aston Martin V8 Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-virage" />Aston Martin Virage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3" />Audi A3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3-cabriolet" />Audi A3 Cabriolet</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a4" />Audi A4</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a5" />Audi A5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a6" />Audi A6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a7" />Audi A7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8" />Audi A8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8-l" />Audi A8 L</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q3" />Audi Q3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q5" />Audi Q5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q7" />Audi Q7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-r8" />Audi R8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-s6" />Audi S6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-azure" />Bentley Azure</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-flying-spur" />Bentley Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-mulsanne" />Bentley Mulsanne</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-1-series" />BMW 1 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-2-series" />BMW 2 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gran-limousine" />BMW 3 Series Gran Limousine</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gt" />BMW 3 Series GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-4-series" />BMW 4 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series" />BMW 5 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series-gt" />BMW 5 Series Gt</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-6-series" />BMW 6 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-7-series" />BMW 7 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-8-series" />BMW 8 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-gran-turismo" />BMW Gran Turismo</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i3" />BMW i3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i8" />BMW i8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m-series" />BMW M Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m2" />BMW M2</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m3" />BMW M3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m5" />BMW M5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m6" />BMW M6</label></li>
+                                    </ul>   
+                            </div>
+                            <hr>
+                            <div class="budget">
+                                <div class="aside-heading">
+                                    <h3>Budget</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">Choose from options below</p>
+                                <div class="list-budget">
+                                    <div class="each-bl">
+                                        <p>Below 1 Lac</p>
+                                        <p>14,400+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>1 Lac - 2 Lac</p>
+                                        <p>40,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>2 Lac - 3 Lac</p>
+                                        <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>3 Lac - 5 Lac</p>
+                                        <p>75,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
+                                <p class="choose">choose a range below</p>
+                                <div class="whole-slider">
+                                    <div class="graph-slider">
+                                        <div class="graph">
+                                            <ul class="vertical-graph">
+                                                <li class="bar bar1"></li>
+                                                <li class="bar bar2"></li>
+                                                <li class="bar bar3"></li>
+                                                <li class="bar bar4"></li>
+                                                <li class="bar bar5"></li>
+                                                <li class="bar bar6"></li>
+                                                <li class="bar bar7"></li>
+                                                <li class="bar bar8"></li>
+                                                <li class="bar bar9"></li>
+                                                <li class="bar bar10"></li>
+                                                <li class="bar bar11"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slider">
+                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
+                                            <p class="zero">0</p>
+                                            <p id="rangeValue">10,00,000+</p>
+                                        </div>
+                                    </div>
+                                    <button class="apply">apply</button> 
+                                  </div>
+                            </div>
+                            <hr>
+                            <div class="year">
+                                <div class="aside-heading">
+                                    <h3>Year</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-year">
+                                    <div class="each-y">
+                                        <p>Under 3 Years</p>
+                                        <p>27,300+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 5 Years</p>
+                                        <p>64,200+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 7 Years</p>
+                                        <p>1,20,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>7 Years and Above</p>
+                                        <p>1,70,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
+                                <p class="choose">choose a Range below</p>
+                                <div class="year-choose-range">
+                                <input type="text" placeholder="2003">
+                                <p>to</p>
+                                <input type="text" placeholder="2023">
+                                <button class="apply">apply</button>
+                                </div>
+                            </div>
+                            <hr >
+                            <div class="no-owner">
+                                <div class="aside-heading">
+                                    <h3>no of owners</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-owners">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="firstCheckbox" />
+                                        First (1,78,216)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="secondCheckbox" />
+                                        Second (99,762)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="thirdCheckbox" />
+                                        Third (28,612)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="fourthCheckbox" />
+                                        Fourth (7,739)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="moreThanFourCheckbox" />
+                                        More than Four (3,928)
+                                      </label>
+                                    </li>
+                                  </ul>
+                                  
+                            </div>
+                            <hr>
+                            <div class="inspection-status">
+                                <div class="aside-heading">
+                                    <h3>Inspection Status</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-inspection">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="Inspected-car-only" />
+                                        Inspected Cars Only (29)
+                                      </label>
+                                    </li>
+                                </ul>
+                                  
+                            </div>
+                            <hr>
+                            <div class="km-driven">
+                                <div class="aside-heading">
+                                    <h3>KM DRIVEN</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-km">
+                                    <div class="each-km">
+                                      <p>Under 25000 km</p>
+                                      <p>22,400+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>25000 km - 50000 km</p>
+                                      <p>26,700+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>50000 km - 75000 km</p>
+                                      <p>42,100+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>75000 km - 100000 km</p>
+                                      <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>100000 km and Above</p>
+                                      <p>49,400+ cars</p>
+                                    </div>
+                                  </div>
+                                  <p class="choose">choose from options below</p>
+                              <div class="whole-slider">
+                                <div class="graph-slider">
+                                    <div class="graph">
+                                        <ul class="vertical-graph">
+                                            <li class="bar bar1"></li>
+                                            <li class="bar bar2"></li>
+                                            <li class="bar bar3"></li>
+                                            <li class="bar bar4"></li>
+                                            <li class="bar bar5"></li>
+                                            <li class="bar bar6"></li>
+                                            <li class="bar bar7"></li>
+                                            <li class="bar bar8"></li>
+                                            <li class="bar bar9"></li>
+                                            <li class="bar bar10"></li>
+                                            <li class="bar bar11"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider">
+                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
+                                        <p class="zero">0</p>
+                                        <p id="rangeValue2">2,00,000+</p>
+                                    </div>
+                                </div>
+                                <button class="apply">apply</button> 
+                              </div>
+                            </div>      
+                                
+                            <hr>
+                            <div class="fuel">
+                                <div class="aside-heading">
+                                    <h3>Fuel</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-fuel">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="petrolCheckbox" />
+                                        Petrol (1,43,807)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="dieselCheckbox" />
+                                        Diesel (1,56,950)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="lpgCheckbox" />
+                                        LPG (2,968)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="cngHybridsCheckbox" />
+                                        CNG & Hybrids (21,092)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="electricCheckbox" />
+                                        Electric (1,046)
+                                      </label>
+                                    </li>
+                                  </ul>                                  
+                            </div>
+                            <hr>
+                            <div class="transmission">
+                                <div class="aside-heading">
+                                    <h3>Transmission</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-transmission">
+                                    <div class="each-opt">
+                                      <p>Automatic</p>
+                                      <p>67,400+ cars</p>
+                                    </div>
+                                    <div class="each-opt">
+                                      <p>Manual</p>
+                                      <p>2,40,000+ cars</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </section> 
+            </div>
+        </main>
+</body>
+<script src="https://kit.fontawesome.com/2c44b97502.js" crossorigin="anonymous"> 
+</script>
+<script src="cars.js"></script>
+</html>
