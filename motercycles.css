@@ -1,0 +1,8 @@
+.side-bar {
+    width: 304px;
+    background-color: brown;
+}
+.sub-mainbar {
+    display: flex;
+
+}

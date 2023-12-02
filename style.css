@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.all-categoties{
+    margin-left: px;
+}
 h1 {
     font-size: 20px;
     margin-bottom: 2px;
@@ -71,8 +74,14 @@ li {
     
 }
 img {
-    object-fit: contain;
-    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    height: 156px;
+}
+.img {
+    height: 160px;
 }
 ul {
     list-style: none;
