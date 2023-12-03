@@ -392,6 +392,10 @@ a{
   align-items: center;
   margin-top: 30px;
 }
+
+.btn-container button{
+  b
+}
   .TIvlD img{
     width: 7px;
   }
@@ -457,6 +461,7 @@ a{
 .scooters-load:hover{
       border: 4px solid #002f34;
 }
+
 
 
 /* bharat-aside------------------------ */
