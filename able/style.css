@@ -324,7 +324,11 @@ a{
  .scooters-container{
    display: flex;
    flex-wrap: wrap;
-   gap: 12px;
+  
+   justify-content: center;
+   align-items: flex-start;
+   height: 100vh;
+   gap: 10px;
  }
 
 
@@ -381,7 +385,13 @@ a{
     text-transform: uppercase;
   }
 
-
+.btn-container{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
   .TIvlD img{
     width: 7px;
   }
@@ -447,4 +457,425 @@ a{
 .scooters-load:hover{
       border: 4px solid #002f34;
 }
+
+
+/* bharat-aside------------------------ */
+main{
+  
+  position: relative;
+  top: 80px;
+  overflow-x: hidden;
+}
+h1{
+  font-size: 24px;
+  color: #002f34;
+  margin-bottom: 8px;
+}
+h3{
+  font-size: 16px;
+  color: #002f34;
+  text-transform: uppercase;
+}
+h4{
+  font-size: 14px;
+  padding: 16px 0 0 0;
+  text-transform: uppercase;
+  color: #002f34;
+}
+h5{
+  font-size: 14px;
+  color: #002f34;
+}
+main{
+  width: 100%;
+  height: 10000px;
+}
+.in-main{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 8px;
+}
+/* section 1 popular search  */
+.upper-main{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.popular-search{
+  height: 100%;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.popular-search h5{
+  margin-right: 5px;
+  font-size: 12px;
+  color: #002f34;
+}
+
+.home-cars{
+  font-weight: 500;
+  margin: 8px 0;
+  font-size: 12px;
+  color: #002F34A3;
+}
+.popular-search ul{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  
+}
+.popular-search li a{
+  text-decoration: none;
+  color: #002F34A3
+}
+aside{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+aside ul{
+  list-style: none;
+}
+.aside-heading{
+  display: flex;
+  justify-content: space-between;
+}
+.categories{
+  width: 304px; 
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(14,4,5,0.2);
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.each-row{
+  display: flex;
+  padding: 8px 0 8px 20px;
+  font-size: 14px;
+  color: #002F34;
+  font-weight: 600;
+}
+.first-row{
+  padding-left: 0px;
+}
+.first-row i{
+  margin-right: 12px;
+}
+.col-green{
+  background-color: #c8f6f6;
+}
+.locations{
+  width: 304px;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(14,4,5,0.2);
+}
+.location-list{
+  max-height: 160px;
+  overflow-y: auto;
+}
+.location-list li{
+  padding: 4px 0 4px 33px;
+  font-size: 14px;
+}
+.aside-heading{
+  padding-bottom: 16px;
+}
+.aside-subheading{
+  padding: 4px 0;
+  display: flex;
+  padding-left: 8px;
+}
+.aside-subheading i{
+  margin-right: 12px;
+}
+.hr-line{
+  color: rgba(14,4,5,0.2);
+  margin-bottom: 32px;
+  border-style: none;
+}
+.filter{
+  color: #002F34A3;
+  font-size: 16px;
+}
+/* -------------brand and model------------- */
+.brand-filter{
+  padding: 28px 0 32px 0;
+  width: 304px;
+}
+.aside-search{
+  display: flex;
+  position: relative;
+  margin-bottom: 24px;
+}
+.aside-search button{
+  height: 32px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+}
+.aside-search input{
+  outline: none;
+  width: 100%;
+  border: 1px solid #002F34A3;
+  border-radius: 0;
+  height: 32px;
+  padding: 0 8px;
+}
+.aside-search input::placeholder{
+  color: #002F34A3;
+}
+/* -----popular brand---------- */
+.popular-brands{
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(14,4,5,0.2);
+}
+.logo-popular-brands{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-top: 17px;
+}
+.each-logo{
+  width: 88px;
+  height: 63px;
+  border: 1px solid rgba(14,4,5,0.2);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 4px;
+
+}
+.each-logo img{
+  width: 100%;
+}
+/* -------all brands & all model---------- */
+/* -----check-box---------- */
+.list-all-brands,.list-all-models{
+  max-height: 196px;
+  overflow-y: auto;
+  margin: 24px 0;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.list-all-owners,.list-all-inspection,.list-all-fuel{
+  margin: 24px 0;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+/* ---------budget & year----------- */
+
+.budget,.year,.no-owner,.inspection-status,.km-driven,.fuel,.transmission{
+  padding: 28px 0 32px 0;
+  width: 304px;
+}
+.choose{
+  margin-bottom: 14px;
+  color: #002F34A3;
+  font-size: 14px;
+}
+.list-budget,.list-year,.list-km,.list-transmission{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 12px 0 20px;
+}
+.each-bl,.each-y,.each-km,.each-opt{
+  border: 1px solid rgba(14,4,5,0.2);
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-size: 14px;
+  color: #002F34;
+  margin-bottom: 8px;
+}
+/* ---------choose year------------------- */
+.year-choose-range{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.year-choose-range input{
+  height: 27px;
+  width: 77px;
+  border: 1px solid rgba(14,4,5,0.2);
+  padding: 1px 2px 1px 5px;
+}
+.year-choose-range p{
+  font-size: 14px;
+  color: #002F34;
+}
+aside button{
+  padding: 6px 11px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: #d8dfe0;
+  color: #002F34;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.no-owner,.inspection-status,.fuel{
+  padding-bottom: 0px;
+}
+.list-all-owners,.list-all-inspection,.list-all-fuel{
+  margin-top: 0;
+}
+
+
+
+/* Customized checkbox with border color change on hover */
+
+.form-control {
+  font-size: 14px;
+  color: rgba(0,47,52,1);
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 17px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(14, 4, 5, 0.2); /* Change border color */
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  content: "\2713";
+  font-size: 16px;
+  line-height: 1;
+  opacity: 0;
+  transition: 120ms opacity ease-in-out;
+}
+
+input[type="checkbox"]:checked::before {
+  opacity: 1;
+}
+
+input[type="checkbox"]:hover {
+  border-color: rgba(14, 4, 5, 0.5); /* Change border color on hover */
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+}
+
+input[type="checkbox"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+/* -----------slider--------------- */
+.whole-slider{
+  margin-top: 50px;
+  width: 304px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider {
+  /* position: absolute;;
+  top: 50%;
+  left: 50%; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.slider #rangeValue ,#rangeValue2{
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      font-size: 16px;
+      padding-left: 30px;
+      color: black;
+}
+.slider .zero{
+      position: absolute;
+      bottom: 60px;
+      left: -30px;
+      font-size: 16px;
+      padding-left: 30px;
+      color: black;
+}
+.slider input[type="range"] {
+  -webkit-appearance:none !important;
+  width: 220px;
+  height: 4px;
+  background: #002F34;border: none;outline: none;
+  position: absolute;
+  top: -1px;
+}
+.slider input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none !important;
+  width: 25px;
+  height:25px;
+  background: white;
+  border: 2px solid #002F34;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.vertical-graph {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 40px;
+  transform: scaleY(-1);
+}
+.vertical-graph li {
+    width: 20px;
+}
+
+.bar {
+  background-color: rgba(14,4,5,0.2);/* Set your desired background color */
+}
+
+
+.main-container{
+  display: flex;
+
+}
+
+
+
+.bar1 { height: calc(34.3047% + 1px); }
+.bar2 { height: calc(95.9934% + 1px); }
+.bar3 { height: calc(100% + 1px); }
+.bar4 { height: calc(94.688% + 1px); }
+.bar5 { height: calc(82.6706% + 1px); }
+.bar6 { height: calc(70.5166% + 1px); }
+.bar7 { height: calc(57.7331% + 1px); }
+.bar8 { height: calc(42.3109% + 1px); }
+.bar9 { height: calc(32.1521% + 1px); }
+.bar10 { height: calc(22.5951% + 1px); }
+.bar11 { height: calc(2.1086% + 1px); }
+
 
