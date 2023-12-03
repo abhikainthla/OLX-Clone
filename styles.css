@@ -180,9 +180,11 @@ fieldset{
 ._32cGm.HKswn{
     fill: #3a77ff;
 }
-.plus{
-    margin-left: -95px;
+.login .plus{
+    position: absolute;
+    right:65px;
 }
+
 .sell{
     display: inline-flex;
     margin-right: 4px;
@@ -192,6 +194,7 @@ fieldset{
     margin-right: auto;
     width: 100%;
     position: relative;
+    
 }
 .sub-header1{
     display: flex;
@@ -229,8 +232,9 @@ button{
     text-decoration: underline;
     text-underline-position: under;
 }
-.login-span{
-    margin-left: -7px;
+.login .login-span{
+    position: absolute;
+    right: 23px;
 }
 .sell-main{
     display: flex;
