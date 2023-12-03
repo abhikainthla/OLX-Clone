@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 
 }
 
@@ -346,15 +347,12 @@ a{
     position: relative;
     border: 1px gainsboro solid;
     border-radius: 3px;
-    
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     
   }
 
   .card .cover{
-    background-image: url("https://apollo-singapore.akamaized.net/v1/files/stamgkrhaefq2-IN/image;s=300x600;q=60");
-    background-size: cover;
-    background-position: center;
     height: 134px;
     width: 260px;
     margin:auto;
@@ -362,8 +360,19 @@ a{
     
   }
 
+
+  .card .cover >img{
+    width: 260px;
+    height: 134px;
+    object-fit: cover;
+
+  }
+
   .card span{
     display: block;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   }
 
   .card .extra{
@@ -395,9 +404,7 @@ a{
   margin-top: 30px;
 }
 
-.btn-container button{
-  b
-}
+
   .TIvlD img{
     width: 7px;
   }
@@ -405,10 +412,10 @@ a{
  
 
   .price{
-    font:20px;
+    font-size:20px;
     font-weight: 700;
     color: rgb(0, 47, 52);
-    
+    margin-bottom: 5px;
     line-height: 23px;
   }
 
@@ -429,7 +436,8 @@ a{
     line-height: 1.3;
   }
 .area-box{
-  margin-top: 8px;
+  margin-top: 18px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
     color:rgba(0, 47, 52, 0.596);
@@ -441,6 +449,10 @@ a{
   .yellow{
     border-left: 4px #FACE32 solid;
     
+    padding: 9px;
+  }
+
+  .yellow1{
     padding: 9px;
   }
 
@@ -464,7 +476,9 @@ a{
       border: 4px solid #002f34;
 }
 
-
+.TIvlD1{
+  width: 0;
+}
 
 /* bharat-aside------------------------ */
 main{
