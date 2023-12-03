@@ -202,9 +202,12 @@ nav span:nth-last-of-type(2){
   }
 
   .card{
-    width: 285px;
-    height: 256px;
+    width: 282px;
+    height: 262px;
     position: relative;
+    border: 1px gainsboro solid;
+    
+    font-family: 'Roboto', sans-serif;
     
   }
 
@@ -212,8 +215,10 @@ nav span:nth-last-of-type(2){
     background-image: url("https://apollo-singapore.akamaized.net/v1/files/stamgkrhaefq2-IN/image;s=300x600;q=60");
     background-size: cover;
     background-position: center;
-    height: 154px;
-    width: 285px;
+    height: 134px;
+    width: 260px;
+    margin:auto;
+    margin-top: 10px;
     
   }
 
@@ -224,11 +229,10 @@ nav span:nth-last-of-type(2){
   .card .extra{
     display: flex;
     position: absolute;
-    top:5px;
+    top:10px;
     justify-content: space-between;
-    width: 285px;
-
-
+    width: 260px;
+    cursor: pointer;
   }
 
 
@@ -248,21 +252,18 @@ nav span:nth-last-of-type(2){
     width: 7px;
   }
 
-  #icon{
-    border-radius: 50px;
-    background-color: #002f34;
-  }
+ 
 
   .price{
     font:20px;
     font-weight: 700;
     color: rgb(0, 47, 52);
-    cursor: pointer;
+    
     line-height: 23px;
   }
 
   .use{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: rgb(0, 47, 52);
     cursor: pointer;
@@ -273,17 +274,22 @@ nav span:nth-last-of-type(2){
   .info{
     font-weight: 400;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 13px;
     color:rgba(0,47,52,0.64);
+    line-height: 1.3;
   }
 .area-box{
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
-  width: 385px;
-  
-    color:rgb(0, 47, 52);
-    max-width: 75%;
+    color:rgba(0, 47, 52, 0.596);
     font-size: 10px;
     line-height: 11.5px;
     text-transform: uppercase;
+  }
+
+  .yellow{
+    border-left: 4px #FACE32 solid;
+    
+    padding: 9px;
   }
