@@ -55,6 +55,7 @@ header{
   border-radius: 4px;
 }
 .location select{
+  background-color: #fff;
   height: 40px;
   width: 100%;
   outline: 0;
@@ -261,9 +262,11 @@ fieldset{
 }
 
 .sub-header{
+  overflow: hidden;
+  text-wrap: nowrap;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-width: 100%;
   position: relative;
   top: 80px;
   box-shadow: 0 0 1px 2px rgba(0,0,1,.1);
@@ -430,6 +433,7 @@ main{
 .home-cars{
   font-weight: 500;
   margin: 8px 0;
+  margin-top: 40px;
   font-size: 12px;
   color: #002F34A3;
 }
@@ -788,7 +792,6 @@ input[type="checkbox"]:disabled {
 .scooters-container{
  display: flex;
  flex-wrap: wrap;
-
  justify-content: center;
  align-items: flex-start;
  
@@ -798,7 +801,7 @@ input[type="checkbox"]:disabled {
 
 
 .scooters-container{
-  width: 1000px;
+ max-width: 1000px;
   margin: 10px 0;
 }
 
@@ -981,29 +984,72 @@ color: #002F34;
 
 .main-container{
   display: flex;
-  
 
 }
+
+.sub-header1{
+  padding-left: 10px;
+}
+
 
 @media (max-width: 960px) {
 
   .scooters-container{
-    width: 600px;
+    width: 650px;
     margin: auto;
   }
   
   aside{
     display: none;
   }
+
+  .upper-main{
+    margin: 0  0px;
+  }
+
+  .sub-header div:nth-child(7),div:nth-child(8){
+    display: none;
+  } 
+
+  .used-scooter{
+    text-align: center;
+  }
+  
+  .sorting{
+  
+    width: 570px;
+  }
+ 
+  .location{
+    display: none;
+  }
 }
 
 
-@media (max-width:580px) {
+@media (max-width:600px) {
 
   .scooters-container{
     width: 300px;
-    margin: auto;
+    margin: 20px auto;
   }
+  .upper-main{
+    display: none;
+  }
+
+   .sub-header div:nth-child(5),div:nth-child(7),div:nth-child(8) {
+    display: none;
+  } 
+
+  .search{
+    width: 300px;
+  }
+
+  .lang,.location{
+    display: none;
+  }
+
   
+
 }
+
 
