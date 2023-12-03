@@ -1,2 +1,0 @@
-drop down menu for serach location
-serach tick box
