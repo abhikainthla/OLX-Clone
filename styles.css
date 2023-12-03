@@ -184,10 +184,13 @@ fieldset{
     position: absolute;
     right:65px;
 }
-
 .sell{
     display: inline-flex;
     margin-right: 4px;
+}
+.login img{
+   width: 90px;
+   height: auto;
 }
 .sub-header{
     margin-left: auto;
