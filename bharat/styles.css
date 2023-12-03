@@ -99,7 +99,7 @@ header{
 .search .search-svg{
     background-color: #002f34;
     min-width: 48px;
-    height: 44px;
+    height: 45px;
     display: flex;
     cursor: pointer;
     border: none;
@@ -202,14 +202,15 @@ fieldset{
     width: 100%;
     position: relative;
     top: 80px;
+    box-shadow: 0 0 1px 2px rgba(0,0,1,.1);
 }
 .sub-header1{
     display: flex;
     align-items: center;
     gap: 1rem;
     height: 40px;
-    padding-left: 2rem;
-    box-shadow: 0 0 1px 2px rgba(0,0,1,.1);
+    max-width: 1280px;
+    margin: 0 auto;
 }
 .sub-header a{
     text-decoration: none;
