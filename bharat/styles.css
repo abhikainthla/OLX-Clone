@@ -640,7 +640,7 @@ aside button{
     display: flex;
 }
 .mainbar {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .mainbar .heading-mainbar{
     display: flex;
