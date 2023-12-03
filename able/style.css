@@ -923,7 +923,9 @@ input[type="checkbox"]:disabled {
   display: flex;
 
 }
-
+main{
+  overflow-y: hidden;
+}
 
 
 .bar1 { height: calc(34.3047% + 1px); }
