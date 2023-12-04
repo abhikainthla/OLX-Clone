@@ -843,7 +843,7 @@ aside button{
 
 /*------------------------ -------------------footer--------------------------------------------------- */
 footer{
-    margin-top: 200px;
+    margin-top: 50px;
     width: 100%;
 }
 .app-install .install-img{
@@ -1159,9 +1159,9 @@ footer{
 .faq-content{
     display: flex;
     flex-direction: column;
-    margin-top: 250px;
-    width: 900px;
-    margin-left: 350px;
+    margin-top: 200px;
+    width: 925px;
+    margin-left: 460px;
 
 }
 .faq h3{
