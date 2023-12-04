@@ -553,6 +553,7 @@ aside ul{
 }
 .each-logo img{
     width: 100%;
+    height: auto;
 }
 /* -------all brands & all model---------- */
 /* -----check-box---------- */
