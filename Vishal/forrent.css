@@ -418,6 +418,7 @@ main{
     margin: 8px 0;
     font-size: 12px;
     color: #002F34A3;
+    cursor: pointer;
 }
 .popular-search ul{
     display: flex;
