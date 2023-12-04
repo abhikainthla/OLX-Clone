@@ -721,9 +721,11 @@ img {
     flex-direction: column;
     padding: 8px 16px;
 }
-/* footer */
+/*------------------------- footer -----------------------------*/
+
 footer{
-    margin-top: 200px;
+    margin-top: 50px;
+    width: 100%;
 }
 .app-install .install-img{
     max-width: 435px;
@@ -783,7 +785,7 @@ footer{
     margin-top: 70px;
 }
 .follow-button img{
-    width: 94px;
+    width: 86px;
     height: 25px;
     border-radius: 5px;
     border-style: none;
@@ -791,16 +793,21 @@ footer{
     
 }
 .footer-main{
-    display: flex;
     background-color: #ebeeef;
+    width: 100%;
+}
+.inside-footer-main{
+    max-width: 1280px;
+    display: flex;
     justify-content: space-between;
-    padding: 32px 32px 32px;
+    padding: 16px;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+    margin: 0 auto;
 }
 .footer-main span{
-    font-weight: 700;
+    font-weight: bold;
 }
 .footer-main ul{
     padding: 0;
@@ -815,10 +822,14 @@ footer{
 .footer-main ul li{
     cursor: pointer;
     height: 5px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .follow-svg{
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
+    gap: 10px;
 
 }
 .follow-us svg{
@@ -828,14 +839,19 @@ footer{
     cursor: pointer;
 }
 .footer-end{
+    width: 100%;
+    background-color: #002f34;
+}
+.inside-footer-end{
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 58px;
     width: 100%;
     color: #FFFFFF;
-    background-color: #002f34;
     padding: 16px;
+    margin: 0 auto;
 }
 .footer-end span{
     font-size: 12px;
