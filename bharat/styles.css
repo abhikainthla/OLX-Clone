@@ -22,7 +22,7 @@ nav{
 header{
     display: block;
     width: 100%;
-    position: fixed;
+    position: absolute;
     background: #fff;
     box-sizing: border-box;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
@@ -362,6 +362,7 @@ main{
     position: relative;
     top: 80px;
     overflow-x: hidden;
+    width: 100%;
 }
 h1{
     font-size: 24px;
@@ -382,9 +383,6 @@ h4{
 h5{
     font-size: 14px;
     color: #002f34;
-}
-main{
-    width: 100%;
 }
 .in-main{
     max-width: 1280px;
@@ -639,8 +637,8 @@ aside button{
 .main-content{
     display: flex;
 }
-.mainbar {
-    margin-top: git 0px;
+.mainbar{
+    max-width:945px;
 }
 .mainbar .heading-mainbar{
     display: flex;
@@ -652,7 +650,7 @@ aside button{
     font-size: 14px;
     color: #002F34;
     padding: 0 5px;
-    width: 945px;
+    width: 100%;
 }
 .heading-mainbar span{
     font-weight: 600;
@@ -676,10 +674,11 @@ aside button{
     height: 156px;
 }
 .mainbar ul {
+    width: 100%;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 17px;
     align-items: center;
     justify-content: center;
 }
@@ -1155,13 +1154,16 @@ footer{
     background-color: rgba(14, 4, 5, 0.1);
 }
 /* ------------faqs--------- */
+.faq{
+    display: flex;
+    justify-content: center;
+}
 
 .faq-content{
     display: flex;
     flex-direction: column;
     margin-top: 200px;
     width: 925px;
-    margin-left: 460px;
 
 }
 .faq h3{
