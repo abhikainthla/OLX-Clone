@@ -542,11 +542,11 @@ a {
     font-weight: 400;
 }
 .mainbar li{
-    padding: 10px;
-    width: 288px;
-    height: 275px;
-    border: 1px solid #002f34a3;;
-    border-radius: 5px;
+    width: 303px;
+    height: 266px;
+    border: 1px solid rgba(14,4,5,0.2);
+    border-radius: 5px; 
+    overflow: hidden;
     
 }
 img {
@@ -559,11 +559,11 @@ img {
 .img {
     height: 160px;
 }
-ul {
+.mainbar ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 17px;
     align-items: center;
     justify-content: center;
 }
@@ -615,19 +615,57 @@ ul {
     color: blue;
 }
 
+.mainbar img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    height: 156px;
+}
+.mainbar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+}
+.mainbar li {
+    width: 303px;
+    height: 266px;
+    border: 1px solid rgba(14,4,5,0.2);
+    border-radius: 5px; 
+    overflow: hidden;
+}
+.mainbar li a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.mainbar .img{
+    margin: 8px;
+    overflow: hidden;
+}
+.mainbar .img img{
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+ }
 .img label{
     position: relative;
     top: -150px;
     left: 0px;
     text-transform: uppercase;
-    padding: 0 5px;
+    padding: 3px 5px;
     display: flex;
     align-items: center;
     margin: 5px 0;
     z-index: 2;
     font-size: 10px;
     background-color: #ffce32;
-    width: 35%;
+    width: 33%;
     border-radius: 3px;
     letter-spacing: .5504px;
     font-weight: 400;
@@ -635,25 +673,15 @@ ul {
 }
 .mainbar .img>label>div>span>img{
     margin-right: 8px;
-    width: 10px;
+    width: 6px;
     height: auto;
     border-style: none;
 }
-.mainbar .img img{
-   max-height: 100%;
-   width: auto;
-   max-width: 100%;
-}
+
 .img svg{
     position: relative;
-    left: 225px;
-    top: -160px;
-    z-index: 2;
-}
-.img .wishlist{
-    position: relative;
-    left: 225px;
-    top: -185px;
+    left: 245px;
+    top: -148px;
     z-index: 2;
 }
 .mainbar .img svg{
@@ -668,8 +696,19 @@ ul {
     fill: red;
     transform: scale(1.15);
 }
+.img .wishlist{
+    position: relative;
+    left: 245px;
+    top: -171px;
+    z-index: 2;
+}
 .featured-list .text{
     border-left: 5px solid #ffce32;
+}
+.mainbar .text {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
 }
 /* footer */
 footer{
