@@ -1154,3 +1154,35 @@ footer{
 .vert-slider::-webkit-scrollbar, .vert-slider::-webkit-scrollbar-track {
     background-color: rgba(14, 4, 5, 0.1);
 }
+/* ------------faqs--------- */
+
+.faq-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    width: 900px;
+    margin-left: 350px;
+
+}
+.faq h3{
+    margin-left: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.faq summary{
+    background-color: #f2f4f5;
+    padding: 12px 16px 12px 15px;
+    border-radius: 4px;
+    margin: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: .27px;
+    color: #002F34;
+
+}
+details p{
+    padding: 12px 16px 12px 15px;
+    color: #002F34;
+}
