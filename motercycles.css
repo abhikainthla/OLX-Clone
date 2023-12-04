@@ -1,8 +1,12 @@
 .side-bar {
-    width: 304px;
+    max-width: 30%;
     background-color: brown;
 }
 .sub-mainbar {
     display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 93%;
+    margin: auto;
 
 }
