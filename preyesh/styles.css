@@ -683,7 +683,7 @@ aside button{
     align-items: center;
     justify-content: center;
 }
-.mainbar li {
+.mainbarli {
     width: 303px;
     height: 266px;
     border: 1px solid rgba(14,4,5,0.2);
