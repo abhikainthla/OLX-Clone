@@ -36,4 +36,10 @@ $(document).ready(function() {
         $( '<i class="fa-solid fa-check"></i>' ).insertAfter($(this).children('.sub_lang'));
         $(this).parents('.lang').children('.language_heading').text(text);
     });
+
+    $('.all-categories').click(function() {
+        $(this).children('.category_container').slideToggle();
+
+        $(this).children('.fas').toggleClass('fa-chevron-up fa-chevron-down');
+    });
 });
