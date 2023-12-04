@@ -1,2 +1,2 @@
 # OLX-Clone
-A website created to replicate olx.com
+Welcome to the OLX Clone project! This project aims to replicate the functionality of the popular online marketplace, OLX. Whether you're a developer looking to contribute or a user wanting to set up your own local classifieds platform, you're in the right place.
