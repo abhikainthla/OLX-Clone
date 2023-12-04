@@ -18,6 +18,7 @@ font-weight: 700;
     display: flex;
     gap: 8px;
     list-style: none;
+    justify-content: flex-start;
 }
 
 .popular_searches ul li a, .popular_searches ul li, .mobile_breadcrumbs ul li a, .mobile_breadcrumbs ul li{
