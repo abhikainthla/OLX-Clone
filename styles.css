@@ -23,7 +23,9 @@ header{
     display: block;
     z-index: 10;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top:0;
+    left: 0;
     background: #fff;
     box-sizing: border-box;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
@@ -335,7 +337,7 @@ h1 {
 .mainbar {
     margin-top: 150px;
 }
-nav {
+/* nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -346,7 +348,7 @@ nav {
     top: 80px;
     right: 0;
     left: 0;
-}
+} */
 a {
     text-decoration: none;
     
@@ -392,12 +394,12 @@ ul {
     align-items: center;
     justify-content: center;
 }
-.sub-header {
+/* .sub-header {
     position: relative;
     top: 80px;
     right: 0;
     left: 0;
-}
+} */
 .sell-main{
     display: flex;
     flex-direction: column;
