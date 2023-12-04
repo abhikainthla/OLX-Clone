@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="styles.css">
+     
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
+                </a>
+            </div>
+            <div class="location">
+                <div>
+                    <!-- button made for javascript -->
+                    <button>
+                <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                    </button>
+                </div>
+            <div class="location-select">
+                <select name="location" id="nav-location">
+                    <option value="India">India</option>
+                    <option class="location-map" value="Use current location">Use current location</option>
+                    <hr>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                </select>
+            </div>
+            <div>
+                <!-- button made for javascript -->
+                <button>
+                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+                </button>
+            </div>
+            </div>
+            <fieldset>
+            <div class="search">
+                <div class="search-input">
+                <input type="text" id="search" placeholder="Find Cars, Mobile Phone and more...">
+            </div>
+                <div class="search-svg">
+                    <!-- button made for javascript -->
+                    <button> 
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path fill="#fff" class="rui-o3KKi" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                    </button>
+                </div>
+            </div>
+            </fieldset>
+            <div class="lang">
+                <select name="lang" id="lang">
+                    <option value="ENGLISH">ENGLISH</option>
+                    <option value="हिंदी">हिंदी</option>
+                </select>
+                <div>
+                    <!-- button made for javascript -->
+                    <button>
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="login">
+                <span>
+                    <a class="login-1" href="../login/login.html">Login</a>
+                </span>
+  <!-- ------------------------------ + SELL ---------------------------------->
+                <a class="_25SUV" href="../login/login.html">
+                    <svg width="104" height="48" viewBox="0 0 1603 768" class="_20oLV">
+                      <g>
+                        <path class="_32cGm _3Vwmt" d="M434.442 16.944h718.82c202.72 0 367.057 164.337 367.057 367.058s-164.337 367.057-367.057 367.057h-718.82c-202.721 0-367.058-164.337-367.058-367.058s164.337-367.058 367.058-367.058z"></path>
+                        <path class="_32cGm _3XfCS" d="M427.241 669.489c-80.917 0-158.59-25.926-218.705-73.004l-0.016-0.014c-69.113-54.119-108.754-131.557-108.754-212.474 0-41.070 9.776-80.712 29.081-117.797 25.058-48.139 64.933-89.278 115.333-118.966l-52.379-67.581c-64.73 38.122-115.955 90.98-148.159 152.845-24.842 47.745-37.441 98.726-37.441 151.499 0 104.027 50.962 203.61 139.799 273.175h0.016c77.312 60.535 177.193 93.887 281.22 93.887h299.699l25.138-40.783-25.138-40.783h-299.698z"></path>
+                        <path class="_32cGm _1DrSr" d="M1318.522 38.596v0c-45.72-14.369-93.752-21.658-142.762-21.658h-748.511c-84.346 0-165.764 21.683-235.441 62.713l3.118 51.726 49.245 15.865c54.16-31.895 117.452-48.739 183.073-48.739h748.511c38.159 0 75.52 5.657 111.029 16.829v0c44.91 14.111 86.594 37.205 120.526 66.792l66.163-57.68c-43.616-38.010-97.197-67.703-154.957-85.852z"></path>
+                        <path class="_32cGm HKswn" d="M1473.479 124.453l-55.855 9.91-10.307 47.76c61.844 53.929 95.92 125.617 95.92 201.88 0 25.235-3.772 50.26-11.214 74.363-38.348 124.311-168.398 211.129-316.262 211.129h-448.812l25.121 40.783-25.121 40.783h448.812c190.107 0 357.303-111.638 406.613-271.498 9.572-31.009 14.423-63.162 14.423-95.559 0-98.044-43.805-190.216-123.317-259.551z"></path>
+                      </g>
+                    </svg>
+                    <div class="_3xUC8">
+                      <span class="_3vzlb">
+                        <svg width="16px" height="16px" viewBox="0 0 1024 1024" data-aut-id="icon" fill-rule="evenodd">
+                          <path class="rui-lquEm" d="M414.898 123.739v291.218h-291.218l-97.014 97.014 97.014 97.131h291.218v291.16l97.073 97.071 97.073-97.071v-291.16h291.16l97.131-97.131-97.131-97.014h-291.16v-291.218l-97.073-97.073z"></path>
+                      </svg>
+                      </span>
+                      <span class="login-span">
+                        SELL
+                      </span>
+                    </div>
+                  </a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="sub-header">
+        <div class="sub-header1">
+            <!-- button for javascript -->
+        <div class="all-categories"><button><span>All Categories</span></button><button><span><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></span></button></div>
+        <div class="cars"><a href="bharat/cars.html">Cars</a></div>
+        <div class="Motercycles"><a href="../motercycles.html">Motercycles</a></div>
+        <div class="Mobile-Phones"><a href="../mobiles.html">Mobile Phones</a></div>
+        <div class="for-sale"><a href="../forsale.html">For Sale: Houses & Apartments</a></div>
+        <div class="scooters"><a href="../able/scooter.html">Scooters</a></div>
+        <div class="commercial"><a href="../commercial.html">Commercial & Other Vehicles</a></div>
+        <div class="for-rent"><a href="../forrent.html">For Rent: Houses & Apartments</a></div>
+        </div>
+    </section>
+        <!-- ---------------------sub nav bar -------------------------->
+        
+        <main>
+            <div class="in-main">
+                <!-- -----------section upper main------------------------>
+                <section class="upper-main">
+                    <div class="popular-search">
+                        <h5>Popular Search:</h5>
+                        <ul>
+                            <li><a href="#bullet">bullet</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#duke200">duke200</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#karizma">karizma</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#splendor">splendor</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#cbr">cbr</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#ktm">ktm</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#yamaha">yamaha</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#fz">fz</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#pulsar">pulsar</a></li>
+                            <li><pre> - </pre></li>
+                            <li><a href="#r15">r15 v2</a></li>
+                            
+                        </ul>
+                    </div>
+                    <p class="home-cars">Home \ Biker \ Motorcycles</p>
+                    <h1>Used Bikes in India</h1>
+                </section>
+                <section class="main-content">
+                    <!--------------------aside---------------------------->
+                    <aside>
+                        <!-- ----------------categories------- -->
+                        <div class="categories">
+                            <div class="aside-heading">
+                                <h3>CATEGORIES</h3>
+                            <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="row">
+                                <div class="each-row first-row">
+                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                    <h5>All Categories</h5>
+                                </div>
+                                <div class="each-row col-green">
+                                    <p>Motorcycles (13,229)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <hr> -->
+                        <div class="locations">
+                            <div class="aside-heading">
+                                <h3>LOCATIONS</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="aside-subheading col-green">
+                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                    <h5>India</h5>
+                            </div>
+                            <ul class="location-list vert-slider">
+                                <li><a href="">Maharashtra</a></li>
+                                <li><a href="#">Kerala(33,847)</a></li>
+                                <li><a href="#">Tmail Nadu (31,078)</a></li>
+                                <li><a href="#">Delhi (29,536)</a></li>
+                                <li><a href="#">Uttar Pradesh (27,564)</a></li>
+                                <li><a href="#">Karnataka (24,327)</a></li>
+                                <li><a href="#">Gujarat(18,715)</a></li>
+                                <li><a href="#">Telangana (14,419)</a></li>
+                                <li><a href="#">Punjab (14,419)</a></li>
+                                <li><a href="#">Harayana (11,602)</a></li>
+                                <li><a href="#">Andhra Pradesh (10,233)</a></li>
+                                <li><a href="#">Rajasthan (10,043)</a></li>
+                                <li><a href="#">Madhya Pardesh (9,6400)</a></li>
+                                <li><a href="#">West Bengal (8,669)</a></li>
+                                <li><a href="#">Assam (5,840)</a></li>
+                                <li><a href="#">Chandigarh (4,860)</a></li>
+                                <li><a href="#">Chhattisgarh (4,555)</a></li>
+                                <li><a href="#">Bihar (4,184)</a></li>
+                                <li><a href="#">Jammu & Kashmir (3,960)</a></li>
+                                <li><a href="#">Uttrakhand (3,834)</a></li>
+                            </ul>
+                        </div>
+                        <hr class="hr-line">
+                        <div class="filter">
+                            <p>Filters</p>
+                        </div>
+                        <div class="budget">
+                            <div class="aside-heading">
+                                <h3>Budget</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            
+                            <p class="choose">choose a range below</p>
+                            <div class="whole-slider">
+                                <div class="graph-slider">
+                                    <div class="graph">
+                                        <ul class="vertical-graph">
+                                            <li class="bar bar1"></li>
+                                            <li class="bar bar2"></li>
+                                            <li class="bar bar3"></li>
+                                            <li class="bar bar4"></li>
+                                            <li class="bar bar5"></li>
+                                            <li class="bar bar6"></li>
+                                            <li class="bar bar7"></li>
+                                            <li class="bar bar8"></li>
+                                            <li class="bar bar9"></li>
+                                            <li class="bar bar10"></li>
+                                            <li class="bar bar11"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider">
+                                        <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
+                                        <p class="zero">0</p>
+                                        <p id="rangeValue">10,00,000+</p>
+                                    </div>
+                                </div>
+                                <button class="apply">apply</button> 
+                              </div>
+                        </div>
+                        <div class="brand-filter">
+                            <div class="aside-heading">
+                                <h3>Brand and model</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="aside-search">
+                                <input type="text" name="search" id="search" placeholder="Search brand or model">
+                                <button><i class="fa-solid fa-magnifying-glass" style="color: #002f34a3;"></i></button>
+                            </div>
+                            
+                            <!-- <hr> -->
+                            <div class="all-brand">
+                                <h4>All Brands</h4>
+                                    <ul class="list-all-brands vert-slider">
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Royal Enfield (1,05,361)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Bajaj (56,434)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Yamaha (26,252)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="honda" />Honda (21,505)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="toyota" />Hero (21,191)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="tata" />TVS (19,168)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ford" />KTM (11,667)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="volkswagen" />Suzuki (9,030)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="renault" />Other Brands (8,653)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mercedes" />Java (7,080)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="chevrolet" />Yezdi (6,248)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="skoda" />Kawasaki (5,392)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw" />BMW (5,295)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi" />Benelli (4,558)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="kia" />Ducati (3,423)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="nissan" />Revolt (3,299)</label></li>
+                                        
+                                      </ul>
+                            </div>
+                            <hr>
+                            <div class="all-model">
+                                <h4>All Models</h4>
+                                    <ul class="list-all-models vert-slider">
+                                        
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="a8l" />Yezdi Adventure</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Yezdi Roadster</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland-stile" />Yezdi Scrambler</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db11" />Bajaj Avenger</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db9" />Bajaj CT100</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-dbs" />Bajaj Dominar</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-one-77" />Bajaj Platina</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-rapide" />Bajaj Pulsar N 160</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Bajaj Pulsar Ns 125</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Aston Martin V8 Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-virage" />Aston Martin Virage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3" />Audi A3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3-cabriolet" />Audi A3 Cabriolet</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a4" />Audi A4</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a5" />Audi A5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a6" />Audi A6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a7" />Audi A7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8" />Audi A8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8-l" />Audi A8 L</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q3" />Audi Q3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q5" />Audi Q5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q7" />Audi Q7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-r8" />Audi R8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-s6" />Audi S6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-azure" />Bentley Azure</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-flying-spur" />Bentley Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-mulsanne" />Bentley Mulsanne</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-1-series" />BMW 1 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-2-series" />BMW 2 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gran-limousine" />BMW 3 Series Gran Limousine</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gt" />BMW 3 Series GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-4-series" />BMW 4 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series" />BMW 5 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series-gt" />BMW 5 Series Gt</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-6-series" />BMW 6 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-7-series" />BMW 7 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-8-series" />BMW 8 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-gran-turismo" />BMW Gran Turismo</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i3" />BMW i3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i8" />BMW i8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m-series" />BMW M Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m2" />BMW M2</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m3" />BMW M3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m5" />BMW M5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m6" />BMW M6</label></li>
+                                    </ul>   
+                            </div>
+                            <hr>
+
+                            <div class="km-driven">
+                                <div class="aside-heading">
+                                    <h3>KM DRIVEN</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-km">
+                                    <div class="each-km">
+                                      <p>Under 25000 km</p>
+                                      <p>22,400+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>25000 km - 50000 km</p>
+                                      <p>26,700+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>50000 km - 75000 km</p>
+                                      <p>42,100+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>75000 km - 100000 km</p>
+                                      <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>100000 km and Above</p>
+                                      <p>49,400+ cars</p>
+                                    </div>
+                                  </div>
+                                  <p class="choose">choose from options below</p>
+                              <div class="whole-slider">
+                                <div class="graph-slider">
+                                    <div class="graph">
+                                        <ul class="vertical-graph">
+                                            <li class="bar bar1"></li>
+                                            <li class="bar bar2"></li>
+                                            <li class="bar bar3"></li>
+                                            <li class="bar bar4"></li>
+                                            <li class="bar bar5"></li>
+                                            <li class="bar bar6"></li>
+                                            <li class="bar bar7"></li>
+                                            <li class="bar bar8"></li>
+                                            <li class="bar bar9"></li>
+                                            <li class="bar bar10"></li>
+                                            <li class="bar bar11"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider">
+                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
+                                        <p class="zero">0</p>
+                                        <p id="rangeValue2">2,00,000+</p>
+                                    </div>
+                                </div>
+                                <button class="apply">apply</button> 
+                              </div>
+                            </div>
+ 
+                            <div class="year">
+                                <div class="aside-heading">
+                                    <h3>Year</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-year">
+                                    <div class="each-y">
+                                        <p>Under 3 Years</p>
+                                        <p>27,300+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 5 Years</p>
+                                        <p>64,200+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 7 Years</p>
+                                        <p>1,20,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>7 Years and Above</p>
+                                        <p>1,70,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
+                                <p class="choose">choose a Range below</p>
+                                <div class="year-choose-range">
+                                <input type="text" placeholder="2003">
+                                <p>to</p>
+                                <input type="text" placeholder="2023">
+                                <button class="apply">apply</button>
+                                </div>
+                            </div>
+
+                            <!-- <div class="budget">
+                                <div class="aside-heading">
+                                    <h3>Budget</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">Choose from options below</p>
+                                <div class="list-budget">
+                                    <div class="each-bl">
+                                        <p>Below 1 Lac</p>
+                                        <p>14,400+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>1 Lac - 2 Lac</p>
+                                        <p>40,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>2 Lac - 3 Lac</p>
+                                        <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>3 Lac - 5 Lac</p>
+                                        <p>75,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
+                                <p class="choose">choose a range below</p>
+                                <div class="whole-slider">
+                                    <div class="graph-slider">
+                                        <div class="graph">
+                                            <ul class="vertical-graph">
+                                                <li class="bar bar1"></li>
+                                                <li class="bar bar2"></li>
+                                                <li class="bar bar3"></li>
+                                                <li class="bar bar4"></li>
+                                                <li class="bar bar5"></li>
+                                                <li class="bar bar6"></li>
+                                                <li class="bar bar7"></li>
+                                                <li class="bar bar8"></li>
+                                                <li class="bar bar9"></li>
+                                                <li class="bar bar10"></li>
+                                                <li class="bar bar11"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="slider">
+                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
+                                            <p class="zero">0</p>
+                                            <p id="rangeValue">10,00,000+</p>
+                                        </div>
+                                    </div>
+                                    <button class="apply">apply</button> 
+                                  </div>
+                             </div>
+                            <hr>
+                            <div class="year">
+                                <div class="aside-heading">
+                                    <h3>Year</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-year">
+                                    <div class="each-y">
+                                        <p>Under 3 Years</p>
+                                        <p>27,300+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 5 Years</p>
+                                        <p>64,200+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>Under 7 Years</p>
+                                        <p>1,20,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>7 Years and Above</p>
+                                        <p>1,70,000+ cars</p>
+                                    </div>
+                                    <div class="each-y">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
+                                <p class="choose">choose a Range below</p>
+                                <div class="year-choose-range">
+                                <input type="text" placeholder="2003">
+                                <p>to</p>
+                                <input type="text" placeholder="2023">
+                                <button class="apply">apply</button>
+                                </div>
+                            </div>
+                            <hr >
+                            <div class="no-owner">
+                                <div class="aside-heading">
+                                    <h3>no of owners</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-owners">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="firstCheckbox" />
+                                        First (1,78,216)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="secondCheckbox" />
+                                        Second (99,762)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="thirdCheckbox" />
+                                        Third (28,612)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="fourthCheckbox" />
+                                        Fourth (7,739)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="moreThanFourCheckbox" />
+                                        More than Four (3,928)
+                                      </label>
+                                    </li>
+                                  </ul>
+                                  
+                            </div>
+                            <hr>
+                            <div class="inspection-status">
+                                <div class="aside-heading">
+                                    <h3>Inspection Status</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-inspection">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="Inspected-car-only" />
+                                        Inspected Cars Only (29)
+                                      </label>
+                                    </li>
+                                </ul>
+                                  
+                            </div>
+                            <hr>
+                            <div class="km-driven">
+                                <div class="aside-heading">
+                                    <h3>KM DRIVEN</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-km">
+                                    <div class="each-km">
+                                      <p>Under 25000 km</p>
+                                      <p>22,400+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>25000 km - 50000 km</p>
+                                      <p>26,700+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>50000 km - 75000 km</p>
+                                      <p>42,100+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>75000 km - 100000 km</p>
+                                      <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-km">
+                                      <p>100000 km and Above</p>
+                                      <p>49,400+ cars</p>
+                                    </div>
+                                  </div>
+                                  <p class="choose">choose from options below</p>
+                              <div class="whole-slider">
+                                <div class="graph-slider">
+                                    <div class="graph">
+                                        <ul class="vertical-graph">
+                                            <li class="bar bar1"></li>
+                                            <li class="bar bar2"></li>
+                                            <li class="bar bar3"></li>
+                                            <li class="bar bar4"></li>
+                                            <li class="bar bar5"></li>
+                                            <li class="bar bar6"></li>
+                                            <li class="bar bar7"></li>
+                                            <li class="bar bar8"></li>
+                                            <li class="bar bar9"></li>
+                                            <li class="bar bar10"></li>
+                                            <li class="bar bar11"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="slider">
+                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
+                                        <p class="zero">0</p>
+                                        <p id="rangeValue2">2,00,000+</p>
+                                    </div>
+                                </div>
+                                <button class="apply">apply</button> 
+                              </div>
+                            </div>      
+                                
+                            <hr>
+                            <div class="fuel">
+                                <div class="aside-heading">
+                                    <h3>Fuel</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <ul class="list-all-fuel">
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="petrolCheckbox" />
+                                        Petrol (1,43,807)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="dieselCheckbox" />
+                                        Diesel (1,56,950)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="lpgCheckbox" />
+                                        LPG (2,968)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="cngHybridsCheckbox" />
+                                        CNG & Hybrids (21,092)
+                                      </label>
+                                    </li>
+                                    <li>
+                                      <label class="form-control">
+                                        <input type="checkbox" name="checkbox" id="electricCheckbox" />
+                                        Electric (1,046)
+                                      </label>
+                                    </li>
+                                  </ul>                                  
+                            </div>
+                            <hr>
+                            <div class="transmission">
+                                <div class="aside-heading">
+                                    <h3>Transmission</h3>
+                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <p class="choose">choose from options below</p>
+                                <div class="list-transmission">
+                                    <div class="each-opt">
+                                      <p>Automatic</p>
+                                      <p>67,400+ cars</p>
+                                    </div>
+                                    <div class="each-opt">
+                                      <p>Manual</p>
+                                      <p>2,40,000+ cars</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </aside>
+                    <section class="mainbar">
+                        <div class="heading-mainbar">
+                            <div class="no-in-india">
+                                <p>39,327 ads in <span>India</span></p>
+                            </div>
+                            <div class="sort-by">
+                                <p><span>Sort By : </span>Date Published</p>
+                                <i class="fa-solid fa-chevron-down" style="color: #1b1c1d;"></i>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://top10great.com/wp-content/uploads/2014/01/Indian-Chief-Motorcycle.jpg" alt="">
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 7,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/OIP.pUrPPSFm7gqcewrjulpvqgHaFj?pid=ImgDet&w=474&h=355&rs=1" alt="">
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 7,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyunda Asta 1.2 (O), 2015,</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://www.gannett-cdn.com/-mm-/100b55026b69b9ab05750bb7c661ca173038e565/c=0-58-700-453/local/-/media/2018/02/14/USATODAY/USATODAY/636542241805922595-Indian.leftview01.jpg?width=3200&height=1680&fit=crop" alt="">
+
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 10,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://i2.wp.com/windburnedeyes.com/wp-content/uploads/2020/08/Honda-cb750-four.png?fit=1200%2C889&ssl=1" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                        
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 85,000</h1>
+                                        <span class="span1">2000 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="sell-main mainbarli">
+                                <a href="login/login.html">
+                                    <div class="selling">
+                                        <h3>Want to see your stuff here?</h3>
+                                    </div>
+                                    <div class="selling-text">
+                                        <span>Make some extra cash by selling things in your community. Go on, it's quick and easy.</span>
+                                    </div>
+                                    <div class="selling-button">
+                                        <button class="sell-button">Start Selling</button>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.9a1be469af4d6514073f92a37db4ded7?rik=zjYyZz3Q9S307g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-CvzdoWWQQ6k%2fTlbA0ZrxKOI%2fAAAAAAAAAEM%2fc9fkoHBTdqw%2fs1600%2fcustom_sport_bike.jpg&ehk=J0YSyqRFN%2b%2bVsnQgGhY89ieZfYWC1KKNqPWz2USlFLM%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 13,85,000</h1>
+                                        <span class="span1">2019 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.35388bd2c89aef1ef47f8d690afaf1ec?rik=oR8CSP6k6%2bRVdg&riu=http%3a%2f%2fwww.hdnicewallpapers.com%2fWalls%2fBig%2fBikes%2fHonda_Sport_Bike_Pics.jpg&ehk=GfQaNOsvoJtPptcgFdCMRVY0ea6FN0LNRLJdpeFnIrM%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 17,80,000</h1>
+                                        <span class="span1">2020 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.551a6738e6cfc232d811025df361b03e?rik=gwLm1ztLw0QU8g&riu=http%3a%2f%2fwww.bikebros.co.jp%2fvb_img%2fprocustom%2fsports%2fimg%2f35%2fmain.jpg&ehk=gROCG%2fT9lkQjDOb2jJ0d92x%2bpEGokp%2bKjTBvHAKua4M%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 85,000</h1>
+                                        <span class="span1">2009 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/OIP.ZSYygu3KMdNlTFfDWUUuvwAAAA?rs=1&pid=ImgDetMain" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 7,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.88148b133a694fe0e9ae91c196f762af?rik=%2fYiVOdDwSMnN7w&riu=http%3a%2f%2fwww.bikebros.co.jp%2fvb_img%2fprocustom%2fsports%2fimg%2f194%2fmain.jpg&ehk=1mOFpBmCO9ehjI3oxRmXSXJUEPstC7NGT575n%2fOJI08%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 9,00,000</h1>
+                                        <span class="span1">2019 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://d2qn5pre0p0oeu.cloudfront.net/i5/4100dcd7/1a7351bf/128903824o.jpg" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 17,85,000</h1>
+                                        <span class="span1">2016 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://i.pinimg.com/originals/d1/b9/5d/d1b95d644d6b1dfba19f27ba42a4a2ed.jpg" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 20,85,000</h1>
+                                        <span class="span1">2022 - 7800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.86805fabee2ac5875809684d27f01de0?rik=tU1MhUjZonqg6w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-Db1r9lrXTUA%2fT1e7A8W_KfI%2fAAAAAAAAAHM%2fE5o886W6TmY%2fs1600%2f2009_Yamaha_YZF-R6_Black_LHF_1280.jpg&ehk=6KeupZK1xV%2fpu%2bqmu3NZ%2fIIF5kBA%2b0LmiFRJaQOvBxE%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 10,85,000</h1>
+                                        <span class="span1">2013 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://badasshelmetstore.com/wp-content/uploads/2020/08/wallpaperflare.com_wallpaper-35-scaled.jpg" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 7,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://external-preview.redd.it/xz-e3oGoI67gMwTmmaGJq80W0k_m5C7j9E4wPkpqUHo.jpg?auto=webp&s=d1842a4cb4b35b29336cd0dc5c87c899e8208c66" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 17,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://i.pinimg.com/originals/41/a8/70/41a8703835f54fede69f787ba245e3e5.jpg" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 85,000</h1>
+                                        <span class="span1">2000 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.ff6867acee19cf238f5fc025e131b86b?rik=a2obbnWBbOeL2Q&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fMotorcycle-images-wallpaper.jpg&ehk=NGU57fh%2bq9ZeLzxmq5sNoABGw%2biT83do1CkFdyZj6kI%3d&risl=&pid=ImgRaw&r=0" alt="">
+                                        
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 27,85,000</h1>
+                                        <span class="span1">2020 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://i.pinimg.com/originals/bf/b8/a1/bfb8a1419a9b87cf8ac0424ab70bd289.jpg" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 17,85,000</h1>
+                                        <span class="span1">2012 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="featured-list mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.b71fd0ff8f65c9639cef24b86021ba04?rik=InNJsi5%2fB0toxA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-WaH6JIsIrlk%2fTreoJ1iOAyI%2fAAAAAAAAA-g%2fMPc4oBNS5cU%2fs1600%2fBoyracers%2bBlog%2bMV%2bAgusta%2bF4%2bHD%2bwallpaper.jpg&ehk=nsMvYJAQnkcdTG%2bFz2%2bDHp2t63x1Jj0fbmouwDmkbyk%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                                          <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 47,85,000</h1>
+                                        <span class="span1">2023 - 800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                            <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://th.bing.com/th/id/R.0cb2451562d062bd382a9f83443c9323?rik=tEkxoAYoEDMNhA&riu=http%3a%2f%2fhondaprokevin.com%2fpictures%2fAfrica-Twin-CRF1000L-6-2016%2fhonda-africa-twin-crf1000l-motorcycle-adventure-bike-ride-review-specs-dakar-.jpg&ehk=Y0NS%2bApB35cJxlVk6O7xvtuIMumfCmorTE2NzJUwgXk%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+                
+                                    <div class="text">
+                                        <h1>₹ 7,00,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                        <div class="spanflex">
+                                            <span>Shillong Cantt, Shillong</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                
+                    
+                             <li class="mainbarli">
+                                    <a href="">
+                                        <div class="img">
+                                            <img src="https://th.bing.com/th/id/R.a8d9906d77736617ddf346f44dc1eb93?rik=fpjc%2fUhoiVhQDQ&riu=http%3a%2f%2fwww.bikebros.co.jp%2fvb_img%2fprocustom%2fnaked%2fimg%2f116%2fmain.jpg&ehk=N6jL51NUEfQdzgorq%2b3y6QxRtl%2boPD47lfM48aesr%2bY%3d&risl=&pid=ImgRaw&r=0" alt="">
+
+                                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                        </div>
+                
+                                        <div class="text">
+                                            <h1>₹ 7,85,000</h1>
+                                            <span class="span1">2015 - 47800.0 km</span>
+                                            <span class="span2">Hyundai Asta 1.2 (O), 2015, Petrol</span>
+                                            <div class="spanflex">
+                                                <span>Shillong Cantt, Shillong</span>
+                                                <span>Nov 05</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                             </li>
+                
+                            
+                            <li class="lodbutton">
+                                <div class="lodmore">
+                                    <input type="button" value="Lode more">
+                                 </div>
+                            </li>
+                                
+                            
+                         </ul>
+            
+                    </section>
+                </section> 
+            </div>
+        </main>
+        <footer>
+            <div class="footer-main">
+                <div class="inside-footer-main">
+                    <div class="pop-locations">
+                        <span>POPULAR LOCATIONS</span>
+                        <ul style="list-style-type: none;">
+                        <li style="height: 3px;">Kolkata</li>
+                        <li>Mumbai</li>
+                        <li>Chennai</li>
+                        <li>Pune</li>
+                        </ul>
+                    </div>
+                    <div class="trend-locations">
+                        <span>TRENDING LOCATIONS</span>
+                        <ul style="list-style-type: none;">
+                            <li>Bhubaneshwar</li>
+                            <li>Hyderabad</li>
+                            <li>Chandigarh</li>
+                            <li>Nashik</li>
+                            </ul>
+                    </div>
+                    <div class="about">
+                        <span>ABOUT US</span>
+                        <ul style="list-style-type: none;">
+                            <li>About OLX Group</li>
+                            <li>Careers</li>
+                            <li>Contact Us</li>
+                            <li>OLXPeople</li>
+                            <li>Waah Jobs</li>
+                            </ul>
+                    </div>
+                    <div class="olx">
+                        <span>OLX</span>
+                        <ul style="list-style-type: none;">
+                            <li>Help</li>
+                            <li>Sitemap</li>
+                            <li>Legal & Privacy information</li>
+                            <li>Blog</li>
+                            <li>OLX Autos Sell Car</li>
+                            <li>Vulnerability Disclosure Program</li>
+                            </ul>
+                    </div>
+                    <div class="follow-us">
+                        <span>FOLLOW US</span>
+                        <div class="follow-svg">
+                            <i class="fa-brands fa-facebook fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                            <i class="fa-brands fa-instagram fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                            <i class="fa-brands fa-twitter fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                            <i class="fa-brands fa-youtube fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                        </div>
+                        <div class="follow-button">
+                            <a href="https://play.google.com/store/apps/details?id=com.olx.southasia" target="_blank" rel="noopener noreferrer" class="QUhEK" data-aut-id=""><picture><source type="image/webp" srcset="https://statics.olx.in/external/base/img/playstore.webp"><img src="https://statics.olx.in/external/base/img/playstore.png" alt="Download OLX in the Android Play Store" class="Wn0Dp"></picture></a>
+                            <a href="https://itunes.apple.com/in/app/olx-buy-sell-near-you/id913492792?mt=8" target="_blank" rel="noopener noreferrer" class="QUhEK" data-aut-id=""><picture><source type="image/webp" srcset="https://statics.olx.in/external/base/img/appstore.webp"><img src="https://statics.olx.in/external/base/img/appstore.png" alt="Download OLX for iOS in the Apple App Store" class="Wn0Dp"></picture></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="inside-footer-end">
+                    <div>
+                        <span>Help - Sitemap</span>
+                    </div>
+                    <div>
+                       <span> All rights reserved © 2006-2023 OLX</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+<script src="https://kit.fontawesome.com/2c44b97502.js" crossorigin="anonymous"> 
+</script>
+<script src="cars.js"></script>
+</html>
