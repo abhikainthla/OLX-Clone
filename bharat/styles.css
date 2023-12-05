@@ -612,7 +612,7 @@ aside ul{
     justify-content: space-between;
 }
 .categories{
-    width: 304px; 
+    max-width: 304px; 
     padding-bottom: 28px;
     border-bottom: 1px solid rgba(14,4,5,0.2);
 }
@@ -637,7 +637,7 @@ aside ul{
     background-color: #c8f6f6;
 }
 .locations{
-    width: 304px;
+    max-width: 304px;
     padding-top: 32px;
     padding-bottom: 28px;
     border-bottom: 1px solid rgba(14,4,5,0.2);
@@ -673,7 +673,7 @@ aside ul{
 /* -------------brand and model------------- */
 .brand-filter{
     padding: 28px 0 32px 0;
-    width: 304px;
+    max-width: 304px;
 }
 .aside-search{
     display: flex;
@@ -747,7 +747,8 @@ aside ul{
 
 .budget,.year,.no-owner,.inspection-status,.km-driven,.fuel,.transmission{
     padding: 28px 0 32px 0;
-    width: 304px;
+    max-width: 304px;
+    min-width: 250px;
 }
 .choose{
     margin-bottom: 14px;
@@ -1262,7 +1263,7 @@ footer{
   /* -----------slider--------------- */
   .whole-slider{
     margin-top: 50px;
-    width: 304px;
+    max-width: 304px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1446,4 +1447,27 @@ details p{
     text-align: left;
     color: rgba(0,47,52,1);
     padding: 0 0 0 40px;
+}
+
+/* ----------------------------media query------------------------ */
+@media screen and (max-width: 1280px) {
+    .mainbar li{
+        width: 263px;
+    }
+    aside{
+        width: 250px;
+        margin-right: 0px;
+    }
+    .whole-slider{
+    flex-direction: column;
+    gap: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    aside{
+        display: none;
+    }
+    .sub-header{
+        display: none;
+    }
 }
