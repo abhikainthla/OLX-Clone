@@ -1154,5 +1154,19 @@ footer{
 .vert-slider::-webkit-scrollbar, .vert-slider::-webkit-scrollbar-track {
     background-color: rgba(14, 4, 5, 0.1);
 }
-
-
+/* load more */
+main .btn-container button{
+   margin-top: 50px ;
+   margin-left: 430px;
+    padding: 0 10px;
+    border: 2px solid #002F34;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 48px;
+    font-weight: 700;
+    overflow: hidden;
+    }
+     .btn-container button:hover{
+        border-width: 5px;
+        padding: 0 7px;
+     }

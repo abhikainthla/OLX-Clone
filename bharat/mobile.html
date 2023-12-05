@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLX</title>
-    <link rel="stylesheet" href="./forrent.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -99,9 +98,9 @@
             <!-- button for javascript -->
         <div class="all-categories"><button><span>All Categories</span></button><button><span><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></span></button></div>
         <div class="cars"><a href="bharat/cars.html">Cars</a></div>
-        <div class="Motercycles"><a href="../motercycles.html">Motercycles</a></div>
+        <div class="Motercycles"><a href="../preyesh/moter.html">Motercycles</a></div>
         <div class="Mobile-Phones"><a href="../Augustine/mobiles.html">Mobile Phones</a></div>
-        <div class="for-sale"><a href="../Abhishek.html">For Sale: Houses & Apartments</a></div>
+        <div class="for-sale"><a href="../Abhishek/forsale.html">For Sale: Houses & Apartments</a></div>
         <div class="scooters"><a href="../able/scooter.html">Scooters</a></div>
         <div class="commercial"><a href="../commercial.html">Commercial & Other Vehicles</a></div>
         <div class="for-rent"><a href="../Vishal/forrent.html">For Rent: Houses & Apartments</a></div>
@@ -116,11 +115,30 @@
                     <div class="popular-search">
                         <h5>Popular Search:</h5>
                         <ul>
-                            <li><a href="#">heavy deposit</a></li> 
+                            <li><a href="#">shift dzire</a></li>
+                            <li>-</li>
+                            <li><a href="#">scorpio</a></li>
+                            <li>-</li>
+                            <li><a href="#">innova</a></li>
+                            <li>-</li>
+                            <li><a href="#">honda city</a></li>
+                            <li>-</li>
+                            <li><a href="#">ertiga</a></li>
+                            <li>-</li>
+                            <li><a href="#">bolero</a></li>
+                            <li>-</li>
+                            <li><a href="#">tavera</a></li>
+                            <li>-</li>
+                            <li><a href="#">fortuneer</a></li>
+                            <li>-</li>
+                            <li><a href="#">wagon r</a></li>
+                            <li>-</li>
+                            <li><a href="#">omni</a></li>
+                            
                         </ul>
                     </div>
-                    <p class="home-cars">Home \ Properties \ For Rent: Houses &amp; Apartments</p>
-                    <h1>Houses &amp; Apartments For Rent in India</h1>
+                    <p class="home-cars">Home \ Cars</p>
+                    <h1>Buy & Sell Used Cars in India</h1>
                 </section>
                 <section class="main-content">
                     <!--------------------aside---------------------------->
@@ -132,13 +150,21 @@
                             <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
                             </div>
                             <div class="row">
-                                <div class="each-row first-row">
-                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
-                                    <h5>All Categories</h5>
-                                </div>
-                                <div class="each-row col-green">
-                                    <p>Properties (5,25,627)</p>
-                                </div>
+                                <ul class="location-list vert-slider">
+                                    <li style="padding-left: 0;"><div class="each-row first-row">
+                                        <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                        <h5>All Categories</h5>
+                                    </div></li>
+                                    <li>
+                                        <li style="padding-left: 5px; padding-top: 0;"><div> 
+                                            <i class="fa-solid fa-minus" style="color: #2d2e2f; margin-right: 5px;"></i>
+                                            <a href="">Bikes</a>
+                                    </li>
+                                    <li><a href="">Motorcycles (1,33,033)</a></li>
+                                    <li><a href="#">Scooters (38,615)</a></li>
+                                    <li><a href="#">Spare Parts (31,078)</a></li>
+                                    <li><a href="#">Bicycle (33,847)</a></li>
+                                </ul>
                             </div>
                         </div>
                         <!-- <hr> -->
@@ -152,7 +178,7 @@
                                     <h5>India</h5>
                             </div>
                             <ul class="location-list vert-slider">
-                                <li><a href="">Maharashtra(98,682)</a></li>
+                                <li><a href="">Maharashtra</a></li>
                                 <li><a href="#">Kerala(33,847)</a></li>
                                 <li><a href="#">Tmail Nadu (31,078)</a></li>
                                 <li><a href="#">Delhi (29,536)</a></li>
@@ -179,12 +205,192 @@
                             <p>Filters</p>
                         </div>
                         <div class="brand-filter">
+                            <div class="aside-heading">
+                                <h3>Brand and model</h3>
+                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            </div>
+                            <div class="aside-search">
+                                <input type="text" name="search" id="search" placeholder="Search brand or model">
+                                <button><i class="fa-solid fa-magnifying-glass" style="color: #002f34a3;"></i></button>
+                            </div>
+                            <div class="popular-brands">
+                                <h4>popular brands</h4>
+                                <div class="logo-popular-brands">
+                                    <div class="each-logo">
+                                        <img src="https://www.logo.wine/a/logo/Honda/Honda-Logo.wine.svg" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="https://www.logo.wine/a/logo/Hero_MotoCorp/Hero_MotoCorp-Logo.wine.svg" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Suzuki_logo_2.svg/750px-Suzuki_logo_2.svg.png" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="https://www.logo.wine/a/logo/Kawasaki_Heavy_Industries/Kawasaki_Heavy_Industries-Logo.wine.svg" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="https://www.logo.wine/a/logo/TVS_Motor_Company/TVS_Motor_Company-Logo.wine.svg" alt="">
+                                    </div>
+                                    <div class="each-logo">
+                                        <img src="https://www.logo.wine/a/logo/Yamaha_Motor_Company/Yamaha_Motor_Company-Logo.wine.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="all-brand">
+                                <h4>All Brands</h4>
+                                    <ul class="list-all-brands vert-slider">
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Maruti Suzuki (1,05,361)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Hyundai (56,434)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Mahindra (26,252)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="honda" />Honda (21,505)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="toyota" />Toyota (21,191)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="tata" />Tata (19,168)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ford" />Ford (11,667)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="volkswagen" />Volkswagen (9,030)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="renault" />Renault (8,653)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mercedes" />Mercedes-Benz (7,080)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="chevrolet" />Chevrolet (6,248)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="skoda" />Skoda (5,392)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw" />BMW (5,295)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi" />Audi (4,558)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="kia" />Kia (3,423)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="nissan" />Nissan (3,299)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mg" />MG (1,717)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="jeep" />Jeep (1,600)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="datsun" />Datsun (1,426)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="fiat" />Fiat (1,375)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="land-rover" />Land Rover (1,314)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="volvo" />Volvo (778)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="jaguar" />Jaguar (722)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mitsubishi" />Mitsubishi (660)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mini" />Mini (452)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="force-motors" />Force Motors (406)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="porsche" />Porsche (333)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="isuzu" />Isuzu (271)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Ambassador (239)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="eicher-polaris" />Eicher Polaris (111)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ssangyong" />Ssangyong (102)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="lexus" />Lexus (100)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra-renault" />Mahindra Renault (100)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland" />Ashok Leyland (88)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj" />Bajaj (80)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley" />Bentley (44)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="opel" />Opel (38)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok" />Ashok (30)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="lamborghini" />Lamborghini (30)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="rolls-royce" />Rolls-Royce (28)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mazda" />Mazda (26)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin" />Aston Martin (21)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="smart" />Smart (21)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="subaru" />Subaru (3)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="dodge" />Dodge (2)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="infiniti" />Infiniti (2)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="caterham" />Caterham (1)</label></li>
+                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="citroen" />Citroen</label></li>
+                                      </ul>
+                            </div>
+                            <hr>
+                            <div class="all-model">
+                                <h4>All Models</h4>
+                                    <ul class="list-all-models vert-slider">
+                                        
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="a8l" />A8l</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Ambassador Ambassador</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland-stile" />Ashok Leyland Stile</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db11" />Aston Martin DB11</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db9" />Aston Martin DB9</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-dbs" />Aston Martin DBS</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-one-77" />Aston Martin One 77</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-rapide" />Aston Martin Rapide</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Aston Martin V8 Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-v8-vantage" />Aston Martin V8 Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vanquish" />Aston Martin Vanquish</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-vantage" />Aston Martin Vantage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-virage" />Aston Martin Virage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3" />Audi A3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a3-cabriolet" />Audi A3 Cabriolet</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a4" />Audi A4</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a5" />Audi A5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a6" />Audi A6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a7" />Audi A7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8" />Audi A8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-a8-l" />Audi A8 L</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q3" />Audi Q3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q5" />Audi Q5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-q7" />Audi Q7</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-r8" />Audi R8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-s6" />Audi S6</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="audi-tt" />Audi TT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bajaj-re60" />Bajaj RE60</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-arnage" />Bentley Arnage</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-azure" />Bentley Azure</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-bentayga" />Bentley Bentayga</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental" />Bentley Continental</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-flying-spur" />Bentley Continental Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gt" />Bentley Continental GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-continental-gtc" />Bentley Continental GTC</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-flying-spur" />Bentley Flying Spur</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bentley-mulsanne" />Bentley Mulsanne</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-1-series" />BMW 1 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-2-series" />BMW 2 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gran-limousine" />BMW 3 Series Gran Limousine</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-3-series-gt" />BMW 3 Series GT</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-4-series" />BMW 4 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series" />BMW 5 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-5-series-gt" />BMW 5 Series Gt</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-6-series" />BMW 6 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-7-series" />BMW 7 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-8-series" />BMW 8 Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-gran-turismo" />BMW Gran Turismo</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i3" />BMW i3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-i8" />BMW i8</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m-series" />BMW M Series</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m2" />BMW M2</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m3" />BMW M3</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m5" />BMW M5</label></li>
+                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m6" />BMW M6</label></li>
+                                    </ul>   
+                            </div>
+                            <hr>
                             <div class="budget">
                                 <div class="aside-heading">
                                     <h3>Budget</h3>
                                     <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                
+                                <p class="choose">Choose from options below</p>
+                                <div class="list-budget">
+                                    <div class="each-bl">
+                                        <p>Below 1 Lac</p>
+                                        <p>14,400+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>1 Lac - 2 Lac</p>
+                                        <p>40,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>2 Lac - 3 Lac</p>
+                                        <p>42,500+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>3 Lac - 5 Lac</p>
+                                        <p>75,700+ cars</p>
+                                    </div>
+                                    <div class="each-bl">
+                                        <p>5 Lac and Above</p>
+                                        <p>1,50,000+ cars</p>
+                                    </div>
+                                </div>
                                 <p class="choose">choose a range below</p>
                                 <div class="whole-slider">
                                     <div class="graph-slider">
@@ -206,189 +412,11 @@
                                         <div class="slider">
                                             <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
                                             <p class="zero">0</p>
-                                            <p id="rangeValue">5,00,000+</p>
+                                            <p id="rangeValue">10,00,000+</p>
                                         </div>
                                     </div>
                                     <button class="apply">apply</button> 
                                   </div>
-                            </div>
-                            <hr>
-                            <!-- <hr> -->
-                            <div class="all-brand">
-                                <h4>Type</h4>
-                                <p class="choose1">Choose from below options</p>
-                                    <ul class="list-all-brands vert-slider">
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Houses & Villas (46,800)</label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Apartments (38,286)</label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Builder Floors (12,792)</label></li>
-                            </div>
-                            <hr>
-                            <div class="budget">
-                                <div class="aside-heading">
-                                    <h3>PRICE PER SQ. FT.</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                
-                                <p class="choose">Choose a range below (Rs/Sq Ft)</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">5,00,000+</p>
-                                        </div>
-                                    </div>
-                                    <button class="apply">apply</button> 
-                                  </div>
-                            </div>
-                            <hr>
-                            <div class="year">
-                                <div class="aside-heading">
-                                    <h3>BEDROOMS</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">Choose from below options</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>1+ bedroom</p>
-                                        
-                                    </div>
-                                    <div class="each-y">
-                                        <p>2+ bedroom</p>
-                                       
-                                    </div>
-                                    <div class="each-y">
-                                        <p>3+ bedroom</p>
-                                        
-                                    </div>
-                                    <div class="each-y">
-                                        <p>4+ bedroom</p>
-                                       
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div>
-                            <hr >
-                            <div class="year">
-                                <div class="aside-heading">
-                                    <h3>BATHROOMS</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">Choose from below options</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>1+ bathroom</p>
-                                        
-                                    </div>
-                                    <div class="each-y">
-                                        <p>2+ bathroom</p>
-                                       
-                                    </div>
-                                    <div class="each-y">
-                                        <p>3+ bathroom</p>
-                                        
-                                    </div>
-                                    <div class="each-y">
-                                        <p>4+ bathroom</p>
-                                       
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div>
-                            <hr>
-                            <div class="all-brand">
-                                <h4>FURNISHING</h4>
-                                <p class="choose1">Choose from below options</p>
-                                    <ul class="list-all-brands vert-slider">
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />
-                                            Furnished (25,733)
-                                            </label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />
-                                            Unfurnished (29,678)</label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />
-                                            Semi-Furnished (40,787)</label></li>
-                            </div>
-                            <hr>
-                            <div class="all-brand">
-                                <h4>LISTED BY
-                                </h4>
-                                <p class="choose1">Choose from below options</p>
-                                    <ul class="list-all-brands vert-slider">
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Owner (61,081)</label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Dealer (32,818)</label></li>
-                                        <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Builder (1,714)</label></li>
-                            </div>
-                            <hr>
-                            
-                            <div class="budget">
-                                <div class="aside-heading">
-                                    <h3>SUPER BUILTUP AREA (FT²)</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                
-                                <p class="choose">Choose a range below (Sq Ft)</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">1,00,000+</p>
-                                        </div>
-                                    </div>
-                                    <button class="apply">apply</button> 
-                                  </div>
-                            </div>
-                            <hr>
-                            <div class="year">
-                                <div class="aside-heading">
-                                    <h3>BACHELORS ALLOWED</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>Bachelors allowed
-                                            </p>
-                                        <p>56,600+ items</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Bachelors not allowed</p>
-                                        <p>34,200+ items</p>
-                                    </div> 
-                                </div>
-                                
                             </div>
                             
                         </div>
@@ -407,18 +435,17 @@
                             <li class="featured-list">
                                 <a href="">
                                     <div class="img">
-                                          <img src="https://apollo.olx.in/v1/files/ewkuulzv63cr1-IN/image" alt="">
+                                          <img src="https://www.rushlane.com/wp-content/uploads/2023/01/2023-honda-amaze-facelift-new-rde.jpg" alt="">
                                           <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
                                           <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                                           </div>
                 
                                     <div class="text">
-                                        <h1>₹ 6,000</h1>
-                                        <span class="span1">2 Bds - 1 Ba - 528 ft2
-                                        </span>
-                                        <span class="span2">Floor For Rent in R Block Tatytope Nagar Kanpur</span>
+                                        <h1>₹ 7,85,000</h1>
+                                        <span class="span1">2015 - 47800.0 km</span>
+                                        <span class="span2">Hyundai Elite i20 Asta 1.2 (O), Petrol</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">MCHARBANSINGH KA PURWA, KANPUR</span>
+                                            <span class="spanflex-1">Shillong Cantt, Shillong</span>
                                             <span>Nov 05</span>
                                         </div>
                                     </div>
@@ -448,20 +475,19 @@
                             <li class="featured-list">
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/chu7hlu25vzd3-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/zbmj5eb966xj3-IN/image" alt="">
                                         <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
                                         <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 13,500
-                                        </h1>
-                                        <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                        <span class="span2">3 BHK First Floor House For Rent at Sastha Nagar,</span>
+                                        <h1>₹ 58,000</h1>
+                                        <span class="span1">2019 - 27,000 km</span>
+                                        <span class="span2">Hero glamour 2019 model</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">KARAMANA, THIRUVANANTHAPURAM</span>
-                                            <span>TODAY</span>
+                                            <span class="spanflex-1">Baksar, Patna, Bihar</span>
+                                            <span>Nov 03</span>
                                         </div>
                                     </div>
                                 </a>
@@ -470,17 +496,17 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/4ivw0f1qrw2g2-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/wynnxdra56xh1-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 8,000</h1>
-                                        <span class="span1">1 Bds - 2 Ba - 620 ft2</span>
-                                        <span class="span2">Urgent rent in nakashtra pride</span>
+                                        <h1>₹ 22,500</h1>
+                                        <span class="span1"></span>
+                                        <span class="span2">iPhone 13 pro refurbished mobiles bill warranty with all accessories</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">NAIGAON EAST, MUMBAI</span>
+                                            <span class="spanflex-1">Samudrapur MIDC, Maharashtra, India</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -490,17 +516,17 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/kukyamxhc3h9-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/jineoyz8jo192-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 9,000</h1>
-                                        <span class="span1">1 Bds - 2 Ba - 620 ft2</span>
-                                        <span class="span2">Urgent in rent for sunteck West world</span>
+                                        <h1>₹ 68,000</h1>
+                                        <span class="span1">2021 - 24,000 km</span>
+                                        <span class="span2">Yamaha fasino 125</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">NAIGAON EAST, MUMBAI</span>
+                                            <span class="spanflex-1">Thankalam, Kothamangalam, Kerala</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -523,19 +549,18 @@
                             <li class="featured-list">
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/rt4bamyyghca1-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/tsfw2tvo5me53-IN/image" alt="">
                                         <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
                                         <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 6,500
-                                        </h1>
-                                        <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                        <span class="span2">Urgent rent for in Nakshatra ozone</span>
+                                        <h1>₹ 8,51,000</h1>
+                                        <span class="span1">2017 - 86000.0 km</span>
+                                        <span class="span2">Hyundai Creta 1.4 E Plus, 2017, Diesel</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">NAIGAON EAST, MUMBAI</span>
+                                            <span class="spanflex-1">Alkapuri, Vadodara</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -545,15 +570,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/1ulkpmb7gbj8-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/646boxuird633-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 8,000</h1>
-                                        <span class="span1">1 Bds - 1 Ba - 620 ft2</span>
-                                        <span class="span2">Nice view in flat</span>
+                                        <h1>₹ 10,001</h1>
+                                        <span class="span1"></span>
+                                        <span class="span2">for sell samsung washing machine</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Shillong Cantt, Shillong</span>
                                             <span>Nov 05</span>
@@ -565,15 +590,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/sx14khts6q563-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/mnw4dip6y96f3-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
                                         <h1>₹ 9,499</h1>
-                                        <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                        <span class="span2">Good deals in Nakshatra Primus</span>
+                                        <span class="span1"></span>
+                                        <span class="span2">Lite used Lg single door refrigerator</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">ITPL Road, Bengaluru, Karnataka</span>
                                             <span>Today</span>
@@ -585,17 +610,17 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/6kv1wr8rx5ij3-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/kpadgrgv0l3l-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
                                         <h1>₹ 14,000</h1>
-                                        <span class="span1">1 Bds - 1 Ba - 400 ft2</span>
-                                        <span class="span2">Semi Furnished Flat Available for Rent in BTM Layout 1st Stage</span>
+                                        <span class="span1"></span>
+                                        <span class="span2">AirPods 3 generation</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">BTM LAYOUT STAGE 1, BENGALURU</span>
+                                            <span class="spanflex-1">Jaripatka, Nagpur, Maharashtra</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -605,15 +630,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/rj6uot00gwxd3-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/w1vb7ggn727k-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
                                         <h1>₹ 15,500</h1>
-                                        <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                        <span class="span2">3BHK BRAND NEW LUXURIOUS FLAT FOR RENT</span>
+                                        <span class="span1"></span>
+                                        <span class="span2">Vivo y56 5g ,5000mh , 8gb Ram 128 storege condition is good</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Vaishnav Devi Nagar, Nagpur, Maharashtra</span>
                                             <span>Today</span>
@@ -625,17 +650,17 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/46y5lgjum7o63-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/xxc0nuog03k71-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
                                         <h1>₹ 10,000</h1>
-                                        <span class="span1">2 Bds - 2 Ba - 1000 ft2</span>
+                                        <span class="span1"></span>
                                         <span class="span2">Wooden Showcase</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">2 bedroom attached first floor near Ettumanoor railway station 9 k</span>
+                                            <span class="spanflex-1">Sitabuldi, Nagpur, Maharashtra</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -645,7 +670,7 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo-singapore.akamaized.net/v1/files/agrdg07es88d1-IN/image;s=300x600;q=60" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/1jmliq1q6eye2-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
@@ -665,15 +690,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/j01si80d5n091-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/7sa1zecxdzs03-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 12,000</h1>
-                                        <span class="span1">3 Bds - 2 Ba - 1800 ft2</span>
-                                        <span class="span2">Three bed room with big hall, kitchen, sitting a spacious utility</span>
+                                        <h1>₹ 1,999</h1>
+                                        <span class="span1"></span>
+                                        <span class="span2">Google 3in1 Speaker: A Symphony of Sound, Light, and Connectivity</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Samudrapur, Maharashtra, India</span>
                                             <span>4 days ago</span>
@@ -685,17 +710,17 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/wj711qaarhbv2-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/wqspgmgdscl93-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 11,000</h1>
-                                        <span class="span1">2 Bds - 1 Ba - 950 ft2</span>
-                                        <span class="span2">Newly built spacious 2BHK house with very good ventilation for rent</span>
+                                        <h1>₹ 28,000</h1>
+                                        <span class="span1"></span>
+                                        <span class="span2">iPhone 13 second hand model under warranty with bill box</span>
                                         <div class="spanflex">
-                                            <span class="spanflex-1">DHIRENPARA, GUWAHATI</span>
+                                            <span class="spanflex-1">Samudrapur, Maharashtra, India</span>
                                             <span>Today</span>
                                         </div>
                                     </div>
@@ -705,15 +730,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/dthgs07ioocm2-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 10,000</h1>
-                                        <span class="span1">3 Bds - 2 Ba - 1500 ft2</span>
-                                        <span class="span2">House for rent near kalathoor kavala,near kothanalloor</span>
+                                        <h1>₹ 1,20,000</h1>
+                                        <span class="span1">2010 - 80,000 km</span>
+                                        <span class="span2">Maruti Suzuki Omni 2010</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                             <span>Yesterday</span>
@@ -725,16 +750,16 @@
                             <li class="featured-list">
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/ao8uegl59aj12-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/836brxab3ll13-IN/image" alt="">
                                         <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
                                         <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 12,000</h1>
-                                        <span class="span1">2 Bds - 2 Ba - 800 ft2</span>
-                                        <span class="span2">House for rent</span>
+                                        <h1>₹ 42,50,000</h1>
+                                        <span class="span1">2018 - 39850.0 km</span>
+                                        <span class="span2">BMW 5 Series 2.0 520D Luxury, Diesel</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Sector 7B, Chandigarh</span>
                                             <span>Oct 08</span>
@@ -746,15 +771,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/0yanssdrms301-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/cx0owz5c94eu3-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 7,000</h1>
-                                        <span class="span1">1 Bds - 1 Ba - 14 ft2</span>
-                                        <span class="span2">Room on Rent</span>
+                                        <h1>₹ 35,000</h1>
+                                        <span class="span1">2010 - 33,000 km</span>
+                                        <span class="span2">Super good condition insurance cournt</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Anna Nagar, Kumbakonam, Tamil Nadu</span>
                                             <span>Today</span>
@@ -766,15 +791,15 @@
                             <li>
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/o75u7oqe7syq1-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/z0n1bk6qkd4r-IN/image" alt="">
                                         <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
                                         <h1>₹ 3,300</h1>
-                                        <span class="span1">2 Bds - 2 Ba - 800 ft2</span>
-                                        <span class="span2">Newly built spacious 2BHK house with very good ventilation for rent</span>
+                                        <span class="span1"></span>
+                                        <span class="span2">RD3 4k 3D led projector usb hdmi vga smart Android wifi screen LIVE tv</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Samudrapur, Maharashtra, India</span>
                                             <span>Nov 17</span>
@@ -786,16 +811,16 @@
                             <li class="featured-list">
                                 <a href="">
                                     <div class="img">
-                                        <img src="https://apollo.olx.in/v1/files/zeysrkp7f1xx-IN/image" alt="">
+                                        <img src="https://apollo.olx.in/v1/files/v02h19boikd-IN/image" alt="">
                                         <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
                                         <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                     </div>
                 
                                     <div class="text">
-                                        <h1>₹ 22,000</h1>
-                                        <span class="span1">2 Bds - 2 Ba - 800 ft2</span>
-                                        <span class="span2">House for rent</span>
+                                        <h1>₹ 26,00,000</h1>
+                                        <span class="span1">2014 - 88000.0 km</span>
+                                        <span class="span2">Mercedes-Benz GL-Class 3.0, Diesel</span>
                                         <div class="spanflex">
                                             <span class="spanflex-1">Whitefield, Bengaluru</span>
                                             <span>Nov 17</span>
@@ -807,15 +832,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo-singapore.akamaized.net/v1/files/275rgypmb36z-IN/image;s=300x600;q=60" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/ewyy41946bk52-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                 
                                         </div>
                 
                                         <div class="text">
-                                            <h1>₹ 5,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 14 ft2</span>
-                                            <span class="span2">Room on Rent</span>
+                                            <h1>₹ 62,000</h1>
+                                            <span class="span1"></span>
+                                            <span class="span2">CANON 200D Mark ii with 50mm, 18-55mm, 55-250mm lenses</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shri Ganesh Chowk, Nagpur, Maharashtra</span>
                                                 <span>Today</span>
@@ -826,15 +851,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo-singapore.akamaized.net/v1/files/3uf7e43ykya6-IN/image;s=300x600;q=60" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/v7atou6q69rh3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 7,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1500 ft2</span>
-                                            <span class="span2">House for rent near kalathoor kavala,near kothanalloor</span>
+                                            <h1>₹ 77,000</h1>
+                                            <span class="span1"></span>
+                                            <span class="span2">Apple Watch Ultra 2 With Apple Care+</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Cleveland Town, Bengaluru, Karnataka</span>
                                                 <span>Nov 14</span>
@@ -845,15 +870,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo-singapore.akamaized.net/v1/files/w0wms0p6yq361-IN/image;s=300x600;q=60" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 12,000</h1>
-                                            <span class="span1">2 Bds - 2 Ba - 800 ft2</span>
-                                            <span class="span2">House for rent</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -864,15 +889,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo-singapore.akamaized.net/v1/files/lgk0w6trm0su3-IN/image;s=300x600;q=60" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 20,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1800 ft2</span>
-                                            <span class="span2">2 bedroom attached first floor near Ettumanoor railway station 9 k</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -883,15 +908,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/58agsxp6m7gh1-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 10,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">3BHK BRAND NEW LUXURIOUS FLAT FOR RENT</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -902,15 +927,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/jjqk8y9ldrhm3-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 20,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                            <span class="span2">Good deals in Nakshatra Primus</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -921,15 +946,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/yjbayg9h4rm91-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 6,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">Semi Furnished Flat Available for Rent in BTM Layout 1st Stage</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -940,15 +965,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/4iprvyxjld673-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 15,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">3BHK BRAND NEW LUXURIOUS FLAT FOR RENT</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -959,15 +984,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/xjai461e10oo1-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 12,000</h1>
-                                            <span class="span1">3 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">Good deals in Nakshatra Primus</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -978,15 +1003,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/3q3bx4yl4lei1-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 10,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 620 ft2</span>
-                                            <span class="span2">Nice view in flat</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -997,16 +1022,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/ywqku166izc43-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 9,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 400 ft2
-                                            </span>
-                                            <span class="span2">Semi Furnished Flat Available for Rent in BTM Layout 1st Stage</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1017,15 +1041,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/zoznb6tne2xt3-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 5,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                            <span class="span2">Urgent rent for in Nakshatra ozone</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1036,15 +1060,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/6qeqrxrv4in61-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 7,000</h1>
-                                            <span class="span1">1 Bds - 2 Ba - 620 ft2</span>
-                                            <span class="span2">Urgent in rent for sunteck West world</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1055,15 +1079,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/le2ieodsi8xj1-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 22,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                            <span class="span2">Good deals in Nakshatra Primus</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1074,15 +1098,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/iqa7zw0048j5-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 10,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 400 ft2</span>
-                                            <span class="span2">Newly built spacious 2BHK house with very good ventilation for rent</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1093,15 +1117,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo-singapore.akamaized.net/v1/files/bq7vamz5c56p2-IN/image;s=300x600;q=60" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 20,000</h1>
-                                            <span class="span1">2 Bds - 2 Ba - 800 ft2</span>
-                                            <span class="span2">House for rent</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1112,15 +1136,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/12j7rqo1fxrt1-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 15,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 14 ft2</span>
-                                            <span class="span2">Room on Rent</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1131,15 +1155,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/plklxeiwsm0s2-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 12,000</h1>
-                                            <span class="span1">2 Bds - 1 Ba - 950 ft2</span>
-                                            <span class="span2">House for rent</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1150,15 +1174,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/4p1xr73d0zw31-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 11,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                            <span class="span2">Good deals in Nakshatra Primus</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1169,15 +1193,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/n8mbsh58lv1y-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 8,000</h1>
-                                            <span class="span1">2 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">2 bedroom attached first floor near Ettumanoor railway station 9 k</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1188,15 +1212,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/yhbvkmz5dl1e3-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 5,000</h1>
-                                            <span class="span1">1 Bds - 1 Ba - 500 ft2</span>
-                                            <span class="span2">Nice view in flat</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1207,15 +1231,15 @@
                                 <li>
                                     <a href="">
                                         <div class="img">
-                                            <img src="https://apollo.olx.in/v1/files/yqlnoctanqa8-IN/image" alt="">
+                                            <img src="https://apollo.olx.in/v1/files/k06uae1e7m4h3-IN/image" alt="">
                                             <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     
                                         </div>
                     
                                         <div class="text">
-                                            <h1>₹ 9,000</h1>
-                                            <span class="span1">2 Bds - 2 Ba - 1000 ft2</span>
-                                            <span class="span2">2 bedroom attached first floor</span>
+                                            <h1>₹ 1,20,000</h1>
+                                            <span class="span1">2010 - 80,000 km</span>
+                                            <span class="span2">Maruti Suzuki Omni 2010</span>
                                             <div class="spanflex">
                                                 <span class="spanflex-1">Shastri Ward, Hinganghat, Maharashtra</span>
                                                 <span>Yesterday</span>
@@ -1224,41 +1248,41 @@
                                     </a>
                                 </li>
                         </ul>
+                        <div class="btn-container">
+                            <button class="scooters-load">Load more</button>
+                        </div>
                     </section>
                 </section> 
             </div>
         </main>
-        
-        
         <footer>
             <div class="footer-main">
                 <div class="inside-footer-main">
                     <div class="pop-locations">
-                        <span>POPULAR LOCATIONS</span>
+                        <span>POPULAR USED CARS FOR SALE</span>
                         <ul style="list-style-type: none;">
-                        <li style="height: 3px;">Kolkata</li>
-                        <li>Channai</li>
-                        <li>Mumbai</li>
-                        <li>Pune</li>
+                        <li style="height: 3px;">Used Maruti Suzuki Cars For Sale</li>
+                        <li>Used Hyundai Cars For Sale</li>
+                        <li>Used Mahindra Cars For Sale</li>
+                        <li>Used Toyota Cars For Sale</li>
                         </ul>
                     </div>
                     <div class="trend-locations">
-                        <span>TRENDING LOCATIONS</span>
+                        <span>POPULAR USED CARS LOCATIONS</span>
                         <ul style="list-style-type: none;">
-                            <li>Bhubaneshwar</li>
-                            <li>Nashik</li>
-                            <li>Chandigarh</li>
-                            <li>Bangalore</li>
+                            <li>Used Cars in Kerala</li>
+                            <li>Used Cars in Delhi</li>
+                            <li>Used Cars in Tamil Nadu</li>
+                            <li>Used Cars in Bangalore</li>
                             </ul>
                     </div>
                     <div class="about">
-                        <span>ABOUT US</span>
+                        <span>USED CARS BY PRICE</span>
                         <ul style="list-style-type: none;">
-                            <li>About OLX Group</li>
-                            <li>Careers</li>
-                            <li>Contact Us</li>
-                            <li>OLXPeaple</li>
-                            <li>Wahh Jobs</li>
+                            <li>Used Cars Below 1 Lakh</li>
+                            <li>Used Cars Below 2 Lakh</li>
+                            <li>Used Cars Below 3 Lakh</li>
+                            <li>Used Cars Below 4 Lakh</li>
                             </ul>
                     </div>
                     <div class="olx">
