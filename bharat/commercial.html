@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLX Commercial & Other Vehicles (p)</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Augustine/mobile-script.js"></script>
 </head>
 <body>
     <header>
@@ -444,11 +447,11 @@
                     <aside>
                         <!-- ----------------categories------- -->
                         <div class="categories">
-                            <div class="aside-heading">
+                            <div class="aside-heading sb_section_heading">
                                 <h3>Categories</h3>
-                            <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                             </div>
-                            <div class="row">
+                            <div class="row sb_section">
                                 <ul class="location-list vert-slider">
                                     <li style="padding-left: 0;"><div class="each-row first-row">
                                         <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
@@ -467,36 +470,38 @@
                         </div>
                         <!-- <hr> -->
                         <div class="locations">
-                            <div class="aside-heading">
+                            <div class="aside-heading sb_section_heading">
                                 <h3>Locations</h3>
-                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                             </div>
-                            <div class="aside-subheading col-green">
-                                    <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
-                                    <h5>India</h5>
+                            <div class="sb_section">
+                                <div class="aside-subheading col-green">
+                                        <i class="fa-solid fa-minus" style="color: #2d2e2f;"></i>
+                                        <h5>India</h5>
+                                </div>
+                                <ul class="location-list vert-slider">
+                                    <li><a href="">Maharashtra</a></li>
+                                    <li><a href="#">Kerala(33,847)</a></li>
+                                    <li><a href="#">Tmail Nadu (31,078)</a></li>
+                                    <li><a href="#">Delhi (29,536)</a></li>
+                                    <li><a href="#">Uttar Pradesh (27,564)</a></li>
+                                    <li><a href="#">Karnataka (24,327)</a></li>
+                                    <li><a href="#">Gujarat(18,715)</a></li>
+                                    <li><a href="#">Telangana (14,419)</a></li>
+                                    <li><a href="#">Punjab (14,419)</a></li>
+                                    <li><a href="#">Harayana (11,602)</a></li>
+                                    <li><a href="#">Andhra Pradesh (10,233)</a></li>
+                                    <li><a href="#">Rajasthan (10,043)</a></li>
+                                    <li><a href="#">Madhya Pardesh (9,6400)</a></li>
+                                    <li><a href="#">West Bengal (8,669)</a></li>
+                                    <li><a href="#">Assam (5,840)</a></li>
+                                    <li><a href="#">Chandigarh (4,860)</a></li>
+                                    <li><a href="#">Chhattisgarh (4,555)</a></li>
+                                    <li><a href="#">Bihar (4,184)</a></li>
+                                    <li><a href="#">Jammu & Kashmir (3,960)</a></li>
+                                    <li><a href="#">Uttrakhand (3,834)</a></li>
+                                </ul>
                             </div>
-                            <ul class="location-list vert-slider">
-                                <li><a href="">Maharashtra</a></li>
-                                <li><a href="#">Kerala(33,847)</a></li>
-                                <li><a href="#">Tmail Nadu (31,078)</a></li>
-                                <li><a href="#">Delhi (29,536)</a></li>
-                                <li><a href="#">Uttar Pradesh (27,564)</a></li>
-                                <li><a href="#">Karnataka (24,327)</a></li>
-                                <li><a href="#">Gujarat(18,715)</a></li>
-                                <li><a href="#">Telangana (14,419)</a></li>
-                                <li><a href="#">Punjab (14,419)</a></li>
-                                <li><a href="#">Harayana (11,602)</a></li>
-                                <li><a href="#">Andhra Pradesh (10,233)</a></li>
-                                <li><a href="#">Rajasthan (10,043)</a></li>
-                                <li><a href="#">Madhya Pardesh (9,6400)</a></li>
-                                <li><a href="#">West Bengal (8,669)</a></li>
-                                <li><a href="#">Assam (5,840)</a></li>
-                                <li><a href="#">Chandigarh (4,860)</a></li>
-                                <li><a href="#">Chhattisgarh (4,555)</a></li>
-                                <li><a href="#">Bihar (4,184)</a></li>
-                                <li><a href="#">Jammu & Kashmir (3,960)</a></li>
-                                <li><a href="#">Uttrakhand (3,834)</a></li>
-                            </ul>
                         </div>
                         <hr class="hr-line">
                         <div class="filter">
@@ -504,130 +509,136 @@
                         </div>
                         <div class="brand-filter">
                             <div class="budget">
-                                <div class="aside-heading">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>Budget</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                <p class="choose">choose a range below</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
+                                <div class="sb_section">
+                                    <p class="choose">choose a range below</p>
+                                    <div class="whole-slider">
+                                        <div class="graph-slider">
+                                            <div class="graph">
+                                                <ul class="vertical-graph">
+                                                    <li class="bar bar1"></li>
+                                                    <li class="bar bar2"></li>
+                                                    <li class="bar bar3"></li>
+                                                    <li class="bar bar4"></li>
+                                                    <li class="bar bar5"></li>
+                                                    <li class="bar bar6"></li>
+                                                    <li class="bar bar7"></li>
+                                                    <li class="bar bar8"></li>
+                                                    <li class="bar bar9"></li>
+                                                    <li class="bar bar10"></li>
+                                                    <li class="bar bar11"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="slider">
+                                                <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
+                                                <p class="zero">0</p>
+                                                <p id="rangeValue">10,00,000+</p>
+                                            </div>
                                         </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">10,00,000+</p>
-                                        </div>
+                                        <button class="apply">apply</button> 
                                     </div>
-                                    <button class="apply">apply</button> 
-                                  </div>
+                                </div>
                             </div>
                             <hr>
-                            <!-- <div class="year">
-                                <div class="aside-heading">
+                            <div class="year">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>Year</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>Under 3 Years</p>
-                                        <p>27,300+ cars</p>
+                                <div class="sb_section">
+                                    <p class="choose">choose from options below</p>
+                                    <div class="list-year">
+                                        <div class="each-y">
+                                            <p>Under 3 Years</p>
+                                            <p>27,300+ cars</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>Under 5 Years</p>
+                                            <p>64,200+ cars</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>Under 7 Years</p>
+                                            <p>1,20,000+ cars</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>7 Years and Above</p>
+                                            <p>1,70,000+ cars</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>5 Lac and Above</p>
+                                            <p>1,50,000+ cars</p>
+                                        </div>
                                     </div>
-                                    <div class="each-y">
-                                        <p>Under 5 Years</p>
-                                        <p>64,200+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Under 7 Years</p>
-                                        <p>1,20,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>7 Years and Above</p>
-                                        <p>1,70,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>5 Lac and Above</p>
-                                        <p>1,50,000+ cars</p>
+                                    <p class="choose">choose a Range below</p>
+                                    <div class="year-choose-range">
+                                    <input type="text" placeholder="2003">
+                                    <p>to</p>
+                                    <input type="text" placeholder="2023">
+                                    <button class="apply">apply</button>
                                     </div>
                                 </div>
-                                <p class="choose">choose a Range below</p>
-                                <div class="year-choose-range">
-                                <input type="text" placeholder="2003">
-                                <p>to</p>
-                                <input type="text" placeholder="2023">
-                                <button class="apply">apply</button>
-                                </div>
-                            </div> -->
-                            <!-- <hr>
+                            </div>
+                            <!-- <hr>-->
                             <div class="km-driven">
-                                <div class="aside-heading">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>KM DRIVEN</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-km">
-                                    <div class="each-km">
-                                      <p>Under 25000 km</p>
-                                      <p>22,400+ cars</p>
+                                <div class="sb_section">
+                                    <p class="choose">choose from options below</p>
+                                    <div class="list-km">
+                                        <div class="each-km">
+                                        <p>Under 25000 km</p>
+                                        <p>22,400+ cars</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>25000 km - 50000 km</p>
+                                        <p>26,700+ cars</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>50000 km - 75000 km</p>
+                                        <p>42,100+ cars</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>75000 km - 100000 km</p>
+                                        <p>42,500+ cars</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>100000 km and Above</p>
+                                        <p>49,400+ cars</p>
+                                        </div>
                                     </div>
-                                    <div class="each-km">
-                                      <p>25000 km - 50000 km</p>
-                                      <p>26,700+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>50000 km - 75000 km</p>
-                                      <p>42,100+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>75000 km - 100000 km</p>
-                                      <p>42,500+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>100000 km and Above</p>
-                                      <p>49,400+ cars</p>
-                                    </div>
-                                  </div>
-                                  <p class="choose">choose from options below</p>
-                              <div class="whole-slider">
-                                <div class="graph-slider">
-                                    <div class="graph">
-                                        <ul class="vertical-graph">
-                                            <li class="bar bar1"></li>
-                                            <li class="bar bar2"></li>
-                                            <li class="bar bar3"></li>
-                                            <li class="bar bar4"></li>
-                                            <li class="bar bar5"></li>
-                                            <li class="bar bar6"></li>
-                                            <li class="bar bar7"></li>
-                                            <li class="bar bar8"></li>
-                                            <li class="bar bar9"></li>
-                                            <li class="bar bar10"></li>
-                                            <li class="bar bar11"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="slider">
-                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
-                                        <p class="zero">0</p>
-                                        <p id="rangeValue2">2,00,000+</p>
-                                    </div>
+                                    <p class="choose">choose from options below</p>
+                                        <div class="whole-slider">
+                                            <div class="graph-slider">
+                                                <div class="graph">
+                                                    <ul class="vertical-graph">
+                                                        <li class="bar bar1"></li>
+                                                        <li class="bar bar2"></li>
+                                                        <li class="bar bar3"></li>
+                                                        <li class="bar bar4"></li>
+                                                        <li class="bar bar5"></li>
+                                                        <li class="bar bar6"></li>
+                                                        <li class="bar bar7"></li>
+                                                        <li class="bar bar8"></li>
+                                                        <li class="bar bar9"></li>
+                                                        <li class="bar bar10"></li>
+                                                        <li class="bar bar11"></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="slider">
+                                                    <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
+                                                    <p class="zero">0</p>
+                                                    <p id="rangeValue2">2,00,000+</p>
+                                                </div>
+                                            </div>
+                                            <button class="apply">apply</button> 
+                                        </div>
                                 </div>
-                                <button class="apply">apply</button> 
-                              </div>
-                            </div> -->
+                            </div>
                         </div>
                     </aside>
                     <section class="mainbar">
@@ -635,9 +646,27 @@
                             <div class="no-in-india">
                                 <p>39,327 ads in <span>India</span></p>
                             </div>
-                            <div class="sort-by">
-                                <p><span>Sort By : </span>Date Published</p>
-                                <i class="fa-solid fa-chevron-down" style="color: #1b1c1d;"></i>
+                            <div class="mobile_center_right">
+                                <span class="mobile_center_sort"><span>Sort By</span></span>
+                                <span class="mobile_center_date"> : Date Published</span>
+                                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                                <div class="sort_items">
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Date Published</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Relevance</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Price:Low to High</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Price:High to Low</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Distance</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <ul>
