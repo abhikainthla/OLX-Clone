@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Scooter & Commercialstyle.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Augustine/mobile-script.js"></script>
+    <link rel="stylesheet" href="../bharat/styles.css">
 </head>
 
 <body>
@@ -12,33 +17,52 @@
         <nav>
             <div class="navbar">
             <div class="logo">
-                <a href="../index.html"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
+                <a href="index.html"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
                 </a>
             </div>
             <div class="location">
                 <div>
                     <!-- button made for javascript -->
                     <button>
-                <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                        <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
                     </button>
                 </div>
-            <div class="location-select">
-                <select name="location" id="nav-location">
-                    <option value="India">India</option>
-                    <option class="location-map" value="Use current location">Use current location</option>
-                    <hr>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="Maharashtra">Maharashtra</option>
-                </select>
-            </div>
-            <div>
-                <!-- button made for javascript -->
-                <button>
-                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
-                </button>
-            </div>
+                <input class="location-select" type="text" value="India"/>
+                    <!-- button made for javascript --> 
+                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                <div class="select_options">
+                    <div class="select_section first_section">
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <div class="location_details">
+                                <div class="location_text">Use Current Location</div>
+                                <div class="location_subtext">Shanthi nagar, Mulur, Karnataka</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_section">
+                        <div class="select_section_heading">Recent Locations</div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Shanthi nagar</div>
+                        </div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">India</div>
+                        </div>
+                    </div>
+                    <div class="select_section">
+                        <div class="select_section_heading">Popular Locations</div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Shanthi nagar</div>
+                        </div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Gurpur</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <fieldset>
             <div class="search">
@@ -54,22 +78,24 @@
             </div>
             </fieldset>
             <div class="lang">
-                <select name="lang" id="lang">
-                    <option value="ENGLISH">ENGLISH</option>
-                    <option value="हिंदी">हिंदी</option>
-                </select>
-                <div>
-                    <!-- button made for javascript -->
-                    <button>
-                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
-                    </button>
+                <div class="language_heading">English</div>
+                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                <div class="lang_options">
+                    <ul>
+                        <li>
+                            <span class="sub_lang">English</span>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <span class="sub_lang">हिंदी</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="login">
                 <span>
-                    <a class="login-1" href="../login/login.html">Login</a>
+                    <a class="login-1" href="login/login.html">Login</a>
                 </span>
-  <!-- ------------------------------ + SELL ---------------------------------->
                 <a class="_25SUV" href="../login/login.html">
                     <svg width="104" height="48" viewBox="0 0 1603 768" class="_20oLV">
                       <g>
@@ -97,14 +123,293 @@
     <section class="sub-header">
         <div class="sub-header1">
             <!-- button for javascript -->
-        <div class="all-categories"><button><span>All Categories</span></button><button><span><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></span></button></div>
+        <div class="all-categories">
+            <span>All Categories</span>
+            <i class="fas fa-chevron-down"></i>
+            <div class="category_container">
+                <div class="category_items">
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Cars</a>
+                        </div>
+                    </div>
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Properties</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">For Sale: Houses & Apartments</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">For Rent: Houses & Apartments</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Lands & Plots</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">For Rent: Shops & Offices</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">For Sale: Shops & Offices</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">PG & Guest Houses</a>
+                        </div>
+                    </div>
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Mobiles</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Mobile Phones</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Tablets</a>
+                        </div>
+                    </div>
+                
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Jobs</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Office Assistant</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Delivery & Collection</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Teacher</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Cook</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Receptionist & Front Office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Operator & Technician</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">IT Engineer& Developer</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Hotel & Travel Executive</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Accountant</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Designer</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Other Jobs</a>
+                        </div>
+                    </div>
+                
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Bikes</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Motorcycles</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Scooters</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Spare Parts</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Bicycles</a>
+                        </div>
+                    </div>
+                
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Electronics & Appliances</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Office Assistant</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Delivery & Collection</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Teacher</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Cook</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Receptionist & Front Office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Operator & Technician</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Commercial vehicles & Spares</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Furniture</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Office Assistant</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Fashion</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Books, Sports & Hobbies</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Office Assistant</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Pets</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                    </div>
+
+                    <div class="category_item">
+                        <div class="category_item_heading">
+                            <a href="#">Services</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Data entry & Back office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Sales & Marketing</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">BPO & Telecaller</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Driver</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Office Assistant</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Delivery & Collection</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Teacher</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Cook</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Receptionist & Front Office</a>
+                        </div>
+                        <div class="category_item_deatil">
+                            <a href="#">Operator & Technician</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="cars"><a href="bharat/cars.html">Cars</a></div>
-        <div class="Motercycles"><a href="../preyesh/moter.html">Motercycles</a></div>
-        <div class="Mobile-Phones"><a href="../Augustine/mobiles.html">Mobile Phones</a></div>
-        <div class="for-sale"><a href="../Abhishek/forsale.html">For Sale: Houses & Apartments</a></div>
-        <div class="scooters"><a href="../able/scooter.html">Scooters</a></div>
-        <div class="commercial"><a href="../commercial.html">Commercial & Other Vehicles</a></div>
-        <div class="for-rent"><a href="../Vishal/forrent.html">For Rent: Houses & Apartments</a></div>
+
+        <div class="Motercycles"><a href="preyesh/moter.html">Motercycles</a></div>
+        <div class="Mobile-Phones"><a href="Augustine/mobiles.html">Mobile Phones</a></div>
+        <div class="for-sale"><a href="/Abhishek/forsale.html">For Sale: Houses & Apartments</a></div>
+
+        <div class="scooters"><a href="able/scooter.html">Scooters</a></div>
+        <div class="commercial"><a href="commercial.html">Commercial & Other Vehicles</a></div>
+        <div class="for-rent"><a href="Vishal/forrent.html">For Rent: Houses & Apartments</a></div>
         </div>
     </section>
         <!-- ---------------------sub nav bar -------------------------->
@@ -355,687 +660,910 @@
 
 
 <!-------------------------Able--- cards ----------------------------------->
-    <section class="scooters-container">
-
-        <div class="sorting">
-            <span>45,484 ads in <b>india</b></span>
-            <div class="sort-by">
-                <span>SORT BY:</span>
-                <span>Date published</span>
-            </div>
+<section class="mainbar">
+    <div class="heading-mainbar">
+        <div class="no-in-india">
+            <p>39,327 ads in <span>India</span></p>
         </div>
-        <div class="card">
+        <div class="sort-by">
+            <p><span>Sort By : </span>Date Published</p>
+            <i class="fa-solid fa-chevron-down" style="color: #1b1c1d;"></i>
+        </div>
+    </div>
+    <ul>
+        <li class="featured-list">
+            <a href="">
+                <div class="img">
+                      <img src="https://apollo.olx.in/v1/files/uh4txgat36mt1-IN/image" alt="">
+                      <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                      <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                      </div>
 
-            <div class="cover">
-                <img src="https://apollo-singapore.akamaized.net/v1/files/stamgkrhaefq2-IN/image;s=300x600;q=60"" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 2,999</h1>
+                    <span class="span1">2023 - 0 km</span>
+                    <span class="span2">SRI HARI MOTORS</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Perambur, Chennai, Tamil Nadu</span>
+                        <span>3 days ago</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 39,000</span>
-            <span class="use">2018 - 10,000 km</span>
-            <span class="info">Honda Grazia 2018 model Engine warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Raja Park, Jaipur, Rajasthan</span>
-                <span class="date">NOV 18</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/y273j6ay7cxg2-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/e2eyqxhrxodu2-IN/image"" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 5,555</h1>
+                    <span class="span1">2023 - 1 km</span>
+                    <span class="span2">Honda Dio bs6 Brand new just pay 5555</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Tambaram, Chennai, Tamil Nadu</span>
+                        <span>Nov 01</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 53,000</span>
-            <span class="use">2019 - 16,000 km</span>
-            <span class="info">Scooty for sale</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">TV Nagar, Bengaluru</span>
-                <span class="date">Today</span>
-            </div>
+        <li class="featured-list">
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/xcmdkv4apc793-IN/image" alt="">
+                    <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                    <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-           
-
-            <div class="cover">
-                 <img src="https://apollo.olx.in/v1/files/kgbp1blp2rf63-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 9,999</h1>
+                    <span class="span1">2023 - 0 km</span>
+                    <span class="span2">6G For 9999/- Onlyyy</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">JNTU, Hyderabad, Telangana</span>
+                        <span>Oct 24</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 24,000</span>
-            <span class="use">2012 - 56,000 km</span>
-            <span class="info">Good Condition</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Mukaram pura, Karim nagar</span>
-                <span class="date">NOV 23</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/qow07323sal8-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/4s4otpn97bhz-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 48,000</h1>
+                    <span class="span1">2016 - 28,000 km</span>
+                    <span class="span2">Honda Activa 125</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Medarakeri, Mysuru, Karnataka</span>
+                        <span>Sep 6</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 54,000</span>
-            <span class="use">2020 - 9,000 km</span>
-            <span class="info">Activa 3G scooter</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Mou ali, hydrabad</span>
-                <span class="date">NOV 15</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/uvdm5w7800od3-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/tao0lovcjrlx-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 40,500</h1>
+                    <span class="span1">2013 - 25,000 km</span>
+                    <span class="span2">Honda Activa - single owner</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Old Airport Road, Bengaluru, Karnataka</span>
+                        <span>Nov 06</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 48,000</span>
-            <span class="use">2016 - 50,000 km</span>
-            <span class="info">Activa 3g no time pass</span>
+            </a>
+        </li>
+        <li class="sell-main">
+            <a href="login/login.html">
+                <div class="selling">
+                    <h3>Want to see your stuff here?</h3>
+                </div>
+                <div class="selling-text">
+                    <span>Make some extra cash by selling things in your community. Go on, it's quick and easy.</span>
+                </div>
+                <div class="selling-button">
+                    <button class="sell-button">Start Selling</button>
+                </div>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">HB4 layout, banaglore</span>
-                <span class="date">today</span>
-            </div>
+        <li class="featured-list">
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/oj1dlt532y7q1-IN/image" alt="">
+                    <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                    <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/tt35h1hn78101-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 66,500</h1>
+                    <span class="span1">2017 - 86000.0 km</span>
+                    <span class="span2">2020 HONDA ACTIVA 6G SINGLE USED.</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Kakkanad, Kochi, Kerala</span>
+                        <span>Today</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 42,000</span>
-            <span class="use">2020 - 34,000 km</span>
-            <span class="info">Honda Grazia 2018 model Engine warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Abids, hydrabad</span>
-                <span class="date">NOV 02</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/ogf3xq54k3ll3-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/7vr8habikvpg-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                        
+                <div class="text">
+                    <h1>₹ 9,999</h1>
+                    <span class="span1">2023 - 0 km</span>
+                    <span class="span2">Diwali offers helmet free body cover free</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Adikmet, Hyderabad, Telangana</span>
+                        <span>Nov 23</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 14,000</span>
-            <span class="use">2010 - 80,000 km</span>
-            <span class="info">Argent sell</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Sanjay nagar, gujarat</span>
-                <span class="date">Today</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/1q7xajjetngn1-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/f7kts5vppmbe3-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                        
+                <div class="text">
+                    <h1>₹ 95,000</h1>
+                    <span class="span1">2022 - 7,000 km</span>
+                    <span class="span2">2022 NTorq Super Squad Edition</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Yakkara, Palakkad, Kerala</span>
+                        <span>Today</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 49,000</span>
-            <span class="use">2023 - 1000 km</span>
-            <span class="info">New bike warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Boitbori, nagpur</span>
-                <span class="date">NOV 29</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/tkvjt80lcmrb1-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/7vr8habikvpg-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 89,999</h1>
+                    <span class="span1">2022 - 7,000 km</span>
+                    <span class="span2">Yamaha Ray zr Hybrid</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Ernakulam, Kochi, Kerala</span>
+                        <span>nov 18</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 26,000</span>
-            <span class="use">2012 - 37,000 km</span>
-            <span class="info">Honda Grazia 2018 model Engine warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Raja Park, Jaipur, Rajasthan</span>
-                <span class="date">NOV 18</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/evoxw2o99lhp3-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/tddovhtpgpoj1-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                        
+                <div class="text">
+                    <h1>₹ 69,000</h1>
+                    <span class="span1">2019 - 17,591 km</span>
+                    <span class="span2">13221,Honda,Activa 5G,First owner</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Koramangala, Bengaluru, Karnataka</span>
+                        <span>NOV 15</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 69,000</span>
-            <span class="use">2023 - 1,000 km</span>
-            <span class="info">Activa 6G super mint condition warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Elliot road, kolkata</span>
-                <span class="date">today</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/72tkdql2xdm13-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/q1iek8fxaqbb1-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 16,500</h1>
+                    <span class="span1">2017 - 12,500 km</span>
+                    <span class="span2">Good condition</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Yelahanka, Bengaluru</span>
+                        <span>DEC 5</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 99,000</span>
-            <span class="use">2021 - 34,000 km</span>
-            <span class="info">sale r exchange my honds</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Mukka, mangaluru</span>
-                <span class="date">NOV 23</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/9vrgq7gb49q2-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo-singapore.akamaized.net/v1/files/64u5z3javb8u3-IN/image;s=300x600;q=60" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 7,777</h1>
+                    <span class="span1">2023 - 0 km</span>
+                    <span class="span2">New bykes Dio 7777/</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Choolaimedu, Chennai, Tamil Nadu</span>
+                        <span>Nov 5</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 25,300</span>
-            <span class="use">2021 - 13,040 km</span>
-            <span class="info">TVS scooty pept 2-wheeler vehicle</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Old police line, neemuch/span>
-                <span class="date">NOV 26</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/lzggms70umob-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo-singapore.akamaized.net/v1/files/orr4rlk8ix592-IN/image;s=300x600;q=60" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                        
+                <div class="text">
+                    <h1>₹ 74,500</h1>
+                    <span class="span1">2021 - 16,000 km</span>
+                    <span class="span2">HONDA DIO bs6 </span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Ramnagar, Coimbatore, Tamil Nadu</span>
+                        <span>4 days ago</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 76,000</span>
-            <span class="use">2016 - 17,000 km</span>
-            <span class="info">Urgent sale for scooty</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Raypur, Ranchi</span>
-                <span class="date">today</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/jmpkm5w7h91b-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/sr3vfqrtkfoh1-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 68,500</h1>
+                    <span class="span1">2021 - 9,314 km</span>
+                    <span class="span2">10465,Hero Maestro Edge 110,First owner</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Jayanagar, Bengaluru, Karnataka</span>
+                        <span>Today</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 59,000</span>
-            <span class="use">2013 - 45,000 km</span>
-            <span class="info">scooty for sale old bike</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">shanta nagar, ujjain</span>
-                <span class="date">Nov 23</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/6cgk98gjkl6w-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo-singapore.akamaized.net/v1/files/irq5fojc5eny2-IN/image;s=300x600;q=60" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 9,000</h1>
+                    <span class="span1">2023 - 0 km</span>
+                    <span class="span2">Activa Dlx OBD low down payment 9000/-</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Jeedimetla, Hyderabad, Telangana</span>
+                        <span>Yesterday</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 25,000</span>
-            <span class="use">2014 - 23,000 km</span>
-            <span class="info">Honda xeno old ready to sell</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">gold park, jamshedpur</span>
-                <span class="date">NOV 31</span>
-            </div>
+        <li class="featured-list">
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/mjaa9pm4ravf3-IN/image" alt="">
+                    <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                    <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/6i0jqqb76ul41-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD">
-                        <img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured">
-                        <span>Featured</span>
+                <div class="text">
+                    <h1>₹ 53,000</h1>
+                    <span class="span1">2019 - 19,236 km</span>
+                    <span class="span2">Maestro model 2019 good condition</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Sector 7B, Chandigarh</span>
+                        <span>Oct 08</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow">
-            <span class="price">₹ 32,000</span>
-            <span class="use">2017 - 30,000 km</span>
-            <span class="info">Activa only srious buyers</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Khan park, madhya pradesh</span>
-                <span class="date">today</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/lgcuw540k2fr3-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/9vrgq7gb49q2-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                   
+                <div class="text">
+                    <h1>₹ 85,000</h1>
+                    <span class="span1">2021 - 11,770 km</span>
+                    <span class="span2">TVS NTORQ 125 XP EDITION</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Ladyhill, Mangaluru, Karnataka
+                        </span>
+                        <span>dec 5</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 39,000</span>
-            <span class="use">2018 - 10,000 km</span>
-            <span class="info">Honda Grazia 2018 model Engine warranty Available</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">Raja Park, Jaipur, Rajasthan</span>
-                <span class="date">NOV 18</span>
-            </div>
+        <li>
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/c1az9tnasw742-IN/image" alt="">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/6eskaxjip9192-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-                  
+                <div class="text">
+                    <h1>₹ 81,000</h1>
+                    <span class="span1">2022 - 11,000 km</span>
+                    <span class="span2">SUZUKI ACCESS 125 CC 2022 MODEL</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Krishna Nagar, Dehradun, Uttaranchal</span>
+                        <span>Nov 17</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 24,000</span>
-            <span class="use">2012 - 14,000 km</span>
-            <span class="info">Activa Grazia buy urgent</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">maringa nagar, assam</span>
-                <span class="date">today</span>
-            </div>
+        <li class="featured-list">
+            <a href="">
+                <div class="img">
+                    <img src="https://apollo.olx.in/v1/files/k5q6of407p151-IN/image" alt="">
+                    <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                    <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-        </div>
+                </div>
 
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/5gwbjyfdtqo32-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-          
+                <div class="text">
+                    <h1>₹ 58,000</h1>
+                    <span class="span1">2019 - 11,000 km</span>
+                    <span class="span2">HONDA ACTIVA 5G 2019 MODEL</span>
+                    <div class="spanflex">
+                        <span class="spanflex-1">Whitefield, Bengaluru</span>
+                        <span>Nov 17</span>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
                 </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 79,000</span>
-            <span class="use">2023 - 700 km</span>
-            <span class="info">Honda 2023 model urgent sell</span>
+            </a>
+        </li>
 
-            <div class="area-box">
-                <span class="area">polo appartments, juhu</span>
-                <span class="date">NOV 28</span>
-            </div>
-
-        </div>
-
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/siha9co812jp2-IN/image" alt="">
-                <div class="extra">
-                    <div class="TIvlD1">
-              
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/mfcxgkogdo633-IN/image" alt="">
+                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                        <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
-                </div>
-            </div>
-            <div class="yellow1">
-            <span class="price">₹ 19,000</span>
-            <span class="use">2013 - 12,000 km</span>
-            <span class="info">Honda excel model engine</span>
 
-            <div class="area-box">
-                <span class="area">ram nagar, jodhpur</span>
-                <span class="date">NOV 12</span>
-            </div>
-
-        </div>
-
-        </div>
-
-        <div class="card">
-
-            <div class="cover">
-                <img src="https://apollo.olx.in/v1/files/dikvmaqz8w1s3-IN/image" alt="">
-                <div class="extra">
-                    <div class=" TIvlD1">
-                       
+                    <div class="text">
+                        <h1>₹ 59,900</h1>
+                        <span class="span1">₹ 59,900</span>
+                        <span class="span2">Chetak Bajaj</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Washel, Siolim, Goa</span>
+                            <span>dec 5</span>
+                        </div>
                     </div>
-    
-                    <button type="button" class="rui-3a8k1 _29mJd favoriteOff" role="button" tabindex="0" data-aut-id="btnFav" title="Favourite">
-                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd">
-                            <path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path>
-                        </svg>
-                    </button>
-    
-                </div>
-            </div>
-            <div class="yellow1">
-                <span class="price">₹ 30,000</span>
-                <span class="use">2018 - 34,000 km</span>
-                <span class="info">Honda DIO 2018 BS4</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/9usv6svy7fu01-IN/image" alt="">
+                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                        <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                    </div>
 
-                <div class="area-box">
-                    <span class="area">kajupada, Mumbai</span>
-                    <span class="date">NOV 30</span>
-                </div>
+                    <div class="text">
+                        <h1>₹ 99,999</h1>
+                        <span class="span1">2023 - 3,400 km</span>
+                        <span class="span2">APRILIA SR 160R</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">West Peramul Area, Madurai, Tamil Nadu</span>
+                            <span>Nov 14</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/rekocjnpbap82-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-             </div>
+                    </div>
 
-        </div>
-        
-        <div class="btn-container">
-            <button class="scooters-load">Load more</button>
-        </div>
-    </section>
+                    <div class="text">
+                        <h1>₹ 59,000</h1>
+                        <span class="span1">2021 - 22,000 km</span>
+                        <span class="span2">HONDA GRAZIA 2️⃣0️⃣2️⃣1️⃣</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Ansari Nagar, Madurai, Tamil Nadu</span>
+                            <span>dec 5</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/pa1bi5ysfkz8-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
 
-</div>
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 19,000</h1>
+                        <span class="span1">2010 - 54,635 km</span>
+                        <span class="span2">2010 SUZUKI ACCESS 125 SINGLE OWNER</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Pal Patia Village, Surat</span>
+                            <span>Today</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/5c9ka0ivbktt3-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 54,000</h1>
+                        <span class="span1">2017 - 35,000 km</span>
+                        <span class="span2">Honda Activa 125 2017 Model</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Singanallur, Coimbatore</span>
+                            <span>dec 5</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/i7ztvgiwxlnl2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 69,900</h1>
+                        <span class="span1">2019 - 35,000 km</span>
+                        <span class="span2">TVS NTORQ 125cc , 2019</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Vinobanagara, Shivamogga, Karnataka</span>
+                            <span>Today</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/zr519o0qrnqw1-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 26,500</h1>
+                        <span class="span1">2020 - 11,666 km</span>
+                        <span class="span2">Mint condition</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Jyothi Nagar, Mangaluru, Karnataka</span>
+                            <span>Nov 30</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/86v9tq8d8ju13-IN/image" alt="">
+                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                        <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 61,000</h1>
+                        <span class="span1">2019 - 35,000 km</span>
+                        <span class="span2">VESPA SXL 2019 best Condition</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">New Shahupuri, Kolhapur, Maharashtra</span>
+                            <span>Dec 5</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/c2uj5vqwamqx2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 41,000</h1>
+                        <span class="span1">2018 - 22,000 km</span>
+                        <span class="span2">HERO MAESTRO 2018 MODEL KM 22000</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">GMS Road, Dehradun, Uttaranchal</span>
+                            <span>3 days ago</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/zmyx58su05pf1-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 77,000</h1>
+                        <span class="span1">2022 - 11,675 km</span>
+                        <span class="span2">TVS Jupiter 125cc 1st owner 2022 mode</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Rohini, Delhi, Delhi</span>
+                            <span>nov 19</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/0eh7xyit2hcg-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 7,999</h1>
+                        <span class="span1">2023 - 0 km</span>
+                        <span class="span2">Activa 6G New for Mumba</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Kandivali West, Mumbai, Maharashtra</span>
+                            <span>Nov 20</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/ds72dsxb93i83-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 50,000</h1>
+                        <span class="span1">2019 - 35,000 km</span>
+                        <span class="span2">TVS jupiter 2019 BS4 </span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Gajuwaka, Visakhapatnam, Andhra Pradesh</span>
+                            <span>nov 29</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/zlgzj6cyuffe1-IN/image" alt="">
+                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                        <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 78,000</h1>
+                        <span class="span1">2020 - 33,000 km</span>
+                        <span class="span2">Suzuki access 2020</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Khardaha, Kolkata</span>
+                            <span>dec 5</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/dy4noks88kru2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 87,000</h1>
+                        <span class="span1">2023 - 5,100 km</span>
+                        <span class="span2">HONDA ACTIVA 125 CC 2023 MODEL</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Krishna Nagar, Dehradun, Uttaranchal</span>
+                            <span>Yesterday</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/i5fp6n15s2jd2-IN/image" alt="">
+                        <label><div><span class="featured"><img src="https://statics.olx.in/external/base/img/featured.png" alt="Featured"></span></div><div>Featured</div></label>
+                        <svg class="wishlist" width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 35,000</h1>
+                        <span class="span1">2012 - 20,000 km</span>
+                        <span class="span2">Balaji auto deal’s</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Sector 70, Mohali, Punjab</span>
+                            <span>Nov 29</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/nj3s2dg0w8rk1-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 42,000</h1>
+                        <span class="span1">2018 - 70,000 km</span>
+                        <span class="span2">Maestro 110cc</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Puranpara, Gangarampur, West Bengal</span>
+                            <span>Yesterday</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/hg9brvk7qmtt3-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 8,75,000</h1>
+                        <span class="span1">2018 - 47,000 km</span>
+                        <span class="span2">Honda Amaze </span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Malad West, Mumbai</span>
+                            <span>sep 1</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/cstkpug6ynw9-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 17,00,000</h1>
+                        <span class="span1">2020 - 12,000 km</span>
+                        <span class="span2">Tata Harrier</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Deonar, Mumbai</span>
+                            <span>nov 28</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/acmtozs0kds81-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 1,20,000</h1>
+                        <span class="span1">2011 - 83,000 km</span>
+                        <span class="span2">Volkswagen Vento</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Peelamedu, Coimbatore</span>
+                            <span>dec 5</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/t160zhedr0fy2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 10,35,000</h1>
+                        <span class="span1">2020 - 22,900 km</span>
+                        <span class="span2">Honda City </span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Indirapuram, Ghaziabad</span>
+                            <span>nov 19</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/c4mw081h96fs2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 3,15,000</h1>
+                        <span class="span1">2015 - 1,20,000 km</span>
+                        <span class="span2">Maruti Suzuki Swift Dzire Tour</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Hanuman Nagar, Manjlegaon</span>
+                            <span>nov 7</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="https://apollo.olx.in/v1/files/zs6tjymkkhgd2-IN/image" alt="">
+                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+
+                    </div>
+
+                    <div class="text">
+                        <h1>₹ 1,20,000</h1>
+                        <span class="span1">2021 - 98,000 km</span>
+                        <span class="span2">Tata Nexon Ev</span>
+                        <div class="spanflex">
+                            <span class="spanflex-1">Poothole, Thrissur</span>
+                            <span>sep 12</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+    <div class="btn-container">
+        <button class="scooters-load">Load more</button>
+    </div>
+</section>
+</section> 
 </div>
 </main>
+<!-- footer -->
+<footer>
+    <div class="footer-main">
+        <div class="inside-footer-main">
+            <div class="pop-locations">
+                <span>POPULAR LOCATIONS</span>
+                <ul style="list-style-type: none;">
+                <li style="height: 3px;">Kolkata</li>
+                <li>Mumbai</li>
+                <li>Chennai</li>
+                <li>Pune</li>
+                </ul>
+            </div>
+            <div class="trend-locations">
+                <span>TRENDING LOCATIONS</span>
+                <ul style="list-style-type: none;">
+                    <li>Bhubaneshwar</li>
+                    <li>Hyderabad</li>
+                    <li>Chandigarh</li>
+                    <li>Nashik</li>
+                    </ul>
+            </div>
+            <div class="about">
+                <span>ABOUT US</span>
+                <ul style="list-style-type: none;">
+                    <li>About OLX Group</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                    <li>OLXPeople</li>
+                    <li>Waah Jobs</li>
+                    </ul>
+            </div>
+            <div class="olx">
+                <span>OLX</span>
+                <ul style="list-style-type: none;">
+                    <li>Help</li>
+                    <li>Sitemap</li>
+                    <li>Legal & Privacy information</li>
+                    <li>Blog</li>
+                    <li>OLX Autos Sell Car</li>
+                    <li>Vulnerability Disclosure Program</li>
+                    </ul>
+            </div>
+            <div class="follow-us">
+                <span>FOLLOW US</span>
+                <div class="follow-svg">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                    <i class="fa-brands fa-instagram fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                    <i class="fa-brands fa-twitter fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                    <i class="fa-brands fa-youtube fa-xl" style="color: rgba(0,47,52,0.64);"></i>
+                </div>
+                <div class="follow-button">
+                    <a href="https://play.google.com/store/apps/details?id=com.olx.southasia" target="_blank" rel="noopener noreferrer" class="QUhEK" data-aut-id=""><picture><source type="image/webp" srcset="https://statics.olx.in/external/base/img/playstore.webp"><img src="https://statics.olx.in/external/base/img/playstore.png" alt="Download OLX in the Android Play Store" class="Wn0Dp"></picture></a>
+                    <a href="https://itunes.apple.com/in/app/olx-buy-sell-near-you/id913492792?mt=8" target="_blank" rel="noopener noreferrer" class="QUhEK" data-aut-id=""><picture><source type="image/webp" srcset="https://statics.olx.in/external/base/img/appstore.webp"><img src="https://statics.olx.in/external/base/img/appstore.png" alt="Download OLX for iOS in the Apple App Store" class="Wn0Dp"></picture></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-end">
+        <div class="inside-footer-end">
+            <div>
+                <span>Help - Sitemap</span>
+            </div>
+            <div>
+               <span> All rights reserved © 2006-2023 OLX</span>
+            </div>
+        </div>
+    </div>
+</footer>
     
 </body>
 
