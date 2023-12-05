@@ -548,11 +548,7 @@ a {
 }
 /*-------------------------- code start from bharat ---------------------*/
 /* ---------------------------------main------------------------------ */
-main{
-  position: relative;
-  top: 0px;
-  overflow-x: hidden;
-}
+
 h1{
   font-size: 24px;
   color: #002f34;
