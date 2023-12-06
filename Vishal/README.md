@@ -35,13 +35,13 @@ No installation is required; simply visit the OLX Rent Page on your web browser 
 ## Folder Structure
 
 
-In the provided README template, I used a combination of semantic and non-semantic HTML tags. Here's a breakdown:
+In the provided README template, I used a combination of semantic HTML tags. Here's a breakdown:
 
 Semantic HTML Tags:
 
-<h1>, <h2>, <p>: These are semantic HTML tags representing headings and paragraphs, respectively.
-<a>: Represents hyperlinks and is used for linking to different sections or external resources.
-<ul>, <li>: Represents an unordered list and list items, respectively. Used in the "Table of Contents" section.
+## <h1>, <h2>, <p>: These are semantic HTML tags representing headings and paragraphs, respectively.
+## <a>: Represents hyperlinks and is used for linking to different sections or external resources.
+## <ul>, <li>: Represents an unordered list and list items, respectively. Used in the "Table of Contents" section.
 
 ### About Section:
 
