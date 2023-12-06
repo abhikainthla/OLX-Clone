@@ -33,7 +33,7 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 
 
 ## Contributers
-![test](https://imgur.com/a/GNuiOQg)
+![test](https://i.imgur.com/HJ6PCn0.png)
 
 
 ## Acknowledgments
