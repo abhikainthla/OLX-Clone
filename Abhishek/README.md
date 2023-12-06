@@ -21,3 +21,5 @@ Welcome to the OLX Houses & Apartments for Sale page! This section of OLX allows
 
 [For-sale:Houses&Apartments](https://olx-clone-5ba355.netlify.app/abhishek/forsale)
 
+## Images
+![Screenshot (59)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/09e34908-b499-4c21-9419-af7219a52b60)
