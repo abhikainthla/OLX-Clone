@@ -1545,3 +1545,7 @@ details p{
 .logo svg:hover{
     fill: #39dad1;
 }
+footer li:hover{
+    font-weight: 500;
+    color: #000;
+}
