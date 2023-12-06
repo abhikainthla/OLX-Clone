@@ -1759,6 +1759,7 @@ details p{
     .mainbar li{
         width: 360px;
         height: inherit;
+        position: relative;
     }
     
     .mainbar li a{
