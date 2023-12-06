@@ -20,4 +20,6 @@ Welcome to the OLX Commercial & Other Vehicles for Sale page! This section of OL
 
    [Comercial&Other-Vehicles](https://olx-clone-5ba355.netlify.app/commercial/commercial)
 
-  
+  ## Page Images
+
+  ![Screenshot (60)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/63cd1167-c838-4acd-9cd9-2c30fce339f4)
