@@ -42,10 +42,6 @@ Semantic HTML Tags:
 <h1>, <h2>, <p>: These are semantic HTML tags representing headings and paragraphs, respectively.
 <a>: Represents hyperlinks and is used for linking to different sections or external resources.
 <ul>, <li>: Represents an unordered list and list items, respectively. Used in the "Table of Contents" section.
-Non-Semantic HTML Tags:
-
-<br>: Represents a line break. Used sparingly for formatting within Markdown.
-<code>: Represents a short piece of computer code. Used for inline code snippets.
 
 ### About Section:
 
