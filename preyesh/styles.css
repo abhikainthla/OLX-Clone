@@ -2087,3 +2087,8 @@ details p{
     font-weight: 500;
 
 }
+
+footer li:hover{
+    font-weight: 500;
+    color: #000;
+}
