@@ -1515,32 +1515,74 @@ details p{
         display: none;
     }
 }
-/*  Hover effects */
-#pages a {
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #54b3d6;
+ /*  Hover effects */
+ #pages a {
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
   #pages a:hover {
-    box-shadow: inset 200px 0 0 0 #54b3d6;
-    color: white;
+    font-weight: 600;
+    color: #3a77ff;
   }
 
+  
+
 .login-1 {
-    background-image: linear-gradient(#1095c1 0 0);
-    background-size: 200% .18em; 
-    background-position: 200% 100%;
-    background-repeat: no-repeat;
-    transition: background-size .3s, background-position .3s .3s;
+ 
+    /* transition: background-size .3s, background-position .3s .3s; */
+    background-image: linear-gradient(
+        to right,
+        #3a77ff,
+        #3a77ff 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 5px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
 }
+.login-1:before{
+    content: '';
+    background: #3a77ff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
 .login-1:hover{
-    transition: background-size .3s .3s, background-position .3s;
+    /* transition: background-size .3s .3s, background-position .3s;
   background-size: 200% 100%;
   background-position: 100% 100%;
-  color: white;
+  color: #54b3d6;
+  text-decoration: none; */
+  background-position: 0;
 }
+.login-1:hover::before{
+    width: 100%;
+  }
+  
+
+
+.logo svg:hover{
+    fill: #39dad1;
+}
+ 
+
+.popular-search li a:hover{
+    color: #002F34;
+    font-weight: 500;
+
+}
+
 
 @media screen and (max-width: 800px) {
     header,.sub-header,.upper-main,aside,.heading-mainbar{
@@ -2031,3 +2073,5 @@ details p{
     .logo svg:hover{
         fill: #39dad1;
     }
+
+    
