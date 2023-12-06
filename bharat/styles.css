@@ -1152,26 +1152,67 @@ footer{
 
 /* load more */
 .btn-container{
+    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.btn-container button{
-    margin-top: 50px ;
-    padding: 0 10px;
-    border: 2px solid #002F34;
-    border-radius: 4px;
-    font-size: 16px;
-    height: 48px;
-    font-weight: 700;
-    overflow: hidden;
-}
-.btn-container button:hover{
-    border-width: 5px;
-    padding: 0 7px;
-}
+.draw-border {
+    box-shadow: inset 0 0 0 4px #002f34;
+    color: #002f34;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+  }
+  .draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+  }
+  .draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+  }
+  .draw-border:hover {
+    color: rgb(58, 119, 255);
+  }
+  .draw-border:hover::before, .draw-border:hover::after {
+    border-color: rgb(58, 119, 255);
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+  }
+  
+  .btn {
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.1rem "Roboto Slab", sans-serif;
+    padding: 14px 14px;
+    /* letter-spacing: 0.05rem; */
+  }
+  .btn:focus {
+    outline: 2px dotted #002f34;
+  }
 
 
 
@@ -1986,23 +2027,7 @@ details p{
     color: #3a77ff;
   }
 
-  .btn-container button{
-    color: #002F34 !important;
-text-transform: uppercase;
-background: #ffffff;
 
-border: 4px solid #002F34!important;
-border-radius: 6px;
-
-    display: inline-block;
-transition: all 0.3s ease 0s;
-  }
-  .btn-container button:hover {
-    color: #494949 !important;
-    border-radius: 50px;
-    border-color: #3a77ff !important;
-    transition: all 0.3s ease 0s;
-    }
 
 .login-1 {
  
