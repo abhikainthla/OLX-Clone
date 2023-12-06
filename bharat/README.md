@@ -27,13 +27,13 @@ Welcome to our OLX Clone Project – Car Section! In this project, our dedicated
 ## Showcase
 
 ### Navigation Bar
-![Navigation Bar](images/navbar.png)
+![Navigation Bar](img/navbar.png)
 
 ### Main Section
-![Main Section](images/main-section.png)
+![Main Section](img/main-page.png.png)
 
 ### Footer
-![Footer](images/footer.png)
+![Footer](img/footer.png.png)
 
 ## Getting Started
 
@@ -47,3 +47,37 @@ To explore and contribute to the project, ensure that you have the following too
 1. Clone the project repository to your local machine:
    ```bash
    git clone https://github.com/your-username/olx-clone-car-section.git
+
+## Explore and Contribute
+
+Feel free to explore the codebase, experiment with new features, or contribute improvements. Our collaborative effort is crucial to refining and expanding the functionalities of the OLX Clone Project – Car Section.
+
+## Contribution Guidelines
+
+1. **Fork the repository.**
+
+2. **Create a new branch for your feature or bug fix:**
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes and commit them:**
+
+    ```bash
+    git commit -m "Add your commit message here"
+    ```
+
+4. **Push your changes to your forked repository:**
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. **Open a pull request to the main repository.**
+
+## Acknowledgments
+
+We appreciate the collaborative effort of each team member in bringing this OLX Clone Project – Car Section to life. Thank you for your dedication and commitment to creating a top-notch user interface!
+
+Happy coding!
+
