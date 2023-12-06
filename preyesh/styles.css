@@ -1960,6 +1960,7 @@ details p{
     width: 100px;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: unset;
     }
     }
     
