@@ -45,3 +45,8 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 - **Vishal**
 - ![Screenshot (54)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/2abad64a-4f98-47b3-a3a7-4191006bf60c)
 - **Abel**
+
+## Acknowledgments
+- This project draws inspiration from the design and functionality of OLX.
+- Special thanks to the Contributers for their invaluable contributions.
+- Grateful of geekster for organizing this geekathon which led us to showcase and improve our skills. 
