@@ -891,7 +891,6 @@ aside button{
     overflow: hidden;
 }
 .mainbar .img img{
-    max-height: 100%;
     max-width: 100%;
  }
 .img label{
@@ -922,7 +921,7 @@ aside button{
 .img svg{
     position: relative;
     left: 245px;
-    top: -140px;
+    top: -150px;
     z-index: 2;
 }
 .mainbar .img svg{
@@ -940,7 +939,7 @@ aside button{
 .img .wishlist{
     position: relative;
     left: 245px;
-    top: -171px;
+    top: -181px;
     z-index: 2;
 }
 .featured-list .text{
