@@ -25,5 +25,5 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 - [Login](https://olx-clone-5ba355.netlify.app/login/login)
 
 ## Contributers
-!(C:\Users\abhik\Downloads\profile.jfif)
+!(/Readme assets/profile.png)
 - Abhishek Kainthla
