@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OLX Motercycles-(p)</title>
+    <title>OLX - Motercycles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/f2l0gzwhGa65IY1fXGJzzJ1PkLi3y9xFQa6Oda8DsW0-bzHd4V3DhW4bUT22j_H2vCE=w240-h480-rw">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../Augustine/mobile-script.js"></script>
-    <link rel="icon" href="https://play-lh.googleusercontent.com/f2l0gzwhGa65IY1fXGJzzJ1PkLi3y9xFQa6Oda8DsW0-bzHd4V3DhW4bUT22j_H2vCE=w240-h480-rw">
-    <link rel="stylesheet" href="../styles.css">    <!-- augestine style sheet -->
-    <link rel="stylesheet" href="styles.css">  <!----------original style-sheet----------->
 </head>
 <body>
     <header>
@@ -30,6 +29,7 @@
                     <!-- button made for javascript --> 
                 <i id="chevronIcon" class="fas fa-chevron-down"></i>
                 <div class="select_options">
+
                     <div class="select_section first_section">
                         <div class="select_option">
                             <i class="fa-solid fa-location-crosshairs"></i>
@@ -401,12 +401,12 @@
                     </div>
                 </div>
             </div>
-        <div class="cars"><a href="../bharat/cars.html">Cars</a></div>
+        <div class="cars"><a href="bharat/cars.html">Cars</a></div>
         <div class="Motercycles"><a href="../preyesh/moter.html">Motercycles</a></div>
         <div class="Mobile-Phones"><a href="../Augustine/mobiles.html">Mobile Phones</a></div>
         <div class="for-sale"><a href="../Abhishek/forsale.html">For Sale: Houses & Apartments</a></div>
         <div class="scooters"><a href="../able/scooter.html">Scooters</a></div>
-        <div class="commercial"><a href="../commercial/commercial.html">Commercial & Other Vehicles</a></div>
+        <div class="commercial"><a href="../commercial.html">Commercial & Other Vehicles</a></div>
         <div class="for-rent"><a href="../Vishal/forrent.html">For Rent: Houses & Apartments</a></div>
         </div>
     </section>
@@ -441,8 +441,8 @@
                             
                         </ul>
                     </div>
-                    <p class="home-cars">Home \ Biker \ Motorcycles</p>
-                    <h1>Used Bikes in India</h1>
+                    <p class="home-cars">Home \ Cars</p>
+                    <h1>Buy & Sell Used Cars in India</h1>
                 </section>
                 <section class="main-content">
                     <!--------------------aside---------------------------->
@@ -450,7 +450,7 @@
                         <!-- ----------------categories------- -->
                         <div class="categories">
                             <div class="aside-heading sb_section_heading">
-                                <h3>CATEGORIES</h3>
+                                <h3>Categories</h3>
                                 <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                             </div>
                             <div class="row sb_section">
@@ -459,15 +459,15 @@
                                     <h5>All Categories</h5>
                                 </div>
                                 <div class="each-row col-green">
-                                    <p>Motorcycles (13,229)</p>
+                                    <p>Cars (3,28,229)</p>
                                 </div>
                             </div>
                         </div>
                         <!-- <hr> -->
                         <div class="locations">
                             <div class="aside-heading sb_section_heading">
-                                <h3>LOCATIONS</h3>
-                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                <h3>Locations</h3>
+                                <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                             </div>
                             <div class="sb_section">
                                 <div class="aside-subheading col-green">
@@ -502,55 +502,44 @@
                         <div class="filter">
                             <p>Filters</p>
                         </div>
-                        <div class="budget">
-                            <div class="aside-heading sb_section_heading">
-                                <h3>Budget</h3>
-                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                            </div>
-                            <div class="sb_section">
-                                <p class="choose">choose a range below</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">10,00,000+</p>
+                        <div class="brand-filter">
+                            <div>
+                                <div class="aside-heading sb_section_heading">
+                                    <h3>Brand and model</h3>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <div class="sb_section">
+                                    <div class="aside-search">
+                                        <input type="text" name="search" id="search" placeholder="Search brand or model">
+                                        <button><i class="fa-solid fa-magnifying-glass" style="color: #002f34a3;"></i></button>
+                                    </div>
+                                    <div class="popular-brands">
+                                        <h4>popular brands</h4>
+                                        <div class="logo-popular-brands">
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/Honda/Honda-Logo.wine.svg" alt="">
+                                            </div>
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/Yamaha_Motor_Company/Yamaha_Motor_Company-Logo.wine.svg" alt="">
+                                            </div>
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/TVS_Motor_Company/TVS_Motor_Company-Logo.wine.svg" alt="">
+                                            </div>
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/Kawasaki_Heavy_Industries/Kawasaki_Heavy_Industries-Logo.wine.svg" alt="">
+                                            </div>
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/Suzuki/Suzuki-Logo.wine.svg" alt="">
+                                            </div>
+                                            <div class="each-logo">
+                                                <img src="https://www.logo.wine/a/logo/Hero_MotoCorp/Hero_MotoCorp-Logo.wine.svg" alt="">
+                                            </div>
                                         </div>
                                     </div>
-                                    <button class="apply">apply</button> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="brand-filter">
-                            <div class="aside-heading sb_section_heading">
-                                <h3>Brand and model</h3>
-                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                            </div>
-                            <div class="sb_section">
-                                <div class="aside-search">
-                                    <input type="text" name="search" id="search" placeholder="Search brand or model">
-                                    <button><i class="fa-solid fa-magnifying-glass" style="color: #002f34a3;"></i></button>
-                                </div>
-                            
-                            <!-- <hr> -->
-                            <div class="all-brand">
-                                <h4>All Brands</h4>
-                                    <ul class="list-all-brands vert-slider">
+                                    <!-- <hr> -->
+                                    <div class="all-brand">
+                                        <h4>All Brands</h4>
+                                            <ul class="list-all-brands vert-slider">
                                         <li><label class="form-control"><input type="checkbox" name="checkbox" id="maruti-suzuki" />Royal Enfield (1,05,361)</label></li>
                                         <li><label class="form-control"><input type="checkbox" name="checkbox" id="hyundai" />Bajaj (56,434)</label></li>
                                         <li><label class="form-control"><input type="checkbox" name="checkbox" id="mahindra" />Yamaha (26,252)</label></li>
@@ -568,12 +557,12 @@
                                         <li><label class="form-control"><input type="checkbox" name="checkbox" id="kia" />Ducati (3,423)</label></li>
                                         <li><label class="form-control"><input type="checkbox" name="checkbox" id="nissan" />Revolt (3,299)</label></li>
                                         
-                                      </ul>
-                            </div>
-                            <hr>
-                            <div class="all-model">
-                                <h4>All Models</h4>
-                                    <ul class="list-all-models vert-slider">
+                                            </ul>
+                                    </div>
+                                    <hr>
+                                    <div class="all-model">
+                                        <h4>All Models</h4>
+                                        <ul class="list-all-models vert-slider">
                                         
                                             <li><label class="form-control"><input type="checkbox" name="checkbox" id="a8l" />Yezdi Adventure</label></li>
                                             <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Yezdi Roadster</label></li>
@@ -640,369 +629,164 @@
                                             <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m3" />BMW M3</label></li>
                                             <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m5" />BMW M5</label></li>
                                             <li><label class="form-control"><input type="checkbox" name="checkbox" id="bmw-m6" />BMW M6</label></li>
-                                    </ul>   
+                                        </ul>   
+                                    </div>
+                                </div>
                             </div>
                             <hr>
-
-                            <div class="km-driven">
-                                <div class="aside-heading">
-                                    <h3>KM DRIVEN</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-km">
-                                    <div class="each-km">
-                                      <p>Under 25000 km</p>
-                                      <p>22,400+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>25000 km - 50000 km</p>
-                                      <p>26,700+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>50000 km - 75000 km</p>
-                                      <p>42,100+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>75000 km - 100000 km</p>
-                                      <p>42,500+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>100000 km and Above</p>
-                                      <p>49,400+ cars</p>
-                                    </div>
-                                  </div>
-                                  <p class="choose">choose from options below</p>
-                              <div class="whole-slider">
-                                <div class="graph-slider">
-                                    <div class="graph">
-                                        <ul class="vertical-graph">
-                                            <li class="bar bar1"></li>
-                                            <li class="bar bar2"></li>
-                                            <li class="bar bar3"></li>
-                                            <li class="bar bar4"></li>
-                                            <li class="bar bar5"></li>
-                                            <li class="bar bar6"></li>
-                                            <li class="bar bar7"></li>
-                                            <li class="bar bar8"></li>
-                                            <li class="bar bar9"></li>
-                                            <li class="bar bar10"></li>
-                                            <li class="bar bar11"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="slider">
-                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
-                                        <p class="zero">0</p>
-                                        <p id="rangeValue2">2,00,000+</p>
-                                    </div>
-                                </div>
-                                <button class="apply">apply</button> 
-                              </div>
-                            </div>
- 
-                            <div class="year">
-                                <div class="aside-heading">
-                                    <h3>Year</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>Under 3 Years</p>
-                                        <p>27,300+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Under 5 Years</p>
-                                        <p>64,200+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Under 7 Years</p>
-                                        <p>1,20,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>7 Years and Above</p>
-                                        <p>1,70,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>5 Lac and Above</p>
-                                        <p>1,50,000+ cars</p>
-                                    </div>
-                                </div>
-                                <p class="choose">choose a Range below</p>
-                                <div class="year-choose-range">
-                                <input type="text" placeholder="2003">
-                                <p>to</p>
-                                <input type="text" placeholder="2023">
-                                <button class="apply">apply</button>
-                                </div>
-                            </div>
-
-                            <!-- <div class="budget">
-                                <div class="aside-heading">
+                            <div class="budget">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>Budget</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                <p class="choose">Choose from options below</p>
-                                <div class="list-budget">
-                                    <div class="each-bl">
-                                        <p>Below 1 Lac</p>
-                                        <p>14,400+ cars</p>
-                                    </div>
-                                    <div class="each-bl">
-                                        <p>1 Lac - 2 Lac</p>
-                                        <p>40,700+ cars</p>
-                                    </div>
-                                    <div class="each-bl">
-                                        <p>2 Lac - 3 Lac</p>
-                                        <p>42,500+ cars</p>
-                                    </div>
-                                    <div class="each-bl">
-                                        <p>3 Lac - 5 Lac</p>
-                                        <p>75,700+ cars</p>
-                                    </div>
-                                    <div class="each-bl">
-                                        <p>5 Lac and Above</p>
-                                        <p>1,50,000+ cars</p>
-                                    </div>
-                                </div>
-                                <p class="choose">choose a range below</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
+                                <div class="sb_section">
+                                    <p class="choose">Choose from options below</p>
+                                    <div class="list-budget">
+                                        <div class="each-bl">
+                                            <p>Below 1 Lac</p>
+                                            <p>14,400+ Bikes</p>
                                         </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">10,00,000+</p>
+                                        <div class="each-bl">
+                                            <p>1 Lac - 2 Lac</p>
+                                            <p>40,700+ Biikes</p>
+                                        </div>
+                                        <div class="each-bl">
+                                            <p>2 Lac - 3 Lac</p>
+                                            <p>42,500+ Bikes</p>
+                                        </div>
+                                        <div class="each-bl">
+                                            <p>3 Lac - 5 Lac</p>
+                                            <p>75,700+ Bikes</p>
+                                        </div>
+                                        <div class="each-bl">
+                                            <p>5 Lac and Above</p>
+                                            <p>1,50,000+ Bikes</p>
                                         </div>
                                     </div>
-                                    <button class="apply">apply</button> 
-                                  </div>
-                             </div>
-                            <hr>
-                            <div class="year">
-                                <div class="aside-heading">
-                                    <h3>Year</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-year">
-                                    <div class="each-y">
-                                        <p>Under 3 Years</p>
-                                        <p>27,300+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Under 5 Years</p>
-                                        <p>64,200+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>Under 7 Years</p>
-                                        <p>1,20,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>7 Years and Above</p>
-                                        <p>1,70,000+ cars</p>
-                                    </div>
-                                    <div class="each-y">
-                                        <p>5 Lac and Above</p>
-                                        <p>1,50,000+ cars</p>
+                                    <p class="choose">choose a range below</p>
+                                    <div class="whole-slider">
+                                        <div class="graph-slider">
+                                            <div class="graph">
+                                                <ul class="vertical-graph">
+                                                    <li class="bar bar1"></li>
+                                                    <li class="bar bar2"></li>
+                                                    <li class="bar bar3"></li>
+                                                    <li class="bar bar4"></li>
+                                                    <li class="bar bar5"></li>
+                                                    <li class="bar bar6"></li>
+                                                    <li class="bar bar7"></li>
+                                                    <li class="bar bar8"></li>
+                                                    <li class="bar bar9"></li>
+                                                    <li class="bar bar10"></li>
+                                                    <li class="bar bar11"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="slider">
+                                                <input type="range" min="0" max="200000" value="200000" oninput="rangeValue.innerText = this.value">
+                                                <p class="zero">0</p>
+                                                <p id="rangeValue">2,00,000+</p>
+                                            </div>
+                                        </div>
+                                        <button class="apply">apply</button> 
                                     </div>
                                 </div>
-                                <p class="choose">choose a Range below</p>
-                                <div class="year-choose-range">
-                                <input type="text" placeholder="2003">
-                                <p>to</p>
-                                <input type="text" placeholder="2023">
-                                <button class="apply">apply</button>
-                                </div>
-                            </div>
-                            <hr >
-                            <div class="no-owner">
-                                <div class="aside-heading">
-                                    <h3>no of owners</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <ul class="list-all-owners">
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="firstCheckbox" />
-                                        First (1,78,216)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="secondCheckbox" />
-                                        Second (99,762)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="thirdCheckbox" />
-                                        Third (28,612)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="fourthCheckbox" />
-                                        Fourth (7,739)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="moreThanFourCheckbox" />
-                                        More than Four (3,928)
-                                      </label>
-                                    </li>
-                                  </ul>
-                                  
-                            </div>
-                            <hr>
-                            <div class="inspection-status">
-                                <div class="aside-heading">
-                                    <h3>Inspection Status</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <ul class="list-all-inspection">
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                        Inspected Cars Only (29)
-                                      </label>
-                                    </li>
-                                </ul>
-                                  
                             </div>
                             <hr>
                             <div class="km-driven">
-                                <div class="aside-heading">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>KM DRIVEN</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-km">
-                                    <div class="each-km">
-                                      <p>Under 25000 km</p>
-                                      <p>22,400+ cars</p>
+                                <div class="sb_section">
+                                    <p class="choose">choose from options below</p>
+                                    <div class="list-km">
+                                        <div class="each-km">
+                                        <p>Under 25000 km</p>
+                                        <p>22,400+ items</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>25000 km - 50000 km</p>
+                                        <p>26,700+ items</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>50000 km - 75000 km</p>
+                                        <p>42,100+ items</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>75000 km - 100000 km</p>
+                                        <p>42,500+ items</p>
+                                        </div>
+                                        <div class="each-km">
+                                        <p>100000 km and Above</p>
+                                        <p>49,400+ items</p>
+                                        </div>
                                     </div>
-                                    <div class="each-km">
-                                      <p>25000 km - 50000 km</p>
-                                      <p>26,700+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>50000 km - 75000 km</p>
-                                      <p>42,100+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>75000 km - 100000 km</p>
-                                      <p>42,500+ cars</p>
-                                    </div>
-                                    <div class="each-km">
-                                      <p>100000 km and Above</p>
-                                      <p>49,400+ cars</p>
-                                    </div>
-                                  </div>
-                                  <p class="choose">choose from options below</p>
-                              <div class="whole-slider">
-                                <div class="graph-slider">
-                                    <div class="graph">
-                                        <ul class="vertical-graph">
-                                            <li class="bar bar1"></li>
-                                            <li class="bar bar2"></li>
-                                            <li class="bar bar3"></li>
-                                            <li class="bar bar4"></li>
-                                            <li class="bar bar5"></li>
-                                            <li class="bar bar6"></li>
-                                            <li class="bar bar7"></li>
-                                            <li class="bar bar8"></li>
-                                            <li class="bar bar9"></li>
-                                            <li class="bar bar10"></li>
-                                            <li class="bar bar11"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="slider">
-                                        <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
-                                        <p class="zero">0</p>
-                                        <p id="rangeValue2">2,00,000+</p>
+                                    <p class="choose">choose from options below</p>
+                                    <div class="whole-slider">
+                                        <div class="graph-slider">
+                                            <div class="graph">
+                                                <ul class="vertical-graph">
+                                                    <li class="bar bar1"></li>
+                                                    <li class="bar bar2"></li>
+                                                    <li class="bar bar3"></li>
+                                                    <li class="bar bar4"></li>
+                                                    <li class="bar bar5"></li>
+                                                    <li class="bar bar6"></li>
+                                                    <li class="bar bar7"></li>
+                                                    <li class="bar bar8"></li>
+                                                    <li class="bar bar9"></li>
+                                                    <li class="bar bar10"></li>
+                                                    <li class="bar bar11"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="slider">
+                                                <input type="range" min="0" max="200000" value="200000" oninput="rangeValue2.innerText = this.value">
+                                                <p class="zero">0</p>
+                                                <p id="rangeValue2">2,00,000+</p>
+                                            </div>
+                                        </div>
+                                        <button class="apply">apply</button> 
                                     </div>
                                 </div>
-                                <button class="apply">apply</button> 
-                              </div>
-                            </div>      
-                                
+                            </div> 
                             <hr>
-                            <div class="fuel">
-                                <div class="aside-heading">
-                                    <h3>Fuel</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                            <div class="year">
+                                <div class="aside-heading sb_section_heading">
+                                    <h3>Year</h3>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
                                 <p class="choose">choose from options below</p>
-                                <ul class="list-all-fuel">
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="petrolCheckbox" />
-                                        Petrol (1,43,807)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="dieselCheckbox" />
-                                        Diesel (1,56,950)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="lpgCheckbox" />
-                                        LPG (2,968)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="cngHybridsCheckbox" />
-                                        CNG & Hybrids (21,092)
-                                      </label>
-                                    </li>
-                                    <li>
-                                      <label class="form-control">
-                                        <input type="checkbox" name="checkbox" id="electricCheckbox" />
-                                        Electric (1,046)
-                                      </label>
-                                    </li>
-                                  </ul>                                  
-                            </div>
-                            <hr>
-                            <div class="transmission">
-                                <div class="aside-heading">
-                                    <h3>Transmission</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                </div>
-                                <p class="choose">choose from options below</p>
-                                <div class="list-transmission">
-                                    <div class="each-opt">
-                                      <p>Automatic</p>
-                                      <p>67,400+ cars</p>
+                                <div class="sb_section">
+                                    <div class="list-year">
+                                        <div class="each-y">
+                                            <p>Under 3 Years</p>
+                                            <p>27,300+ items</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>Under 5 Years</p>
+                                            <p>64,200+ items</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>Under 7 Years</p>
+                                            <p>1,20,000+ items</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>7 Years and Above</p>
+                                            <p>1,70,000+ items</p>
+                                        </div>
+                                        <div class="each-y">
+                                            <p>5 Lac and Above</p>
+                                            <p>1,50,000+ items</p>
+                                        </div>
                                     </div>
-                                    <div class="each-opt">
-                                      <p>Manual</p>
-                                      <p>2,40,000+ cars</p>
-                                    </div>
+                                    <p class="choose">choose a Range below</p>
+                                    <div class="year-choose-range">
+                                    <input type="text" placeholder="2003">
+                                    <p>to</p>
+                                    <input type="text" placeholder="2023">
+                                    <button class="apply">apply</button>
                                 </div>
-                            </div> -->
-                            </div>
+                            </div>     
                         </div>
                     </aside>
                     <section class="mainbar">
@@ -1010,9 +794,27 @@
                             <div class="no-in-india">
                                 <p>39,327 ads in <span>India</span></p>
                             </div>
-                            <div class="sort-by">
-                                <p><span>Sort By : </span>Date Published</p>
-                                <i class="fa-solid fa-chevron-down" style="color: #1b1c1d;"></i>
+                            <div class="mobile_center_right">
+                                <span class="mobile_center_sort"><span>Sort By</span></span>
+                                <span class="mobile_center_date"> : Date Published</span>
+                                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                                <div class="sort_items">
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Date Published</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Relevance</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Price:Low to High</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Price:High to Low</span>
+                                    </div>
+                                    <div class="sort_item">
+                                        <span class="sort_detail">Distance</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <ul>
@@ -1443,15 +1245,125 @@
                                         </div>
                                     </a>
                              </li>
+                             <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://apollo.olx.in/v1/files/2xxz681x13ip2-IN/image" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+            
+                                    <div class="text">
+                                        <h1>₹ 2,15,000</h1>
+                                        <span class="span1">2020 - 14,821 km</span>
+                                        <span class="span2">KTM DUKE 250 BS6</span>
+                                        <div class="spanflex">
+                                            <span>Anikode, Palakkad, Kerala</span>
+                                            <span>Nov 05</span>
+                                        </div>
+                                    </div>
+                                </a>
+                         </li>
+                         <li class="mainbarli">
+                                    <a href="">
+                                        <div class="img">
+                                            <img src="https://apollo.olx.in/v1/files/u46svpcow7tk1-IN/image" alt="">
+
+                                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                        </div>
                 
-                            
-                                
-                            
+                                        <div class="text">
+                                            <h1>₹ 2,00,000</h1>
+                                            <span class="span1">2023 - 4,600 km</span>
+                                            <span class="span2">Hunter 350</span>
+                                            <div class="spanflex">
+                                                <span>Swami Samarth Nagar, Thane, Maharashtra</span>
+                                                <span>Today</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                             </li>
+                             <li class="mainbarli">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="https://apollo.olx.in/v1/files/u8yli2b8tvci1-IN/image" alt="">
+
+                                        <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                    </div>
+            
+                                    <div class="text">
+                                        <h1>₹ 9,00,000</h1>
+                                        <span class="span1">2021 - 20,000 km</span>
+                                        <span class="span2">Kawasaki z900 2021 model</span>
+                                        <div class="spanflex">
+                                            <span>Sami Nathan Nagar, Thuraiyur, Tamil Nadu</span>
+                                            <span>Today</span>
+                                        </div>
+                                    </div>
+                                </a>
+                         </li>
+                         <li class="mainbarli">
+                            <a href="">
+                                <div class="img">
+                                    <img src="https://apollo.olx.in/v1/files/sq1m98s6f4mt3-IN/image" alt="">
+
+                                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                                </div>
+        
+                                <div class="text">
+                                    <h1>₹ 2,20,000</h1>
+                                    <span class="span1">2020 - 3,500 km</span>
+                                    <span class="span2">Apache 310CC</span>
+                                    <div class="spanflex">
+                                        <span>Charni Road, Mumbai, Maharashtra</span>
+                                        <span>today</span>
+                                    </div>
+                                </div>
+                            </a>
+                     </li>
+                     <li class="mainbarli">
+                        <a href="">
+                            <div class="img">
+                                <img src="https://apollo.olx.in/v1/files/ztkzg6u8sciq-IN/image" alt="">
+
+                                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                            </div>
+    
+                            <div class="text">
+                                <h1>₹ 6,35,000</h1>
+                                <span class="span1">2017 - 123,456 km</span>
+                                <span class="span2">Triumph 765s</span>
+                                <div class="spanflex">
+                                    <span>Hadapsar, Pune, Maharashtra</span>
+                                    <span>Today</span>
+                                </div>
+                            </div>
+                        </a>
+                 </li>
+                 <li class="mainbarli">
+                    <a href="">
+                        <div class="img">
+                            <img src="https://apollo.olx.in/v1/files/dz5tpx9vjtp13-IN/image" alt="">
+
+                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M830.798 448.659l-318.798 389.915-317.828-388.693c-20.461-27.171-31.263-59.345-31.263-93.033 0-85.566 69.605-155.152 155.152-155.152 72.126 0 132.752 49.552 150.051 116.364h87.777c17.299-66.812 77.905-116.364 150.051-116.364 85.547 0 155.152 69.585 155.152 155.152 0 33.687-10.802 65.862-30.293 91.811zM705.939 124.121c-80.853 0-152.204 41.425-193.939 104.204-41.736-62.778-113.086-104.204-193.939-104.204-128.33 0-232.727 104.378-232.727 232.727 0 50.657 16.194 98.948 47.806 140.897l328.766 402.133h100.189l329.716-403.355c30.662-40.727 46.856-89.018 46.856-139.675 0-128.349-104.398-232.727-232.727-232.727z"></path></svg>
+                        </div>
+
+                        <div class="text">
+                            <h1>₹ 45,000</h1>
+                            <span class="span1">2020 - 11,000 km</span>
+                            <span class="span2">TVS Splendor + </span>
+                            <div class="spanflex">
+                                <span>Shillong Cantt, Shillong</span>
+                                <span>Nov 05</span>
+                            </div>
+                        </div>
+                    </a>
+             </li>
+                        
                          </ul>
-                         <div class="btn-container">
+                        <div class="btn-container">
                             <button class="scooters-load">Load more</button>
                         </div>
-            
                     </section>
                 </section> 
             </div>
