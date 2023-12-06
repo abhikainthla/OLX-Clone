@@ -1966,6 +1966,10 @@ details p{
     .lodbutton{
         display: none;
     }
+
+    .faq{
+        display: none;
+    }
     }
     
     @media screen and (min-width: 800px){
