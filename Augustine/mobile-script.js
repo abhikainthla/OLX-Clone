@@ -49,4 +49,11 @@ $(document).ready(function() {
         // Toggle the visibility of the hidden div
         $(this).parent().find(".accordian").slideToggle();
     });
+
+    $('.mob_foot_header').click(function() {
+        $(this).children('.fa-solid').toggleClass('fa-chevron-up fa-chevron-down');
+
+        // Toggle the visibility of the hidden div
+        $(this).parent().find(".mob_footer_details").slideToggle();
+    });
 });
