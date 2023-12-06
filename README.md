@@ -26,14 +26,14 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 
 ## Contributers
 ![Screenshot (49)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/c1ed30b2-7d23-4474-ae77-54162484fe86)
-- **Abhishek Kainthla**
+**Abhishek Kainthla**
 ![Screenshot (50)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/0c5f2bb2-8a75-44ed-9adf-9d756b56e230)
-* **Bharat Bhist**
+**Bharat Bhist**
 ![Screenshot (51)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/299c76d5-5af6-4377-a34f-987c277231b0)
-+ **Preyesh Dhar Diwan**
+**Preyesh Dhar Diwan**
 ![Screenshot (52)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/b3415fb5-5b37-42fb-b413-dc0f3d8dd39c)
-- **Augustine**
+**Augustine**
 ![Screenshot (53)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/bff52f19-2a30-4f0b-88ac-571dc09eef63)
-* **Vishal**
+**Vishal**
 ![Screenshot (54)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/2abad64a-4f98-47b3-a3a7-4191006bf60c)
-+ **Abel**
+**Abel**
