@@ -42,9 +42,9 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 - ![Screenshot (52)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/b3415fb5-5b37-42fb-b413-dc0f3d8dd39c)
 - **Augustine**
 - ![Screenshot (53)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/bff52f19-2a30-4f0b-88ac-571dc09eef63)
-- **Vishal**
+- **Vishal Sunil Pawar**
 - ![Screenshot (54)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/2abad64a-4f98-47b3-a3a7-4191006bf60c)
-- **Abel**
+- **Abel Cajetan**
 
 ## Acknowledgments
 - This project draws inspiration from the design and functionality of OLX.
