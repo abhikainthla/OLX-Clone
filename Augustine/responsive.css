@@ -1782,4 +1782,54 @@ display: initial !important;
 .selling-text{
     margin-bottom: 15px;
 }
+
+.spanflex{
+    height: 20px;
+}
+
+.mob_var_items{
+    height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color:#fff;
+    z-index: 100;
+}
+
+.mob_var_header{
+    padding: 0 8px;
+    display: flex;
+    height: 68px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(0,47,52,0.03);
+}
+
+.mob_var_header i{
+    margin-right: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+}
+
+@media screen and (min-width: 800px){
+    .mobile_navbar,.mobile_cat_section,.mob_home_cat,.mob_ads{
+        display: none;
+    }
 }
