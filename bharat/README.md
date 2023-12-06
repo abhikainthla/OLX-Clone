@@ -30,10 +30,10 @@ Welcome to our OLX Clone Project – Car Section! In this project, our dedicated
 ![Navigation Bar](img/navbar.png)
 
 ### Main Section
-![Main Section](img/main-page.png.png)
+![Main Section](img/main-page.png)
 
 ### Footer
-![Footer](img/footer.png.png)
+![Footer](img/footer.png)
 
 ## Getting Started
 
