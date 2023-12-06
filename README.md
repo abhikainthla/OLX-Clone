@@ -49,4 +49,5 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 ## Acknowledgments
 - This project draws inspiration from the design and functionality of OLX.
 - Special thanks to the Contributers for their invaluable contributions.
-- Grateful of geekster for organizing this geekathon which led us to showcase and improve our skills. 
+- Grateful of geekster for organizing this geekathon which led us to showcase and improve our skills.
+- Atlast Thankful of our teachers and mentors. 
