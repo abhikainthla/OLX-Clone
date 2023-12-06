@@ -21,7 +21,7 @@ This project is a simplified clone of OLX, an online marketplace for buying and 
 
 ## Demo
 
-[Live Demo](#https://olx-clone-5ba355.netlify.app/) - Add a link to your live demo if available.
+[Live Demo](#https://olx-clone-5ba355.netlify.app/) 
 
 ![OLX Desktop Clone Screenshot](./assets/images/desktop.png)
 
