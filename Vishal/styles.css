@@ -1682,6 +1682,15 @@ transition: all 0.3s ease 0s;
         width: 100%;
         box-sizing: border-box
     }
+
+    .accordian_login_btn a{
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+        justify-content: center;
+        background: rgba(0,47,52,1);
+        color: #fff;
+    }
     
     .accordian_login_btn button{
         color: rgba(255,255,255,1);
