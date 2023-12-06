@@ -1707,7 +1707,7 @@ header,.sub-header,.upper-main,aside,.heading-mainbar{
 }
 
 .mainbar li{
-    width: 100%;
+    width: 360px;
     height: inherit;
 }
 
@@ -1730,6 +1730,8 @@ width: 150px;
 
 .mainbar .img{
     margin: inherit;
+    height: 105px;
+width: 150px;
 }
 
 .mainbar li .text{
@@ -1771,5 +1773,13 @@ width: 150px;
 
 .spanflex-1{
     width: min-content;
+}
+
+.sell-main a{
+display: initial !important;
+}
+
+.selling-text{
+    margin-bottom: 15px;
 }
 }
