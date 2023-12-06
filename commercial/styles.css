@@ -1473,3 +1473,52 @@ details p{
         display: none;
     }
 }
+ /*  Hover effects */
+#pages a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  #pages a:hover {
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+  .btn-container button{
+    color: #002F34 !important;
+text-transform: uppercase;
+background: #ffffff;
+
+border: 4px solid #002F34!important;
+border-radius: 6px;
+
+    display: inline-block;
+transition: all 0.3s ease 0s;
+  }
+  .btn-container button:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #54b3d6 !important;
+    transition: all 0.3s ease 0s;
+    }
+
+.login-1 {
+    background-image: linear-gradient(#1095c1 0 0);
+    background-size: 200% .18em; 
+    background-position: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+}
+.login-1:hover{
+    transition: background-size .3s .3s, background-position .3s;
+  background-size: 200% 100%;
+  background-position: 100% 100%;
+  color: white;
+}
+
+
+.logo svg:hover{
+    fill: #39dad1;
+}
