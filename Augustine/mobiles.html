@@ -15,33 +15,52 @@
         <nav>
             <div class="navbar">
             <div class="logo">
-                <a href="index.html"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
+                <a href="../index.html"><svg width="48px" height="48px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M661.333 256v512h-128v-512h128zM277.333 298.667c117.824 0 213.333 95.531 213.333 213.333s-95.509 213.333-213.333 213.333c-117.824 0-213.333-95.531-213.333-213.333s95.509-213.333 213.333-213.333zM794.496 384l37.504 37.504 37.504-37.504h90.496v90.496l-37.504 37.504 37.504 37.504v90.496h-90.496l-37.504-37.504-37.504 37.504h-90.496v-90.496l37.504-37.504-37.504-37.504v-90.496h90.496zM277.333 426.667c-47.061 0-85.333 38.293-85.333 85.333s38.272 85.333 85.333 85.333c47.061 0 85.333-38.293 85.333-85.333s-38.272-85.333-85.333-85.333z"></path></svg>
                 </a>
             </div>
             <div class="location">
                 <div>
                     <!-- button made for javascript -->
                     <button>
-                <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+                        <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
                     </button>
                 </div>
-            <div class="location-select">
-                <select name="location" id="nav-location">
-                    <option value="India">India</option>
-                    <option class="location-map" value="Use current location">Use current location</option>
-                    <hr>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="Maharashtra">Maharashtra</option>
-                </select>
-            </div>
-            <div>
-                <!-- button made for javascript -->
-                <button>
-                <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
-                </button>
-            </div>
+                <input class="location-select" type="text" value="India"/>
+                    <!-- button made for javascript --> 
+                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                <div class="select_options">
+                    <div class="select_section first_section">
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <div class="location_details">
+                                <div class="location_text">Use Current Location</div>
+                                <div class="location_subtext">Shanthi nagar, Mulur, Karnataka</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_section">
+                        <div class="select_section_heading">Recent Locations</div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Shanthi nagar</div>
+                        </div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">India</div>
+                        </div>
+                    </div>
+                    <div class="select_section">
+                        <div class="select_section_heading">Popular Locations</div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Shanthi nagar</div>
+                        </div>
+                        <div class="select_option">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="location_deatils">Gurpur</div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <fieldset>
             <div class="search">
@@ -57,21 +76,25 @@
             </div>
             </fieldset>
             <div class="lang">
-                <select name="lang" id="lang">
-                    <option value="ENGLISH">ENGLISH</option>
-                    <option value="हिंदी">हिंदी</option>
-                </select>
-                <div>
-                    <!-- button made for javascript -->
-                    <button>
-                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg>
-                    </button>
+                <div class="language_heading">English</div>
+                <i id="chevronIcon" class="fas fa-chevron-down"></i>
+                <div class="lang_options">
+                    <ul>
+                        <li>
+                            <span class="sub_lang">English</span>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <span class="sub_lang">हिंदी</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="login">
                 <span>
-                    <a class="login-1" href="login/login.html">Login</a>
+                    <a class="login-1" href="../login/login.html">Login</a>
                 </span>
+  <!-- ------------------------------ + SELL ---------------------------------->
                 <a class="_25SUV" href="../login/login.html">
                     <svg width="104" height="48" viewBox="0 0 1603 768" class="_20oLV">
                       <g>
@@ -86,11 +109,11 @@
                         <svg width="16px" height="16px" viewBox="0 0 1024 1024" data-aut-id="icon" fill-rule="evenodd">
                           <path class="rui-lquEm" d="M414.898 123.739v291.218h-291.218l-97.014 97.014 97.014 97.131h291.218v291.16l97.073 97.071 97.073-97.071v-291.16h291.16l97.131-97.131-97.131-97.014h-291.16v-291.218l-97.073-97.073z"></path>
                       </svg>
-                    </span>
-                    <span class="login-span">
-                      SELL
-                    </span>
-                </div>
+                      </span>
+                      <span class="login-span">
+                        SELL
+                      </span>
+                    </div>
                   </a>
             </div>
             </div>
@@ -99,13 +122,290 @@
     <section class="sub-header">
         <div class="sub-header1">
             <!-- button for javascript -->
-        <div class="all-categories"><button><span>All Categories</span></button><button><span><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-w4DG7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></span></button></div>
-        <div class="cars"><a href="../bharat/cars.html">Cars</a></div>
+            <div class="all-categories">
+                <span>All Categories</span>
+                <i class="fas fa-chevron-down"></i>
+                <div class="category_container">
+                    <div class="category_items">
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Cars</a>
+                            </div>
+                        </div>
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Properties</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">For Sale: Houses & Apartments</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">For Rent: Houses & Apartments</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Lands & Plots</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">For Rent: Shops & Offices</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">For Sale: Shops & Offices</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">PG & Guest Houses</a>
+                            </div>
+                        </div>
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Mobiles</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Mobile Phones</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Accessories</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Tablets</a>
+                            </div>
+                        </div>
+                    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Jobs</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Office Assistant</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Delivery & Collection</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Teacher</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Cook</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Receptionist & Front Office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Operator & Technician</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">IT Engineer& Developer</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Hotel & Travel Executive</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Accountant</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Designer</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Other Jobs</a>
+                            </div>
+                        </div>
+                    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Bikes</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Motorcycles</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Scooters</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Spare Parts</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Bicycles</a>
+                            </div>
+                        </div>
+                    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Electronics & Appliances</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Office Assistant</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Delivery & Collection</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Teacher</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Cook</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Receptionist & Front Office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Operator & Technician</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Commercial vehicles & Spares</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Furniture</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Office Assistant</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Fashion</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Books, Sports & Hobbies</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Office Assistant</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Pets</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                        </div>
+    
+                        <div class="category_item">
+                            <div class="category_item_heading">
+                                <a href="#">Services</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Data entry & Back office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Sales & Marketing</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">BPO & Telecaller</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Driver</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Office Assistant</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Delivery & Collection</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Teacher</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Cook</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Receptionist & Front Office</a>
+                            </div>
+                            <div class="category_item_deatil">
+                                <a href="#">Operator & Technician</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="cars"><a href="bharat/cars.html">Cars</a></div>
         <div class="Motercycles"><a href="../preyesh/moter.html">Motercycles</a></div>
-        <div class="Mobile-Phones"><a href="mobiles.html">Mobile Phones</a></div>
+        <div class="Mobile-Phones"><a href="../Augustine/mobiles.html">Mobile Phones</a></div>
         <div class="for-sale"><a href="../Abhishek/forsale.html">For Sale: Houses & Apartments</a></div>
         <div class="scooters"><a href="../able/scooter.html">Scooters</a></div>
-        <div class="commercial"><a href="commercial.html">Commercial & Other Vehicles</a></div>
+        <div class="commercial"><a href="../commercial.html">Commercial & Other Vehicles</a></div>
         <div class="for-rent"><a href="../Vishal/forrent.html">For Rent: Houses & Apartments</a></div>
         </div>
     </section>

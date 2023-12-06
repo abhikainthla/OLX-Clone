@@ -42,4 +42,11 @@ $(document).ready(function() {
 
         $(this).children('.fas').toggleClass('fa-chevron-up fa-chevron-down');
     });
+
+    $('.mobile_navbar_left .fa-bars').click(function() {
+        $(this).toggleClass('fa-bars fa-x');
+
+        // Toggle the visibility of the hidden div
+        $(this).parent().find(".accordian").slideToggle();
+    });
 });
