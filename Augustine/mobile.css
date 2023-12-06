@@ -2122,6 +2122,14 @@ footer li:hover{
 .lang_options ul li:hover{
     color: #3a77ff;
 }
+.hover-blue  a {
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+}
+.hover-blue a:hover{
+    font-weight: 600;
+    color: #3a77ff;
+}
 
 /* --------------------cursor pointer ---------------------------- */
 .inside-footer-main span, .follow-svg i{
