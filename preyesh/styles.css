@@ -2014,3 +2014,7 @@ transition: all 0.3s ease 0s;
   background-position: 100% 100%;
   color: white;
 }
+
+.logo svg:hover{
+    fill: #39dad1;
+}

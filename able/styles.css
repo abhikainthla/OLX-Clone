@@ -1517,3 +1517,8 @@ background-size: 200% 100%;
 background-position: 100% 100%;
 color: white;
 }
+
+
+.logo svg:hover{
+  fill: #39dad1;
+}

@@ -1993,3 +1993,8 @@ transition: all 0.3s ease 0s;
             display: none;
         }
     }
+
+
+    .logo svg:hover{
+        fill: #39dad1;
+    }

@@ -894,58 +894,7 @@ footer .mob-footer{
     display: none;
 }
 
-/* footer media querry */
-@media (max-width:600px){
-    .footer-main, .footer-end, .app-install{
-        display: none;
-    }
-    footer .mob-footer{
-        display:flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .mob-footer summary{
-        padding: 16px 24px;
-        border-top: .5px solid #002F34;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 400;
-    }
-    details p{
-        padding:0 24px;
 
-    }
-    details li{
-        margin-left: 24px;
-        padding-bottom: 5px;
-        width: 250px;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    footer .mob-footer-end{
-        padding: 16px;
-        border: .5px solid #002F34;
-        text-align: center;
-        background-color: #002f34;
-        color: #fff;
-    }
-    
-}
-
-
-/* mainbar ul media querry */
-@media (max-width:600px){
-    .mainbar ul{
-        display: flex;
-        justify-content: flex-start;
-        gap: 5px;
-        padding: 0;
-        margin: 0;
-    }
-    .mainbar li{
-        width: 100%;
-    }
-}
 
 /*  Hover effects */
 #pages a {
@@ -990,4 +939,9 @@ transition: all 0.3s ease 0s;
   background-size: 200% 100%;
   background-position: 100% 100%;
   color: white;
+}
+
+
+.logo svg:hover{
+    fill: #39dad1;
 }
