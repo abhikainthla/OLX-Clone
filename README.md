@@ -1,4 +1,4 @@
-# OLX-Clone
+![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/488293d7-a2c1-48a5-8c6f-783b1e9cd44e)# OLX-Clone
 
 ## Overview
 Welcome to the OLX Clone project! This project aims to replicate the functionality of the popular online marketplace, OLX. Whether you're a developer looking to contribute or a user wanting to set up your own local classifieds platform, you're in the right place.
@@ -26,10 +26,13 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 
 
 ## Website Images
+<!--
 ![Screenshot (55)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/109b86bf-ba01-499d-bc03-bc26ab9a644d)
 ![Screenshot (56)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/e331cc1a-529c-4ee7-9274-c69823170b50)
 ![Screenshot (57)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/17ccc33f-7d26-40bf-b45a-a67fdb83a508)
 ![Screenshot (58)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/0a2470ad-8666-41c1-ba18-7c4146139ee0)
+-->
+![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/8bb013fe-c369-482c-8b9a-e9b4bbbb7047)
 
 
 ## Contributers
