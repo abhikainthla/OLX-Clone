@@ -32,7 +32,8 @@ Welcome to the OLX Clone project! This project aims to replicate the functionali
 ![Screenshot (57)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/17ccc33f-7d26-40bf-b45a-a67fdb83a508)
 ![Screenshot (58)](https://github.com/abhikainthla/OLX-Clone/assets/105478999/0a2470ad-8666-41c1-ba18-7c4146139ee0)
 -->
-![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/228bf59f-158c-44fb-bdba-f65096598306)
+![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/13870794-ae65-4196-abb2-7b4c0c308743)
+
 
 
 
