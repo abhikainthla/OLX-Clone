@@ -10,8 +10,6 @@ Welcome to the OLX Motorcycles page, where you can find a variety of used motorc
   - [Installation](#installation)
 - [Usage](#usage)
 - [Popular Search](#popular-search)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -22,6 +20,7 @@ This page is part of an OLX clone project and focuses on listing used motorcycle
 
 - Browse a variety of used motorcycles.
 - Popular searches for quick access to specific bike models.
+
 
 ## Getting Started
 
@@ -51,14 +50,6 @@ Explore the available motorcycles, and use the search functionality to find spec
 - [Pulsar](#pulsar)
 - [R15 V2](#r15)
 
-## Contributing
-
-If you have suggestions or find any issues, feel free to contribute. Follow the guidelines in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
-For any inquiries, please contact us at [your_email@example.com].
+For any inquiries, please contact us at pdd2498@gmail.com.
