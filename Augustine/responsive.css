@@ -1907,7 +1907,7 @@ footer{
 }
 
 @media screen and (min-width: 800px){
-    .mobile_navbar,.mobile_cat_section,.mob_home_cat,.mob_ads{
+    .mobile_navbar,.mobile_cat_section,.mob_home_cat,.mob_ads,.mob_footer{
         display: none;
     }
 }
