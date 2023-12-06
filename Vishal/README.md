@@ -31,21 +31,11 @@ Before using the OLX Rent Page, make sure you have:
 
 No installation is required; simply visit the OLX Rent Page on your web browser and start exploring or listing rental opportunities.
 
-## Usage
-
-1. **Explore Rentals:**
-   Browse through the available rental listings, using the search and filter options to narrow down your choices.
-
-2. **Create a Listing:**
-   If you have something to rent, create a listing by providing detailed information, uploading images, and setting the terms of the rental.
-
-3. **Communication:**
-   Use the integrated messaging system to communicate with potential renters or landlords and finalize rental agreements.
 
 ## Folder Structure
 
 
-In the provided README template, I used a combination of semantic and non-semantic HTML tags, along with Markdown syntax. Here's a breakdown:
+In the provided README template, I used a combination of semantic and non-semantic HTML tags. Here's a breakdown:
 
 Semantic HTML Tags:
 
@@ -56,12 +46,6 @@ Non-Semantic HTML Tags:
 
 <br>: Represents a line break. Used sparingly for formatting within Markdown.
 <code>: Represents a short piece of computer code. Used for inline code snippets.
-Markdown Syntax:
-
-#, ##: Markdown headings. Used to create sections and subsections in the document.
--: Markdown unordered list item. Used for list items in the "Table of Contents" section.
-**: Markdown bold text. Used for emphasizing certain phrases.
-`: Markdown inline code. Used for code snippets.
 
 ### About Section:
 
@@ -84,13 +68,17 @@ Markdown Syntax:
 
 ## Technologies Used
 
-- HTML
-- CSS (for Design)
+- HTML [To create webpage]
+- CSS (for Design the webpage)
 - Java Script.
 
 ## Contributing
 
-If you want to contribute to the development of the OLX Rent Page, please follow the [contribution guidelines](CONTRIBUTING.md).
+All Team Members Contributed to creating this page.
 
-## License
+## Acknowledgments
+We appreciate the collaborative effort of each team member in bringing this OLX Clone Project – Car Section to life. Thank you for your dedication and commitment to creating a top-notch user interface!
+
+Happy coding!
+
 
