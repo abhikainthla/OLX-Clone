@@ -1,6 +1,7 @@
 
 # Crafting an OLX Page with HTML and CSS
 
+<br>
 
 ### Hosted link : <a href="https://olx-clone-5ba355.netlify.app/able/scooter">Scooters</a>
 
