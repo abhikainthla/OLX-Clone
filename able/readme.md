@@ -4,6 +4,7 @@
 
 ### Hosted link : <a href="https://olx-clone-5ba355.netlify.app/able/scooter">Scooters</a>
 
+<br>
 
 ### Task Description
 I put together the OLX page for Scooters using HTML and CSS. 
