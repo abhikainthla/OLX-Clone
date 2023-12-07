@@ -2033,7 +2033,7 @@ details p{
     padding: 0 .25rem;
     }
   #pages a:hover {
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #3a77ff;
   }
 
