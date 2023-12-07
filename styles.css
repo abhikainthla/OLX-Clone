@@ -2154,10 +2154,14 @@ footer li:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 400px) {
+@media screen and (max-width: 1024px) and (min-width: 762px) {
     .hero_banners img {
         width: 100%;
         height: 250px;
         background-size: contain;
     }
+}
+
+.mainbar li{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 10%);
 }

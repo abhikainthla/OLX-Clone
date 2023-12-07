@@ -16,6 +16,7 @@
     justify-content: space-between;
     padding-bottom: 20px;
     text-align: center;
+    position: relative;
 }
 .login-image h3{
     margin: 0;
@@ -88,4 +89,20 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.login-page i{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .login-page i{
+        top: 20px;
+    left: 20px;
+    font-size: 20px;
+    }
 }
