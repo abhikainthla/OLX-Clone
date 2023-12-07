@@ -2101,6 +2101,9 @@ footer li:hover{
 .location-list li:hover{
     background-color: #c8f6f6;
 }
+.location-list li a{
+    font-size: 13px;
+}
 .each-logo:hover{
     box-shadow: 0 0 10px rgb(14,4,5,0.2);
 }
