@@ -1532,11 +1532,14 @@ details p{
 } */
 
 
-
+.hero_banners{
+    margin-top: 30px;
+}
 .hero_banners img{
-    width: 100%;
-    height: 350px;
+    width: 70% !important;
+    height: 220px;
     background-size: contain;
+    margin: auto;
 }
 
 @media screen and (max-width: 1280px) {
@@ -1570,8 +1573,12 @@ details p{
         display: none !important;
     }
 
+    .hero_banners{
+        margin-top: 15px;
+    }
+
     .hero_banners img{
-        width: 100%;
+        width: 100% !important;
     height: 110px;
     background-size: contain;
     }
