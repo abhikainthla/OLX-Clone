@@ -668,162 +668,121 @@
                               </div> -->
                             <!-- <hr> -->
 
-                            <div class="all-model">
-                                <h4>TYPE</h4>
-                                    <ul class="list-all-models vert-slider">
-
-                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="a8l" />Houses & Villas (56,799) </label></li>
-                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ambassador" />Apartments (37,101)</label></li>
-                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="ashok-leyland-stile" />Builder Floors (9,477)</label></li>
-                                            <li><label class="form-control"><input type="checkbox" name="checkbox" id="aston-martin-db11" />Farm Hpuses (1,031)</label></li>
-
-                                    </ul>   
-                            </div>
+                            
                             <hr>
                             <div class="budget">
-                                <div class="aside-heading">
+                                <div class="aside-heading sb_section_heading">
                                     <h3>PRICE PER SQ. FT.</h3>
-                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
                                 </div>
-
-                                <p class="choose">choose a range below (Rs/Sq Ft)</p>
-                                <div class="whole-slider">
-                                    <div class="graph-slider">
-                                        <div class="graph">
-                                            <ul class="vertical-graph">
-                                                <li class="bar bar1"></li>
-                                                <li class="bar bar2"></li>
-                                                <li class="bar bar3"></li>
-                                                <li class="bar bar4"></li>
-                                                <li class="bar bar5"></li>
-                                                <li class="bar bar6"></li>
-                                                <li class="bar bar7"></li>
-                                                <li class="bar bar8"></li>
-                                                <li class="bar bar9"></li>
-                                                <li class="bar bar10"></li>
-                                                <li class="bar bar11"></li>
-                                            </ul>
+                                <div class="sb_section">
+                                    <p class="choose">Choose a range below (Rs/Sq Ft)</p>
+                                    <div class="whole-slider">
+                                        <div class="graph-slider">
+                                            <div class="graph">
+                                                <ul class="vertical-graph">
+                                                    <li class="bar bar1"></li>
+                                                    <li class="bar bar2"></li>
+                                                    <li class="bar bar3"></li>
+                                                    <li class="bar bar4"></li>
+                                                    <li class="bar bar5"></li>
+                                                    <li class="bar bar6"></li>
+                                                    <li class="bar bar7"></li>
+                                                    <li class="bar bar8"></li>
+                                                    <li class="bar bar9"></li>
+                                                    <li class="bar bar10"></li>
+                                                    <li class="bar bar11"></li>
+                                                </ul>
+                                            </div>
+                                            <div class="slider">
+                                                <input type="range" min="0" max="500000" value="500000" oninput="rangeValue.innerText = this.value">
+                                                <p class="zero">0</p>
+                                                <p id="rangeValue">5,00,000+</p>
+                                            </div>
                                         </div>
-                                        <div class="slider">
-                                            <input type="range" min="0" max="1000000" value="1000000" oninput="rangeValue.innerText = this.value">
-                                            <p class="zero">0</p>
-                                            <p id="rangeValue">10,00,000+</p>
-                                        </div>
+                                        <button class="apply">apply</button> 
                                     </div>
-                                    <button class="apply">apply</button> 
-                                  </div>
                                 </div>
-                                <hr>
-                                <div class="year">
-                                    <div class="aside-heading">
-                                        <h3>BEDROOMS</h3>
-                                        <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="year">
+                                <div class="aside-heading sb_section_heading">
+                                    <h3>BEDROOMS</h3>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <div class="sb_section">
                                     <p class="choose">choose from options below</p>
                                     <div class="list-year">
                                         <div class="each-y">
-                                            <p>1+ bathroom</p>
+                                            <p>1+ bedroom</p>
                                         </div>
                                         <div class="each-y">
-                                            <p>2+ bathrooms</p>
-    
+                                            <p>2+ bedroom</p>
                                         </div>
                                         <div class="each-y">
-                                            <p>3+ bathrooms</p>
+                                            <p>3+ bedroom</p>
                                         </div>
                                         <div class="each-y">
-                                            <p>4+ bathrooms</p>
+                                            <p>4+ bedroom</p>
                                         </div>
                                     </div>
-                                    <hr >
-                                    <div class="no-owner">
-                                        <div class="aside-heading">
-                                            <h3>BATHROOMS</h3>
-                                            <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="year">
+                                <div class="aside-heading sb_section_heading">
+                                    <h3>BATHROOMS</h3>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <div class="sb_section">
+                                    <p class="choose">choose from options below</p>
+                                    <div class="list-year">
+                                        <div class="each-y">
+                                            <p>1+ bedroom</p>
                                         </div>
-                                        <p class="choose">choose from options below</p>
-                                        <ul class="list-all-owners">
-                                            <li>
-                                              <label class="form-control">
-                                                <input type="checkbox" name="checkbox" id="firstCheckbox" />
-                                                1+ bathroom
-                                              </label>
-                                            </li>
-                                            <li>
-                                              <label class="form-control">
-                                                <input type="checkbox" name="checkbox" id="secondCheckbox" />
-                                                2+ bathroomS
-                                              </label>
-                                            </li>
-                                            <li>
-                                              <label class="form-control">
-                                                <input type="checkbox" name="checkbox" id="thirdCheckbox" />
-                                                3+ bathroomS
-                                              </label>
-                                            </li>
-                                            <li>
-                                              <label class="form-control">
-                                                <input type="checkbox" name="checkbox" id="fourthCheckbox" />
-                                                4+ bathroomS
-                                              </label>
-                                            </li>
-                                          </ul>
+                                        <div class="each-y">
+                                            <p>2+ bedroom</p>
                                         </div>
-                                        <hr>
-                                        <div class="inspection-status">
-                                            <div class="aside-heading">
-                                                <h3>FURNISHING</h3>
-                                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                            </div>
-                                            <p class="choose">choose from options below</p>
-                                            <ul class="list-all-inspection">
-                                                <li>
-                                                  <label class="form-control">
-                                                    <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                    Furnished(21,167)
-                                                  </label>
-                                                </li>
-                                                <li>
-                                                    <label class="form-control">
-                                                        <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                        Unfurnished(32,753)
-                                                    </label>
-                                                </li>
-                                                <li>
-                                                  <label class="form-control">
-                                                    <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                    Semi-Furnished(47,622)
-                                                  </label>
-                                                </li>
-                                          </ul>
+                                        <div class="each-y">
+                                            <p>3+ bedroom</p>
                                         </div>
-                                        <hr>
-                                        <div class="km-driven">
-                                            <div class="aside-heading">
-                                                <h3>CONSTRUCTION STATUS</h3>
-                                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                            </div>
-                                            <p class="choose">choose from options below</p>
-                                             <ul class="list-all-inspection">
-                                                <li>
-                                                  <label class="form-control">
-                                                    <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                    Furnished(21,167)
-                                                  </label>
-                                                </li>
-                                                <li>
-                                                    <label class="form-control">
-                                                      <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                      Unfurnished(32,753)
-                                                    </label>
-                                                  </li>
-                                                  <li>
-                                                    <label class="form-control">
-                                                      <input type="checkbox" name="checkbox" id="Inspected-car-only" />
-                                                      Semi-Furnished(47,622)
-                                                    </label>
-                                                  </li>
-                                            </ul>
+                                        <div class="each-y">
+                                            <p>4+ bedroom</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="no-owner">
+                                <div class="aside-heading sb_section_heading">
+                                    <h3>FURNISHING</h3>
+                                    <i class="fas fa-chevron-up" style="color: #1b1c1d;"></i>
+                                </div>
+                                <div class="sb_section">
+                                    <p class="choose">choose from options below</p>
+                                    <ul class="list-all-owners">
+                                        <li>
+                                        <label class="form-control">
+                                            <input type="checkbox" name="checkbox" id="firstCheckbox" />
+                                            Furnished (25,032)
+                                        </label>
+                                        </li>
+                                        <li>
+                                        <label class="form-control">
+                                            <input type="checkbox" name="checkbox" id="secondCheckbox" />                        
+                                            Unfurnished (28,948)
+                                        </label>
+                                        </li>
+                                        <li>
+                                        <label class="form-control">
+                                            <input type="checkbox" name="checkbox" id="thirdCheckbox" />
+                                            Semi-Furnished (39,939)
+                                        </label>
+                                        </li>
+                                    </ul>
+                                </div>  
+                            </div>
+                            <hr>
                                               <p class="choose">choose from options below</p>
                                           <div class="whole-slider">
                                             <div class="graph-slider">
@@ -855,9 +814,7 @@
                                         <hr>
                                         <div class="fuel">
                                             <div class="aside-heading">
-                                                <h3>LISTED BY</h3>
-                                                <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
-                                            </div>
+                                                <h3>LISTED BY</h3>                                            </div>
                                             <p class="choose">choose from options below</p>
                                             <ul class="list-all-fuel">
                                                 <li>
@@ -883,7 +840,6 @@
                                             <div class="transmission">
                                                 <div class="aside-heading">
                                                     <h3>SUPER BUILDTUP AREA (FT)</h3>
-                                                    <i class="fa-solid fa-chevron-up" style="color: #1b1c1d;"></i>
                                                 </div>
                                                 <p class="choose">choose from options below</p>
                                                 <div class="whole-slider">
