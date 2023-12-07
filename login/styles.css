@@ -1,14 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .login-button2 svg{
     width: 20px;
     height: auto;
     margin-bottom: -5px;
 }
 .login-page{
+    margin: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 1px 2px rgba(0,0,1,.1);
     padding-bottom: 20px;
     text-align: center;
 }
@@ -75,9 +80,6 @@
     width: 200px;
     height: auto;
     margin-left: 30%;
-}
-body{
-    font-family: sans-serif;
 }
 
 .login_guitar{
