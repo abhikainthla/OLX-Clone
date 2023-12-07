@@ -2154,7 +2154,7 @@ footer li:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 400px) {
+@media screen and (max-width: 1024px) and (min-width: 762px) {
     .hero_banners img {
         width: 100%;
         height: 250px;
