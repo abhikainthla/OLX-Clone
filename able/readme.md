@@ -19,7 +19,11 @@ I put together the OLX page for Scooters using HTML and CSS.
 My team chipped in to tweak the navigation, aside sections, and footer. media queries is added to make the page responsive, making it much friendlier for users on smaller screens. 
 This revamp significantly improved the page's usability across different devices, making it easy and smooth for everyone to navigate.
 
+<br>
+
 ***
+
+
 
 ### Snapshots
 <br>
