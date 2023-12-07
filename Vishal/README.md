@@ -43,6 +43,11 @@ h1, h2, p: These are semantic HTML tags representing headings and paragraphs, re
 a: Represents hyperlinks and is used for linking to different sections or external resources.
 ul, li: Represents an unordered list and list items, respectively. Used in the "Table of Contents" section.
 
+## LINK:
+<a href="https://olx-clone-5ba355.netlify.app/">Hosted Link</a>
+
+<a href="https://olx-clone-5ba355.netlify.app/vishal/forrent">For Rent & Apartments </a>
+
 ### About Section:
 
 ## Nav Bar
