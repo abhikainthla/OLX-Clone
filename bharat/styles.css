@@ -2128,3 +2128,9 @@ footer li:hover{
 .inside-footer-main span, .follow-svg i{
     cursor: pointer;
 }
+
+
+/* ------------------- Page Indicator -------------------------- */
+.cars a{
+    color: #3a77ff;
+}
