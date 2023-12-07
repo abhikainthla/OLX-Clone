@@ -2670,3 +2670,8 @@ footer{
     color:#002f34a4 ;
     font-size: 13px;
   }
+
+  /* ------------------ Page Indicator ---------------- */
+  #active a{
+    color: #3a77ff;
+  }
