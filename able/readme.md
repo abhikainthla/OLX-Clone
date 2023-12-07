@@ -16,6 +16,7 @@ This revamp significantly improved the page's usability across different devices
 ***
 
 ### Snapshots
+
 ![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/316d2371-201b-422f-b845-6adc1d63bab6)
 ![image](https://github.com/abhikainthla/OLX-Clone/assets/119459924/18fe64a3-9a91-4037-b970-7e25f9076967)
 
