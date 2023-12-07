@@ -1536,7 +1536,7 @@ details p{
     margin-top: 30px;
 }
 .hero_banners img{
-    width: 85% !important;
+    max-width: 1280px !important;
     height: 220px;
     background-size: contain;
     margin: auto;
