@@ -1,5 +1,8 @@
 # OLX Clone Project - Car Section
 
+
+#### Hosted link <a href="https://olx-clone-5ba355.netlify.app/bharat/cars">Scooters</a>
+
 ## Project Overview
 
 Welcome to our OLX Clone Project – Car Section! In this project, our dedicated team has worked collaboratively to replicate the user interface of the OLX application, specifically focusing on the car section. We have successfully recreated the entire UI, ensuring a seamless and visually appealing experience for users interested in buying or selling cars.
