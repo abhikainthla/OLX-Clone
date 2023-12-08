@@ -106,3 +106,20 @@
     font-size: 20px;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .login-image .head{
+        font-size: 14px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .login-page .head{
+        font-size: 12px;
+        
+    }
+    
+    
+}
